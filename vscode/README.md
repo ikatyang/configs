@@ -10,11 +10,11 @@ require
 
 ## Settings
 
-- locale.json
+- [locale.json](./locale.json)
   - display language
   - command: `> Configure Language`
 
-- settings.json
+- [settings.json](./settings.json)
   - settings
   - command: `> Preferences: Open User Settings`
 
