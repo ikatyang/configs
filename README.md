@@ -34,6 +34,7 @@ my personal configs
     - `brew install yarn`
   - [tmux](https://tmux.github.io/): terminal multiplexer
     - `brew install tmux`
+    - [configs](https://github.com/ikatyang/configs/tree/master/tmux/)
   - [Python](https://www.python.org/): python runtime, including a simple http server
     - `brew install python3`
   - [nvm](https://github.com/creationix/nvm): nodejs version manager
@@ -84,7 +85,7 @@ my personal configs
     - [Official Download](https://pilotmoon.com/scrollreverser/)
   - [Yahoo KeyKey](https://github.com/yahoo/KeyKey): chinese input methods
     - [NewMobileLife](https://www.newmobilelife.com/2016/09/21/macos-sierra-install-yahoo-input-method-download/) ( zh-tw )
-    - [configs](https://github.com/ikatyang/configs/tree/master/yahoo-keykey/README.md)
+    - [configs](https://github.com/ikatyang/configs/tree/master/yahoo-keykey/)
   - *[CleanMyMac](https://cleanmymac.com/): cleaner
     - [Official Download](https://cleanmymac.com/)
   - *[Moom](https://manytricks.com/moom): window zooming
