@@ -71,6 +71,8 @@ my personal configs
     - [Mac App Store](https://itunes.apple.com/app/twitter/id409789998)
   - [Telegram Desktop](https://telegram.org/)
     - [Mac App Store](https://itunes.apple.com/app/telegram-desktop/id946399090)
+  - [Goofy](http://www.goofyapp.com/): Unofficial Facebook Messanger
+    - [Official Download](http://www.goofyapp.com/)
 
 - menubar
   - [Clipy](https://clipy-app.com/): clipboard extension ( jp )
@@ -103,6 +105,8 @@ my personal configs
   - *[jitouch](https://www.jitouch.com/): trackpad gesture
     - [Official Download](https://www.jitouch.com/)
     - [configs](https://github.com/ikatyang/configs/tree/master/others/jitouch.md)
+
+- [Dock](https://github.com/ikatyang/configs/tree/master/others/dock.md)
 
 ## RSS Feeds
 
