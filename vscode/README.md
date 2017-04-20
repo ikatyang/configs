@@ -2,6 +2,10 @@
 
 [Visual Studio Code](https://code.visualstudio.com/) v1.11
 
+require
+- font: `WenQuanYi Zen Hei Mono`
+- terminal: (macOS) `zsh`, (Windows) `git-bash`
+
 **Note**: ⌘P to open vscode cli
 
 ## Settings
