@@ -5,7 +5,9 @@ my personal configs
 ## macOS
 
 - [Brew](https://brew.sh/): package manager for macOS
-- Resolve > “App” is damaged and can’t be opened. You should move it to the Trash.
+  - `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
+**NOTE**: Resolve > “App” is damaged and can’t be opened. You should move it to the Trash.
 
   ```sh
   # allow apps from any source
@@ -25,6 +27,9 @@ my personal configs
     - [Official Download](https://www.google.com/drive/download/)
 
 - programming
+  - [Zsh](https://www.zsh.org/): powerful shell
+    - built-in
+    - [configs](https://github.com/ikatyang/configs/tree/master/zsh)
   - [Xcode](https://developer.apple.com/xcode/): IDE for Apple Developer
     - [Mac App Store](https://itunes.apple.com/app/xcode/id497799835)
   - [Visual Studio Code](https://code.visualstudio.com/): code editor with intellisense
