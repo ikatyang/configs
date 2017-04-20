@@ -1,0 +1,20 @@
+{
+  "debug.inlineValues": true,
+  "editor.dragAndDrop": true,
+  "editor.fontFamily": "WenQuanYi Zen Hei Mono",
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.quickSuggestions": {
+    "comments": true,
+    "other": true,
+    "strings": true
+  },
+  "editor.renderControlCharacters": false,
+  "editor.renderIndentGuides": true,
+  "editor.renderWhitespace": "all",
+  "editor.wordWrap": "on",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "workbench.iconTheme": "vs-seti",
+  "workbench.welcome.enabled": true
+}
