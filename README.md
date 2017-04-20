@@ -74,6 +74,7 @@ my personal configs
     - [Mac App Store](https://itunes.apple.com/app/skip-tunes-for-spotify-and-itunes/id499695659)
   - *[iStat Menus](https://bjango.com/mac/istatmenus/): advenced system monitor
     - [Official Download](https://bjango.com/mac/istatmenus/)
+    - [configs](https://github.com/ikatyang/configs/tree/master/others/istat-menus.md)
 
 - others
   - [Splashtop XDisplay](https://www.splashtop.com/wiredxdisplay): extra monitor
