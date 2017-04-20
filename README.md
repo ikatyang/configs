@@ -82,6 +82,7 @@ my personal configs
     - [Official Download](https://pilotmoon.com/scrollreverser/)
   - [Yahoo KeyKey](https://github.com/yahoo/KeyKey): chinese input methods
     - [NewMobileLife](https://www.newmobilelife.com/2016/09/21/macos-sierra-install-yahoo-input-method-download/) ( zh-tw )
+    - [configs](https://github.com/ikatyang/configs/tree/master/others/yahoo-keykey.md)
   - *[CleanMyMac](https://cleanmymac.com/): cleaner
     - [Official Download](https://cleanmymac.com/)
   - *[Moom](https://manytricks.com/moom): window zooming
