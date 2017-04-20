@@ -13,6 +13,7 @@
 [Twitter]
 [Goofy]
 [Telegram]
+[Reeder]
 [VSCode]
 [Monitor]
 [Terminal]
