@@ -90,6 +90,7 @@ my personal configs
     - [Official Download](https://www.obdev.at/products/littlesnitch/index.html)
   - *[jitouch](https://www.jitouch.com/): trackpad gesture
     - [Official Download](https://www.jitouch.com/)
+    - [configs](https://github.com/ikatyang/configs/tree/master/others/jitouch.md)
 
 ## RSS Feeds
 
