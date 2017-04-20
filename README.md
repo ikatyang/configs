@@ -112,5 +112,5 @@ my personal configs
     - [Official Download](https://www.jitouch.com/)
     - [configs](https://github.com/ikatyang/configs/tree/master/others/jitouch.md)
 
-- [Dock](https://github.com/ikatyang/configs/tree/master/others/dock.md)
-- [Settings](https://github.com/ikatyang/configs/tree/master/others/settings.md)
+- [Dock Layouts](https://github.com/ikatyang/configs/tree/master/others/dock-layouts.md)
+- [System Preferences](https://github.com/ikatyang/configs/tree/master/others/system-preferences.md)

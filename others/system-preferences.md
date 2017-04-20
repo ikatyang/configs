@@ -1,4 +1,4 @@
-# Settings
+# System Preferences
 
 ```sh
 # Mission Control
