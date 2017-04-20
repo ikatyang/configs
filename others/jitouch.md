@@ -4,5 +4,5 @@
 # trackpad
 
 One-Fix Right-Tap: Middle Click
-Pinky-To-Index: Screenshot
+Pinky-To-Index: Screenshot ( ⌃⌥A )
 ```

@@ -89,6 +89,9 @@ my personal configs
     - [configs](https://github.com/ikatyang/configs/tree/master/others/istat-menus.md)
 
 - others
+  - [Lightshot Screenshot](https://app.prntscr.com/en/index.html): screenshot
+    - [Mac App Store](https://itunes.apple.com/app/lightshot-screenshot/id526298438)
+    - shortcut: ⌃⌥⇧A
   - [Splashtop XDisplay](https://www.splashtop.com/wiredxdisplay): extra monitor
     - [Official Download](https://www.splashtop.com/wiredxdisplay)
   - [scroll reverser](https://pilotmoon.com/scrollreverser/)
