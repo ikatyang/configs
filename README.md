@@ -40,7 +40,7 @@ my personal configs
   - [nvm](https://github.com/creationix/nvm): nodejs version manager
     - `brew install nvm`
   - [Node.js](https://nodejs.org/en/): javascript runtime
-    - `nvm install stable`
+    - `brew install node` or `nvm install stable`
 
 - office
   - [Pages](https://www.apple.com/pages/)
