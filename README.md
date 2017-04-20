@@ -70,6 +70,7 @@ my personal configs
     - [Mac App Store](https://itunes.apple.com/app/xmenu/id419332741)
   - *[Bartender](https://www.macbartender.com/): menubar icon manager
     - [Official Download](https://www.macbartender.com/)
+    - [configs](https://github.com/ikatyang/configs/tree/master/others/bartender.md)
   - *[Skip Tunes](http://skiptunes.com/): music control center
     - [Mac App Store](https://itunes.apple.com/app/skip-tunes-for-spotify-and-itunes/id499695659)
   - *[iStat Menus](https://bjango.com/mac/istatmenus/): advenced system monitor
