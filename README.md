@@ -88,7 +88,7 @@ my personal configs
     - [Mac App Store](https://itunes.apple.com/app/moom/id419330170)
   - *[Little Snitch](https://www.obdev.at/products/littlesnitch/index.html): firewall
     - [Official Download](https://www.obdev.at/products/littlesnitch/index.html)
-  - *[jitouch](https://www.jitouch.com/): touchpad gesture
+  - *[jitouch](https://www.jitouch.com/): trackpad gesture
     - [Official Download](https://www.jitouch.com/)
 
 ## RSS Feeds
