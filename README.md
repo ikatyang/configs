@@ -99,6 +99,9 @@ my personal configs
   - [Yahoo KeyKey](https://github.com/yahoo/KeyKey): chinese input methods
     - [NewMobileLife](https://www.newmobilelife.com/2016/09/21/macos-sierra-install-yahoo-input-method-download/) ( zh-tw )
     - [configs](https://github.com/ikatyang/configs/tree/master/yahoo-keykey/)
+  - *[Reeder](http://reederapp.com/mac/): rss reader
+    - [Mac App Store](https://itunes.apple.com/app/reeder-3/id880001334)
+    - [configs](https://github.com/ikatyang/configs/tree/master/reeder/)
   - *[CleanMyMac](https://cleanmymac.com/): cleaner
     - [Official Download](https://cleanmymac.com/)
   - *[Moom](https://manytricks.com/moom): window zooming
@@ -111,40 +114,3 @@ my personal configs
 
 - [Dock](https://github.com/ikatyang/configs/tree/master/others/dock.md)
 - [Settings](https://github.com/ikatyang/configs/tree/master/others/settings.md)
-
-## RSS Feeds
-
-```sh
-# News
-
-## oschina (zh-cn)
-https://www.oschina.net/news/rss?show=%E7%BB%BC%E5%90%88%E6%96%B0%E9%97%BB
-
-# Blog
-
-## github
-https://github.com/blog.atom
-
-## vscode
-https://code.visualstudio.com/feed.xml
-
-## ruanyf (zh-cn)
-http://feeds.feedburner.com/ruanyifeng
-
-# Release
-
-## vscode
-https://github.com/Microsoft/vscode/releases.atom
-
-## typescript
-https://github.com/Microsoft/TypeScript/releases.atom
-
-## tslint
-https://github.com/palantir/tslint/releases.atom
-
-## tslint-eslint-rules
-https://github.com/buzinas/tslint-eslint-rules/releases.atom
-
-## lerna
-https://github.com/lerna/lerna/releases.atom
-```
