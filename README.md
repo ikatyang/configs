@@ -27,6 +27,9 @@ my personal configs
     - [Official Download](https://www.google.com/drive/download/)
 
 - programming
+  - [Git](https://git-scm.com/): distributed version control system
+    - built-in
+    - [configs](https://github.com/ikatyang/configs/tree/master/others/git.md)
   - [Zsh](https://www.zsh.org/): powerful shell
     - built-in
     - [configs](https://github.com/ikatyang/configs/tree/master/zsh)
