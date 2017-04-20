@@ -107,6 +107,7 @@ my personal configs
     - [configs](https://github.com/ikatyang/configs/tree/master/others/jitouch.md)
 
 - [Dock](https://github.com/ikatyang/configs/tree/master/others/dock.md)
+- [Settings](https://github.com/ikatyang/configs/tree/master/others/settings.md)
 
 ## RSS Feeds
 
