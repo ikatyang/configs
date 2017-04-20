@@ -20,6 +20,7 @@
 
 # collapsed
 
+[Lightshot Screenshot]
 [Scroll Reverser]
 [jitouch]
 [Moom]
