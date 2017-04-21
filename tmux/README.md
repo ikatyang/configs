@@ -1,9 +1,9 @@
 # tmux
 
-require reattach-to-uset-namespace:
+require reattach-to-user-namespace:
 
 ```sh
-brew install reattach-to-uset-namespace
+brew install reattach-to-user-namespace
 ```
 
 copy [.tmux.conf](./.tmux.conf) to `~/`
