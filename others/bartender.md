@@ -5,9 +5,9 @@
 
 [SkipTunes]
 [Bartender]
+[Volume]
 [Hangouts]
 [iStat Sensor]
-[Volume]
 [XMenu]
 [Little Snitch]
 [iStat Network]
@@ -20,10 +20,6 @@
 
 # collapsed
 
-[Lightshot Screenshot]
-[Scroll Reverser]
-[jitouch]
-[Moom]
 [CleanMyMac]
 [Clipy]
 [Bluetooth]
