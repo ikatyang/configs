@@ -16,8 +16,6 @@ my personal configs
 
 #### Apps
 
-`*` means paid app
-
 - browser
   - [Chrome](https://www.google.com.tw/chrome/)
     - [Official Download](https://www.google.com.tw/chrome/browser/desktop/)
@@ -79,12 +77,12 @@ my personal configs
     - [Official Download](https://clipy-app.com/)
   - [XMenu](http://www.devontechnologies.com/products/freeware/): file explorer
     - [Mac App Store](https://itunes.apple.com/app/xmenu/id419332741)
-  - *[Bartender](https://www.macbartender.com/): menubar icon manager
+  - :moneybag: [Bartender](https://www.macbartender.com/): menubar icon manager
     - [Official Download](https://www.macbartender.com/)
     - [configs](https://github.com/ikatyang/configs/tree/master/others/bartender.md)
-  - *[Skip Tunes](http://skiptunes.com/): music control center
+  - :moneybag: [Skip Tunes](http://skiptunes.com/): music control center
     - [Mac App Store](https://itunes.apple.com/app/skip-tunes-for-spotify-and-itunes/id499695659)
-  - *[iStat Menus](https://bjango.com/mac/istatmenus/): advenced system monitor
+  - :moneybag: [iStat Menus](https://bjango.com/mac/istatmenus/): advenced system monitor
     - [Official Download](https://bjango.com/mac/istatmenus/)
     - [configs](https://github.com/ikatyang/configs/tree/master/others/istat-menus.md)
 
@@ -99,16 +97,16 @@ my personal configs
   - [Yahoo KeyKey](https://github.com/yahoo/KeyKey): chinese input methods
     - [NewMobileLife](https://www.newmobilelife.com/2016/09/21/macos-sierra-install-yahoo-input-method-download/) ( zh-tw )
     - [configs](https://github.com/ikatyang/configs/tree/master/yahoo-keykey/)
-  - *[Reeder](http://reederapp.com/mac/): rss reader
+  - :moneybag: [Reeder](http://reederapp.com/mac/): rss reader
     - [Mac App Store](https://itunes.apple.com/app/reeder-3/id880001334)
     - [configs](https://github.com/ikatyang/configs/tree/master/reeder/)
-  - *[CleanMyMac](https://cleanmymac.com/): cleaner
+  - :moneybag: [CleanMyMac](https://cleanmymac.com/): cleaner
     - [Official Download](https://cleanmymac.com/)
-  - *[Moom](https://manytricks.com/moom): window zooming
+  - :moneybag: [Moom](https://manytricks.com/moom): window zooming
     - [Mac App Store](https://itunes.apple.com/app/moom/id419330170)
-  - *[Little Snitch](https://www.obdev.at/products/littlesnitch/index.html): firewall
+  - :moneybag: [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html): firewall
     - [Official Download](https://www.obdev.at/products/littlesnitch/index.html)
-  - *[jitouch](https://www.jitouch.com/): trackpad gesture
+  - :moneybag: [jitouch](https://www.jitouch.com/): trackpad gesture
     - [Official Download](https://www.jitouch.com/)
     - [configs](https://github.com/ikatyang/configs/tree/master/others/jitouch.md)
 
