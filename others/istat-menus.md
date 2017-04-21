@@ -18,11 +18,12 @@
 
 # time
 
-[Jul] [6(day)] [Mon] [AM/PM] [01(h)]:[59(m)]:[00(s)]
+[Mon], [Jul] [6(day)], [13(h)]:[59(m)]:[00(s)]
 
 enable calendar
 disable moon info
 
+city layout: simple
 world clocks: UTC, PST
 
 ```
