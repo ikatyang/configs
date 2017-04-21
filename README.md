@@ -94,6 +94,7 @@ my personal configs
     - [Official Download](https://www.splashtop.com/wiredxdisplay)
   - [scroll reverser](https://pilotmoon.com/scrollreverser/)
     - [Official Download](https://pilotmoon.com/scrollreverser/)
+    - disable reverse trackpad
   - [Yahoo KeyKey](https://github.com/yahoo/KeyKey): chinese input methods
     - [NewMobileLife](https://www.newmobilelife.com/2016/09/21/macos-sierra-install-yahoo-input-method-download/) ( zh-tw )
     - [configs](https://github.com/ikatyang/configs/tree/master/yahoo-keykey/)
@@ -104,6 +105,7 @@ my personal configs
     - [Official Download](https://cleanmymac.com/)
   - :moneybag: [Moom](https://manytricks.com/moom): window zooming
     - [Mac App Store](https://itunes.apple.com/app/moom/id419330170)
+    - grid with 12 x 4 cells
   - :moneybag: [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html): firewall
     - [Official Download](https://www.obdev.at/products/littlesnitch/index.html)
   - :moneybag: [jitouch](https://www.jitouch.com/): trackpad gesture
