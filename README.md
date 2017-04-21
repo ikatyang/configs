@@ -98,6 +98,8 @@ my personal configs
   - [Yahoo KeyKey](https://github.com/yahoo/KeyKey): chinese input methods
     - [NewMobileLife](https://www.newmobilelife.com/2016/09/21/macos-sierra-install-yahoo-input-method-download/) ( zh-tw )
     - [configs](https://github.com/ikatyang/configs/tree/master/yahoo-keykey/)
+  - [VLC media player](http://www.videolan.org/index.html)
+    - [Official Download](http://www.videolan.org/index.html)
   - :moneybag: [Reeder](http://reederapp.com/mac/): rss reader
     - [Mac App Store](https://itunes.apple.com/app/reeder-3/id880001334)
     - [configs](https://github.com/ikatyang/configs/tree/master/reeder/)
