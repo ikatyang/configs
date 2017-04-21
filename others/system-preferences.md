@@ -73,9 +73,9 @@
 
 #  App Store
 
-	enable: auto-check
-	disable: auto-download
-	Purchases and In-app Purchases: Require After 15 minutes
+  enable: auto-check
+  disable: auto-download
+  Purchases and In-app Purchases: Require After 15 minutes
 
 # Bluetooth
 
@@ -99,26 +99,26 @@
 
 # Finder
 
-	# Show hidden file:
+  # Show hidden file:
 
-		$ defaults write com.apple.Finder AppleShowAllFiles true
-		$ killall Finder
+    $ defaults write com.apple.Finder AppleShowAllFiles true
+    $ killall Finder
 
-	# View
+  # View
 
-		Show Path Bar
-		Show Status Bar
+    Show Path Bar
+    Show Status Bar
 
-	# Preferences
+  # Preferences
 
-		New Finder windows show: Documents
-		Sidebar: Airdrop, Applications, Desktop, Documents, Downloads, ikatyang
+    New Finder windows show: Documents
+    Sidebar: Airdrop, Applications, Desktop, Documents, Downloads, ikatyang
 
-		# Advanced
+    # Advanced
 
-			enable: Show all filename extensions
-			enable: Keep folders on top when sorting by name
-			When performing a search: Search the Current Folder
+      enable: Show all filename extensions
+      enable: Keep folders on top when sorting by name
+      When performing a search: Search the Current Folder
 
 # Terminal
 
