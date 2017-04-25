@@ -106,9 +106,9 @@ sudo spctl --master-disable
 [telegram-app]:   https://itunes.apple.com/app/id946399090  "Telegram Desktop from Mac App Store"
 [xmenu-app]:      https://itunes.apple.com/app/id419332741  "XMenu from Mac App Store"
 [skip-tunes-app]: https://itunes.apple.com/app/id499695659  "Skip Tunes from Mac App Store"
-[screenshot-app]: https://itunes.apple.com/app/id526298438  "Lightshot Screenshot from App Store"
-[reeder-app]:     https://itunes.apple.com/app/id880001334  "Reeder from App Store"
-[moom-app]:       https://itunes.apple.com/app/id419330170  "Moom from App Store"
+[screenshot-app]: https://itunes.apple.com/app/id526298438  "Lightshot Screenshot from Mac App Store"
+[reeder-app]:     https://itunes.apple.com/app/id880001334  "Reeder from Mac App Store"
+[moom-app]:       https://itunes.apple.com/app/id419330170  "Moom from Mac App Store"
 
 [yahoo-keykey-download]: https://www.newmobilelife.com/2016/09/21/macos-sierra-install-yahoo-input-method-download/ "Yahoo KeyKey from NewMobileLife"
 [xdisplay-download]: https://www.splashtop.com/wiredxdisplay "Splashtop XDisplay from Official Site"
