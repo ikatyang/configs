@@ -1,8 +1,9 @@
 # jitouch configs
 
-```sh
-# trackpad
+#### trackpad
 
-One-Fix Right-Tap: Middle Click
-Pinky-To-Index: Screenshot ( ⌃⌥A )
-```
+| Gesture           | Action              |
+| ----------------- | ------------------- |
+| One-Fix Right-Tap | Middle Click        |
+| Pinky-To-Index    | Screenshot ( ⌃⌥A ) |
+| Index-To-Pinky    | Screenshot ( ⌃⌥A ) |
