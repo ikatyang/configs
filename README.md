@@ -30,7 +30,7 @@ my personal configs
     - [configs](https://github.com/ikatyang/configs/tree/master/others/git.md)
   - [Zsh](https://www.zsh.org/): powerful shell
     - built-in
-    - [configs](https://github.com/ikatyang/configs/tree/master/zsh)
+    - [configs](https://github.com/ikatyang/configs/tree/master/others/zsh.md)
   - [Xcode](https://developer.apple.com/xcode/): IDE for Apple Developer
     - [Mac App Store](https://itunes.apple.com/app/xcode/id497799835)
   - [Visual Studio Code](https://code.visualstudio.com/): code editor with intellisense
