@@ -116,7 +116,7 @@ sudo spctl --master-disable
 [git-configs]:          https://github.com/ikatyang/configs/tree/master/others/git.md         "git configs"
 [zsh-configs]:          https://github.com/ikatyang/configs/tree/master/others/zsh.md         "zsh configs"
 [vscode-configs]:       https://github.com/ikatyang/configs/tree/master/vscode/               "vscode configs"
-[tmux-configs]:         https://github.com/ikatyang/configs/tree/master/tmux/                 "tmux configs"
+[tmux-configs]:         https://github.com/ikatyang/configs/tree/master/others/tmux.md        "tmux configs"
 [bartender-configs]:    https://github.com/ikatyang/configs/tree/master/others/bartender.md   "bartender configs"
 [istat-menus-configs]:  https://github.com/ikatyang/configs/tree/master/others/istat-menus.md "istat-menus configs"
 [reeder-configs]:       https://github.com/ikatyang/configs/tree/master/reeder/               "reeder configs"
