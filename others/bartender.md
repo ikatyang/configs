@@ -1,12 +1,12 @@
 # Bartender
 
 ```sh
-# visible
+# visible (ordered)
 
-[SkipTunes]
-[Bartender]
-[Volume]
 [Hangouts]
+[SkipTunes]
+[Volume]
+[Bartender]
 [iStat Sensor]
 [XMenu]
 [Little Snitch]
@@ -18,7 +18,7 @@
 [Spotlight]
 [Notification]
 
-# collapsed
+# collapsed (non-ordered)
 
 [CleanMyMac]
 [Clipy]
