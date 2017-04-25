@@ -21,6 +21,7 @@ See also [tmux-configs](https://github.com/ikatyang/tmux-configs/)
 ## Cheatsheet for .tmux
 
 **NOTE**: `prefix` is set as <code>`</code>
+
 **NOTE**: cannot copy mouse-selected in mouse mode
 
 | Type    | Command        | Description                      |
@@ -47,5 +48,5 @@ See also [tmux-configs](https://github.com/ikatyang/tmux-configs/)
 | pane    | `prefix arrow` | go to pane on the direction      |
 | pane    | `prefix o`     | go to the next pane (cyclically) |
 | pane    | `prefix ;`     | go to the last used pane         |
-| mode    | `prefix m`     | switch mouse mode on/off         |
+| other   | `prefix m`     | switch mouse mode on/off         |
 | other   | `prefix ?`     | display keyboard shortcuts       |
