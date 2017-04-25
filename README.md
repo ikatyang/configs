@@ -4,115 +4,124 @@ my personal configs
 
 ## macOS
 
-- [Brew](https://brew.sh/): package manager for macOS
-  - `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+Install [Brew](https://brew.sh/) ( package manager for macOS )
 
-**NOTE**: Resolve > “App” is damaged and can’t be opened. You should move it to the Trash.
+```sh
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 
-  ```sh
-  # allow apps from any source
-  sudo spctl --master-disable
-  ```
+**NOTE**: Resolve `“App” is damaged and can’t be opened. You should move it to the Trash.`
+
+```sh
+# allow apps from any source
+sudo spctl --master-disable
+```
 
 #### Apps
 
-- browser
-  - [Chrome](https://www.google.com.tw/chrome/)
-    - [Official Download](https://www.google.com.tw/chrome/browser/desktop/)
+| Type    | Application                         | Install                                     | configs                         |
+| ------- | ----------------------------------- | ------------------------------------------- | ------------------------------- |
+| browser | [Google Chrome][chrome]             | `brew cask install google-chrome`           |                                 |
+| cloud   | [Google Drive][gdrive]              | `brew cask install google-drive`            |                                 |
+| prog    | [Git][git]                          | built-in                                    | [configs][git-configs]          |
+| prog    | [Zsh][zsh]                          | built-in                                    | [configs][zsh-configs]          |
+| prog    | [Xcode][xcode]                      | [Mac App Store][xcode-app]                  |                                 |
+| prog    | [Visual Studio Code][vscode]        | `brew cask install visual-studio-code`      | [configs][vscode-configs]       |
+| prog    | [Yarn][yarn]                        | `brew install yarn`                         |                                 |
+| prog    | [tmux][tmux]                        | `brew install tmux`                         | [configs][tmux-configs]         |
+| prog    | [nvm][nvm]                          | `brew install nvm`                          |                                 |
+| prog    | [Node.js][nodejs]                   | `brew install node`                         |                                 |
+| office  | [Pages][pages]                      | [Mac App Store][pages-app]                  |                                 |
+| office  | [Numbers][numbers]                  | [Mac App Store][numbers-app]                |                                 |
+| office  | [Keynote][keynote]                  | [Mac App Store][keynote-app]                |                                 |
+| remote  | [TeamViewer][teamviewer]            | `brew cask install teamviewer`              |                                 |
+| remote  | [Microsoft Remote Desktop][mstsc]   | [Mac App Store][mstsc-app]                  |                                 |
+| social  | [LINE][line]                        | [Mac App Store][line-app]                   |                                 |
+| social  | [Twitter][twitter]                  | [Mac App Store][twitter-app]                |                                 |
+| social  | [Telegram Desktop][telegram]        | [Mac App Store][telegram-app]               |                                 |
+| social  | [Goofy][goofy]                      | `brew cask install goofy`                   |                                 |
+| menubar | [Clipy][clipy]                      | `brew cask install clipy`                   |                                 |
+| menubar | [XMenu][xmenu]                      | [Mac App Store][xmenu-app]                  |                                 |
+| menubar | 💰 [Bartender][bartender]           | `brew cask install bartender`               | [configs][bartender-configs]    |
+| menubar | 💰 [Skip Tunes][skip-tunes]         | [Mac App Store][skip-tunes-app]             |                                 |
+| menubar | 💰 [iStat Menus][istat-menus]       | `brew cask install istat-menus`             | [configs][istat-menus-configs]  |
+|         | [Lightshot Screenshot][screenshot]  | [Mac App Store][screenshot-app]             | shortcut: ⌃⌥⇧A               |
+|         | [Scroll Reverser][scroll-reverser]  | `brew cask install scroll-reverser`         | disable `Reverse Trackpad`      |
+|         | [VLC media player][vlc]             | `brew cask install vlc`                     |                                 |
+|         | [Yahoo KeyKey][yahoo-keykey]        | [Download][yahoo-keykey-download]           | [configs][yahoo-keykey-configs] |
+|         | [Splash XDisplay][xdisplay]         | [Download][xdisplay-download]               |                                 |
+|         | 💰 [Reeder][reeder]                 | [Mac App Store][reeder-app]                 | [configs][reeder-configs]       |
+|         | 💰 [CleanMyMac][cleanmymac]         | `brew cask install cleanmymac`              |                                 |
+|         | 💰 [Moom][moom]                     | [Mac App Store][moom-app]                   | grid with `12` x `4` cells      |
+|         | 💰 [Little Snitch][little-snitch]   | `brew cask install little-snitch`           |                                 |
+|         | 💰 [jitouch][jitouch]               | `brew cask install jitouch`                 | [configs][jitouch-configs]      |
 
-- cloud
-  - [Google Drive](https://www.google.com/drive/)
-    - [Official Download](https://www.google.com/drive/download/)
+#### System Preferences
 
-- programming
-  - [Git](https://git-scm.com/): distributed version control system
-    - built-in
-    - [configs](https://github.com/ikatyang/configs/tree/master/others/git.md)
-  - [Zsh](https://www.zsh.org/): powerful shell
-    - built-in
-    - [configs](https://github.com/ikatyang/configs/tree/master/others/zsh.md)
-  - [Xcode](https://developer.apple.com/xcode/): IDE for Apple Developer
-    - [Mac App Store](https://itunes.apple.com/app/xcode/id497799835)
-  - [Visual Studio Code](https://code.visualstudio.com/): code editor with intellisense
-    - [Official Download](https://code.visualstudio.com/Download)
-    - [configs](https://github.com/ikatyang/configs/tree/master/vscode)
-  - [Yarn](https://yarnpkg.com/en/): nodejs package manager
-    - `brew install yarn`
-  - [tmux](https://tmux.github.io/): terminal multiplexer
-    - `brew install tmux`
-    - [configs](https://github.com/ikatyang/configs/tree/master/tmux/)
-  - [Python](https://www.python.org/): python runtime, including a simple http server
-    - `brew install python3`
-  - [nvm](https://github.com/creationix/nvm): nodejs version manager
-    - `brew install nvm`
-  - [Node.js](https://nodejs.org/en/): javascript runtime
-    - `brew install node` or `nvm install stable`
+- [Dock Layouts][dock-layouts]
+- [System Preferences][system-preferences]
 
-- office
-  - [Pages](https://www.apple.com/pages/)
-    - [Mac App Store](https://itunes.apple.com/app/pages/id409201541)
-  - [Numbers](https://www.apple.com/numbers/)
-    - [Mac App Store](https://itunes.apple.com/app/numbers/id361304891)
-  - [Keynote](https://www.apple.com/keynote/)
-    - [Mac App Store](https://itunes.apple.com/app/keynote/id409183694)
+[chrome]:           https://www.google.com/chrome/          "Google Chrome"
+[gdrive]:           https://www.google.com/drive/           "Google Drive"
+[git]:              https://git-scm.com/                    "Git: version control system"
+[zsh]:              https://www.zsh.org/                    "Zsh: powerful shell"
+[xcode]:            https://developer.apple.com/xcode/      "Xcode: IDE for Apple Developer"
+[vscode]:           https://code.visualstudio.com/          "Visual Studio Code: code editor with intellisense, etc."
+[yarn]:             https://yarnpkg.com/                    "Yarn: powerul nodejs package manager"
+[tmux]:             https://tmux.github.io/                 "tmux: terminal multiplexer"
+[nvm]:              https://github.com/creationix/nvm       "nvm: nodejs version manager"
+[nodejs]:           https://nodejs.org/                     "Node.js: javascript runtime"
+[pages]:            https://www.apple.com/pages/            "Pages"
+[numbers]:          https://www.apple.com/numbers/          "Numbers"
+[keynote]:          https://www.apple.com/keynote/          "Keynote"
+[teamviewer]:       https://www.teamviewer.com/             "Teamviewer: remote control"
+[mstsc]:            https://www.microsoft.com/cloud-platform/desktop-virtualization "Microsoft Remote Desktop"
+[line]:             https://line.me/                        "LINE"
+[twitter]:          https://twitter.com/                    "Twitter"
+[telegram]:         https://telegram.org/                   "Telegram Desktop"
+[goofy]:            http://www.goofyapp.com/                "Goofy: unofficial Facebook Messenger client"
+[clipy]:            https://clipy-app.com/                  "Clipy: clipboard extension"
+[xmenu]:            http://www.devontechnologies.com/products/freeware/ "XMenu: file explorer"
+[bartender]:        https://www.macbartender.com/           "Bartender: menubar icon manager"
+[skip-tunes]:       http://skiptunes.com/                   "Skip Tunes: music control center"
+[istat-menus]:      https://bjango.com/mac/istatmenus/      "iStat Menus: advenced system monitor"
+[screenshot]:       https://app.prntscr.com/en/index.html   "Lightshot Screenshot"
+[scroll-reverser]:  https://pilotmoon.com/scrollreverser/   "Scroll Reverser"
+[vlc]:              http://www.videolan.org/index.html      "VLC media player"
+[reeder]:           http://reederapp.com/mac/               "Reeder: rss reader"
+[cleanmymac]:       https://cleanmymac.com/                 "CleanMyMac: cleaner"
+[moom]:             https://manytricks.com/moom             "Moom: window zooming"
+[little-snitch]:    https://www.obdev.at/products/littlesnitch/index.html "Little Snitch: firewall"
+[jitouch]:          https://www.jitouch.com/                "jitouch: trackpad gesture"
+[yahoo-keykey]:     https://github.com/yahoo/KeyKey         "Yahoo KeyKey: chinese input methods"
+[xdisplay]:         https://www.splashtop.com/wiredxdisplay "Splashtop XDisplay: extra monitor"
 
-- remote control
-  - [TeamViewer](https://www.teamviewer.com/)
-    - [Official Download](https://www.teamviewer.com/en/download/)
-  - [Microsoft Remote Desktop](https://www.microsoft.com/en-us/cloud-platform/desktop-virtualization)
-    - [Mac App Store](https://itunes.apple.com/app/microsoft-remote-desktop/id715768417)
+[xcode-app]:      https://itunes.apple.com/app/id497799835  "Xcode from Mac App Store"
+[pages-app]:      https://itunes.apple.com/app/id409201541  "Pages from Mac App Store"
+[numbers-app]:    https://itunes.apple.com/app/id361304891  "Numbers from Mac App Store"
+[keynote-app]:    https://itunes.apple.com/app/id409183694  "Keynote from Mac App Store"
+[mstsc-app]:      https://itunes.apple.com/app/id715768417  "Microsoft Remote Desktop from Mac App Store"
+[line-app]:       https://itunes.apple.com/app/id539883307  "LINE from Mac App Store"
+[twitter-app]:    https://itunes.apple.com/app/id409789998  "Twitter from Mac App Store"
+[telegram-app]:   https://itunes.apple.com/app/id946399090  "Telegram Desktop from Mac App Store"
+[xmenu-app]:      https://itunes.apple.com/app/id419332741  "XMenu from Mac App Store"
+[skip-tunes-app]: https://itunes.apple.com/app/id499695659  "Skip Tunes from Mac App Store"
+[screenshot-app]: https://itunes.apple.com/app/id526298438  "Lightshot Screenshot from App Store"
+[reeder-app]:     https://itunes.apple.com/app/id880001334  "Reeder from App Store"
+[moom-app]:       https://itunes.apple.com/app/id419330170  "Moom from App Store"
 
-- social network
-  - [LINE](https://line.me/)
-    - [Mac App Store](https://itunes.apple.com/app/line/id539883307)
-  - [Twitter](https://twitter.com/)
-    - [Mac App Store](https://itunes.apple.com/app/twitter/id409789998)
-  - [Telegram Desktop](https://telegram.org/)
-    - [Mac App Store](https://itunes.apple.com/app/telegram-desktop/id946399090)
-  - [Goofy](http://www.goofyapp.com/): Unofficial Facebook Messanger
-    - [Official Download](http://www.goofyapp.com/)
+[yahoo-keykey-download]: https://www.newmobilelife.com/2016/09/21/macos-sierra-install-yahoo-input-method-download/ "Yahoo KeyKey from NewMobileLife"
+[xdisplay-download]: https://www.splashtop.com/wiredxdisplay "Splashtop XDisplay from Official Site"
 
-- menubar
-  - [Clipy](https://clipy-app.com/): clipboard extension ( jp )
-    - [Official Download](https://clipy-app.com/)
-  - [XMenu](http://www.devontechnologies.com/products/freeware/): file explorer
-    - [Mac App Store](https://itunes.apple.com/app/xmenu/id419332741)
-  - :moneybag: [Bartender](https://www.macbartender.com/): menubar icon manager
-    - [Official Download](https://www.macbartender.com/)
-    - [configs](https://github.com/ikatyang/configs/tree/master/others/bartender.md)
-  - :moneybag: [Skip Tunes](http://skiptunes.com/): music control center
-    - [Mac App Store](https://itunes.apple.com/app/skip-tunes-for-spotify-and-itunes/id499695659)
-  - :moneybag: [iStat Menus](https://bjango.com/mac/istatmenus/): advenced system monitor
-    - [Official Download](https://bjango.com/mac/istatmenus/)
-    - [configs](https://github.com/ikatyang/configs/tree/master/others/istat-menus.md)
+[git-configs]:          https://github.com/ikatyang/configs/tree/master/others/git.md         "git configs"
+[zsh-configs]:          https://github.com/ikatyang/configs/tree/master/others/zsh.md         "zsh configs"
+[vscode-configs]:       https://github.com/ikatyang/configs/tree/master/vscode/               "vscode configs"
+[tmux-configs]:         https://github.com/ikatyang/configs/tree/master/tmux/                 "tmux configs"
+[bartender-configs]:    https://github.com/ikatyang/configs/tree/master/others/bartender.md   "bartender configs"
+[istat-menus-configs]:  https://github.com/ikatyang/configs/tree/master/others/istat-menus.md "istat-menus configs"
+[reeder-configs]:       https://github.com/ikatyang/configs/tree/master/reeder/               "reeder configs"
+[jitouch-configs]:      https://github.com/ikatyang/configs/tree/master/others/jitouch.md     "jitouch configs"
+[yahoo-keykey-configs]: https://github.com/ikatyang/configs/tree/master/yahoo-keykey/         "yahoo-keykey configs"
 
-- others
-  - [Lightshot Screenshot](https://app.prntscr.com/en/index.html): screenshot
-    - [Mac App Store](https://itunes.apple.com/app/lightshot-screenshot/id526298438)
-    - shortcut: ⌃⌥⇧A
-  - [Splashtop XDisplay](https://www.splashtop.com/wiredxdisplay): extra monitor
-    - [Official Download](https://www.splashtop.com/wiredxdisplay)
-  - [scroll reverser](https://pilotmoon.com/scrollreverser/)
-    - [Official Download](https://pilotmoon.com/scrollreverser/)
-    - disable reverse trackpad
-  - [Yahoo KeyKey](https://github.com/yahoo/KeyKey): chinese input methods
-    - [NewMobileLife](https://www.newmobilelife.com/2016/09/21/macos-sierra-install-yahoo-input-method-download/) ( zh-tw )
-    - [configs](https://github.com/ikatyang/configs/tree/master/yahoo-keykey/)
-  - [VLC media player](http://www.videolan.org/index.html)
-    - [Official Download](http://www.videolan.org/index.html)
-  - :moneybag: [Reeder](http://reederapp.com/mac/): rss reader
-    - [Mac App Store](https://itunes.apple.com/app/reeder-3/id880001334)
-    - [configs](https://github.com/ikatyang/configs/tree/master/reeder/)
-  - :moneybag: [CleanMyMac](https://cleanmymac.com/): cleaner
-    - [Official Download](https://cleanmymac.com/)
-  - :moneybag: [Moom](https://manytricks.com/moom): window zooming
-    - [Mac App Store](https://itunes.apple.com/app/moom/id419330170)
-    - grid with 12 x 4 cells
-  - :moneybag: [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html): firewall
-    - [Official Download](https://www.obdev.at/products/littlesnitch/index.html)
-  - :moneybag: [jitouch](https://www.jitouch.com/): trackpad gesture
-    - [Official Download](https://www.jitouch.com/)
-    - [configs](https://github.com/ikatyang/configs/tree/master/others/jitouch.md)
-
-- [Dock Layouts](https://github.com/ikatyang/configs/tree/master/others/dock-layouts.md)
-- [System Preferences](https://github.com/ikatyang/configs/tree/master/others/system-preferences.md)
+[dock-layouts]:         https://github.com/ikatyang/configs/tree/master/others/dock-layouts.md "dock layouts"
+[system-preferences]:   https://github.com/ikatyang/configs/tree/master/others/system-preferences.md "system preferences"
