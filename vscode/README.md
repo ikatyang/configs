@@ -21,6 +21,9 @@ code --install-extension eg2.tslint
 code --install-extension richie5um2.vscode-sort-json
 code --install-extension zhuangtongfa.Material-theme
 code --install-extension file-icons.file-icons
+code --install-extension christian-kohler.path-intellisense
+code --install-extension Tyriar.sort-lines
+code --install-extension sgtsquiggs.vscode-active-file-status
 ```
 
 ## Manual Setup
@@ -59,3 +62,12 @@ code --install-extension file-icons.file-icons
 
 - [file-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons)
   - command: `ext install file-icons`
+
+- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+  - command: `ext install path-intellisense`
+
+- [Sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)
+  - command: `ext install sort-lines`
+
+- [Active File Status](https://marketplace.visualstudio.com/items?itemName=sgtsquiggs.vscode-active-file-status)
+  - command: `ext install vscode-active-file-status`
