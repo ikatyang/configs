@@ -1,6 +1,6 @@
 # tmux
 
-## Quick Installation
+## Quick Setup
 
 ```sh
 # install reattch-to-user-namespace for tmux copying
@@ -14,7 +14,7 @@ ln -sf ~/Documents/Github/tmux-configs/.tmux.conf ~
 ln -sf ~/Documents/Github/tmux-configs/.tmux.conf.local ~
 ```
 
-## Manual Installation
+## Manual Setup
 
 See also [tmux-configs](https://github.com/ikatyang/tmux-configs/)
 

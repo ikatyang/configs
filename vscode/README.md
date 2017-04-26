@@ -4,7 +4,7 @@ require font: `WenQuanYi Mono for Powerline`
 - install with [zsh configs](../others/zsh.md)
 - install manually: [WenQuanYi-Mono-for-Powerline.ttf](https://github.com/ikatyang/zsh-theme/raw/master/fonts/WenQuanYi-Mono-for-Powerline.ttf)
 
-## Quick Installation
+## Quick Setup
 
 ```sh
 # retain git repository for version control
@@ -23,7 +23,7 @@ code --install-extension zhuangtongfa.Material-theme
 code --install-extension file-icons.file-icons
 ```
 
-## Manual Installation
+## Manual Setup
 
 **Note**: ⌘P to open vscode cli
 
