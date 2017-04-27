@@ -31,7 +31,6 @@ See also [tmux-configs](https://github.com/ikatyang/tmux-configs/)
 | session | `prefix d`     | detach from a session            |
 | session | `prefix (`     | go to previous session           |
 | session | `prefix )`     | go to next session               |
-| session | `prefix s`     | go to the last used session      |
 | session | `prefix s`     | choose a session                 |
 | session | `prefix $`     | rename the current session       |
 | session | `killall tmux` | kill all sessions                |
