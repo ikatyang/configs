@@ -20,7 +20,7 @@ code --install-extension dbaeumer.vscode-eslint
 code --install-extension eg2.tslint
 code --install-extension richie5um2.vscode-sort-json
 code --install-extension zhuangtongfa.Material-theme
-code --install-extension file-icons.file-icons
+code --install-extension PKief.material-icon-theme
 code --install-extension christian-kohler.path-intellisense
 code --install-extension Tyriar.sort-lines
 code --install-extension sgtsquiggs.vscode-active-file-status
@@ -60,8 +60,8 @@ code --install-extension sgtsquiggs.vscode-active-file-status
 - [Material Theme](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
   - command: `ext install Material-theme`
 
-- [file-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons)
-  - command: `ext install file-icons`
+- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+  - command: `ext install material-icon-theme`
 
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
   - command: `ext install path-intellisense`
