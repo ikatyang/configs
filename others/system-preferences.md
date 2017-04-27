@@ -25,6 +25,10 @@
   Region: Taiwan
   First day of week: Sunday
 
+# Security & Privacy
+
+  Require password [immediately] after sleep or screen saver begins
+
 # Keyboard
 
   Use F1, F2, etc. keys as standard function keys
