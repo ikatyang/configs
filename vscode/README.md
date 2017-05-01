@@ -57,7 +57,7 @@ code --install-extension sgtsquiggs.vscode-active-file-status
 - [Sort JSON objects](https://marketplace.visualstudio.com/items?itemName=richie5um2.vscode-sort-json)
   - command: `ext install vscode-sort-json`
 
-- [Material Theme](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
+- [OneDark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
   - command: `ext install Material-theme`
 
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
