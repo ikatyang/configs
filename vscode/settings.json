@@ -1,5 +1,6 @@
 {
   "debug.inlineValues": true,
+  "diffEditor.ignoreTrimWhitespace": false,
   "editor.dragAndDrop": true,
   "editor.fontFamily": "WenQuanYi Mono for Powerline",
   "editor.minimap.enabled": true,
@@ -13,6 +14,7 @@
   "editor.renderIndentGuides": true,
   "editor.renderWhitespace": "all",
   "editor.wordWrap": "on",
+  "window.nativeTabs": true,
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.welcome.enabled": false
