@@ -26,6 +26,7 @@ code --install-extension christian-kohler.path-intellisense
 code --install-extension Tyriar.sort-lines
 code --install-extension sgtsquiggs.vscode-active-file-status
 code --install-extension moppitz.vscode-extension-auto-import
+code --install-extension qinjia.view-in-browser
 ```
 
 ## Manual Setup
@@ -76,3 +77,6 @@ code --install-extension moppitz.vscode-extension-auto-import
 
 - [Auto Import - ES6 & TS](https://marketplace.visualstudio.com/items?itemName=moppitz.vscode-extension-auto-import)
   - command: `ext install vscode-extension-auto-import`
+
+- [View In Browser](https://marketplace.visualstudio.com/items?itemName=qinjia.view-in-browser)
+  - command: `ext install view-in-browser`
