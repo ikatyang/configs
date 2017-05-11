@@ -13,6 +13,7 @@ git clone https://github.com/ikatyang/configs.git ~/Documents/Github/configs
 # link configs
 ln -sf ~/Documents/Github/configs/vscode/locale.json ~/Library/Application\ Support/Code/User
 ln -sf ~/Documents/Github/configs/vscode/settings.json ~/Library/Application\ Support/Code/User
+ln -sf ~/Documents/Github/configs/vscode/keybindings.json ~/Library/Application\ Support/Code/User
 
 # install extensions
 code --install-extension EditorConfig.EditorConfig

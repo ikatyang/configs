@@ -1,0 +1,6 @@
+[
+  {
+    "key": "alt+s",
+    "command": "tslint.fixAllProblems"
+  }
+]
