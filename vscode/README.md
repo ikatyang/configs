@@ -24,6 +24,7 @@ code --install-extension PKief.material-icon-theme
 code --install-extension christian-kohler.path-intellisense
 code --install-extension Tyriar.sort-lines
 code --install-extension sgtsquiggs.vscode-active-file-status
+code --install-extension moppitz.vscode-extension-auto-import
 ```
 
 ## Manual Setup
@@ -71,3 +72,6 @@ code --install-extension sgtsquiggs.vscode-active-file-status
 
 - [Active File Status](https://marketplace.visualstudio.com/items?itemName=sgtsquiggs.vscode-active-file-status)
   - command: `ext install vscode-active-file-status`
+
+- [Auto Import - ES6 & TS](https://marketplace.visualstudio.com/items?itemName=moppitz.vscode-extension-auto-import)
+  - command: `ext install vscode-extension-auto-import`
