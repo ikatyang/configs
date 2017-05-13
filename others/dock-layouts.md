@@ -11,7 +11,7 @@
 [iTunes]
 [LINE]
 [Twitter]
-[Goofy]
+[Caprine]
 [Telegram Desktop]
 [Reeder]
 [Visual Studio Code]

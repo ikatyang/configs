@@ -39,7 +39,7 @@ sudo spctl --master-disable
 | social  | [LINE][line]                        | [Mac App Store][line-app]                   |                                 |
 | social  | [Twitter][twitter]                  | [Mac App Store][twitter-app]                |                                 |
 | social  | [Telegram Desktop][telegram]        | [Mac App Store][telegram-app]               |                                 |
-| social  | [Goofy][goofy]                      | `brew cask install goofy`                   |                                 |
+| social  | [Caprine][caprine]                  | `brew cask install caprine`                 |                                 |
 | menubar | [Clipy][clipy]                      | `brew cask install clipy`                   |                                 |
 | menubar | [XMenu][xmenu]                      | [Mac App Store][xmenu-app]                  |                                 |
 | menubar | 💰 [Bartender][bartender]           | `brew cask install bartender`               | [configs][bartender-configs]    |
@@ -79,7 +79,7 @@ sudo spctl --master-disable
 [line]:             https://line.me/                        "LINE"
 [twitter]:          https://twitter.com/                    "Twitter"
 [telegram]:         https://telegram.org/                   "Telegram Desktop"
-[goofy]:            http://www.goofyapp.com/                "Goofy: unofficial Facebook Messenger client"
+[caprine]:          https://github.com/sindresorhus/caprine "Caprine: unofficial Facebook Messenger app"
 [clipy]:            https://clipy-app.com/                  "Clipy: clipboard extension"
 [xmenu]:            http://www.devontechnologies.com/products/freeware/ "XMenu: file explorer"
 [bartender]:        https://www.macbartender.com/           "Bartender: menubar icon manager"
