@@ -14,6 +14,7 @@
   "editor.renderIndentGuides": true,
   "editor.renderWhitespace": "all",
   "editor.wordWrap": "on",
+  "typescriptHero.resolver.insertSpaceBeforeAndAfterImportBraces": false,
   "window.nativeTabs": true,
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "material-icon-theme",

@@ -25,8 +25,9 @@ code --install-extension PKief.material-icon-theme
 code --install-extension christian-kohler.path-intellisense
 code --install-extension Tyriar.sort-lines
 code --install-extension sgtsquiggs.vscode-active-file-status
-code --install-extension moppitz.vscode-extension-auto-import
 code --install-extension qinjia.view-in-browser
+code --install-extension rbbit.typescript-hero
+code --install-extension donjayamanne.githistory
 ```
 
 ## Manual Setup
@@ -75,8 +76,11 @@ code --install-extension qinjia.view-in-browser
 - [Active File Status](https://marketplace.visualstudio.com/items?itemName=sgtsquiggs.vscode-active-file-status)
   - command: `ext install vscode-active-file-status`
 
-- [Auto Import - ES6 & TS](https://marketplace.visualstudio.com/items?itemName=moppitz.vscode-extension-auto-import)
-  - command: `ext install vscode-extension-auto-import`
-
 - [View In Browser](https://marketplace.visualstudio.com/items?itemName=qinjia.view-in-browser)
   - command: `ext install view-in-browser`
+
+- [TypeScript Hero](https://marketplace.visualstudio.com/items?itemName=rbbit.typescript-hero)
+  - command: `ext install typescript-hero`
+
+- [Git History (git log)](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+  - command: `ext install githistory`
