@@ -16,18 +16,18 @@ ln -sf ~/Documents/Github/configs/vscode/settings.json ~/Library/Application\ Su
 ln -sf ~/Documents/Github/configs/vscode/keybindings.json ~/Library/Application\ Support/Code/User
 
 # install extensions
+code --install-extension sgtsquiggs.vscode-active-file-status
 code --install-extension EditorConfig.EditorConfig
 code --install-extension dbaeumer.vscode-eslint
-code --install-extension eg2.tslint
-code --install-extension richie5um2.vscode-sort-json
-code --install-extension zhuangtongfa.Material-theme
-code --install-extension PKief.material-icon-theme
-code --install-extension christian-kohler.path-intellisense
-code --install-extension Tyriar.sort-lines
-code --install-extension sgtsquiggs.vscode-active-file-status
-code --install-extension qinjia.view-in-browser
-code --install-extension rbbit.typescript-hero
 code --install-extension donjayamanne.githistory
+code --install-extension PKief.material-icon-theme
+code --install-extension zhuangtongfa.Material-theme
+code --install-extension christian-kohler.path-intellisense
+code --install-extension richie5um2.vscode-sort-json
+code --install-extension Tyriar.sort-lines
+code --install-extension eg2.tslint
+code --install-extension rbbit.typescript-hero
+code --install-extension qinjia.view-in-browser
 ```
 
 ## Manual Setup
@@ -46,6 +46,9 @@ code --install-extension donjayamanne.githistory
 
 ## Extensions
 
+- [Active File Status](https://marketplace.visualstudio.com/items?itemName=sgtsquiggs.vscode-active-file-status)
+  - command: `ext install vscode-active-file-status`
+
 - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
   - .editorconfig
   - command: `ext install EditorConfig`
@@ -54,33 +57,30 @@ code --install-extension donjayamanne.githistory
   - .eslintrc
   - command: `ext install vscode-eslint`
 
-- [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
-  - tslint.json
-  - command: `ext install tslint`
-
-- [Sort JSON objects](https://marketplace.visualstudio.com/items?itemName=richie5um2.vscode-sort-json)
-  - command: `ext install vscode-sort-json`
-
-- [OneDark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
-  - command: `ext install Material-theme`
+- [Git History (git log)](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+  - command: `ext install githistory`
 
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
   - command: `ext install material-icon-theme`
 
+- [OneDark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
+  - command: `ext install Material-theme`
+
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
   - command: `ext install path-intellisense`
+
+- [Sort JSON objects](https://marketplace.visualstudio.com/items?itemName=richie5um2.vscode-sort-json)
+  - command: `ext install vscode-sort-json`
 
 - [Sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)
   - command: `ext install sort-lines`
 
-- [Active File Status](https://marketplace.visualstudio.com/items?itemName=sgtsquiggs.vscode-active-file-status)
-  - command: `ext install vscode-active-file-status`
-
-- [View In Browser](https://marketplace.visualstudio.com/items?itemName=qinjia.view-in-browser)
-  - command: `ext install view-in-browser`
+- [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
+  - tslint.json
+  - command: `ext install tslint`
 
 - [TypeScript Hero](https://marketplace.visualstudio.com/items?itemName=rbbit.typescript-hero)
   - command: `ext install typescript-hero`
 
-- [Git History (git log)](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
-  - command: `ext install githistory`
+- [View In Browser](https://marketplace.visualstudio.com/items?itemName=qinjia.view-in-browser)
+  - command: `ext install view-in-browser`
