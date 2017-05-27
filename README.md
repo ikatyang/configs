@@ -45,6 +45,7 @@ sudo spctl --master-disable
 | menubar | 💰 [Bartender][bartender]           | `brew cask install bartender`               | [configs][bartender-configs]    |
 | menubar | 💰 [Skip Tunes][skip-tunes]         | [Mac App Store][skip-tunes-app]             |                                 |
 | menubar | 💰 [iStat Menus][istat-menus]       | `brew cask install istat-menus`             | [configs][istat-menus-configs]  |
+|         | [p7zip][p7zip]                      | `brew install p7zip`                        |                                 |
 |         | [Lightshot Screenshot][screenshot]  | [Mac App Store][screenshot-app]             | shortcut: ⌃⌥⇧A               |
 |         | [Scroll Reverser][scroll-reverser]  | `brew cask install scroll-reverser`         | disable `Reverse Trackpad`      |
 |         | [VLC media player][vlc]             | `brew cask install vlc`                     |                                 |
@@ -85,6 +86,7 @@ sudo spctl --master-disable
 [bartender]:        https://www.macbartender.com/           "Bartender: menubar icon manager"
 [skip-tunes]:       http://skiptunes.com/                   "Skip Tunes: music control center"
 [istat-menus]:      https://bjango.com/mac/istatmenus/      "iStat Menus: advenced system monitor"
+[p7zip]:            http://www.7-zip.org/download.html      "p7zip: 7z for unix"
 [screenshot]:       https://app.prntscr.com/en/index.html   "Lightshot Screenshot"
 [scroll-reverser]:  https://pilotmoon.com/scrollreverser/   "Scroll Reverser"
 [vlc]:              http://www.videolan.org/index.html      "VLC media player"
