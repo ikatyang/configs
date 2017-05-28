@@ -1,6 +1,6 @@
 # configs
 
-my personal configs
+personal configs for ikatyang
 
 ## macOS
 
