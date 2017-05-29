@@ -51,6 +51,7 @@ sudo spctl --master-disable
 |         | [VLC media player][vlc]             | `brew cask install vlc`                     |                                 |
 |         | [Yahoo KeyKey][yahoo-keykey]        | [Download][yahoo-keykey-download]           | [configs][yahoo-keykey-configs] |
 |         | [Splash XDisplay][xdisplay]         | [Download][xdisplay-download]               |                                 |
+|         | [Soundflower][soundflower]          | `brew cask install soundflower`             |                                 |
 |         | 💰 [Reeder][reeder]                 | [Mac App Store][reeder-app]                 | [configs][reeder-configs]       |
 |         | 💰 [CleanMyMac][cleanmymac]         | `brew cask install cleanmymac`              |                                 |
 |         | 💰 [Moom][moom]                     | [Mac App Store][moom-app]                   | grid with `12` x `4` cells      |
@@ -97,6 +98,7 @@ sudo spctl --master-disable
 [jitouch]:          https://www.jitouch.com/                "jitouch: trackpad gesture"
 [yahoo-keykey]:     https://github.com/yahoo/KeyKey         "Yahoo KeyKey: chinese input methods"
 [xdisplay]:         https://www.splashtop.com/wiredxdisplay "Splashtop XDisplay: extra monitor"
+[soundflower]:      https://github.com/mattingalls/Soundflower "Soundflower: audio redirector"
 
 [xcode-app]:      https://itunes.apple.com/app/id497799835  "Xcode from Mac App Store"
 [pages-app]:      https://itunes.apple.com/app/id409201541  "Pages from Mac App Store"
