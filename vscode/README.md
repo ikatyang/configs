@@ -20,6 +20,7 @@ code --install-extension sgtsquiggs.vscode-active-file-status
 code --install-extension EditorConfig.EditorConfig
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension donjayamanne.githistory
+code --install-extension PKief.markdown-checkbox
 code --install-extension PKief.material-icon-theme
 code --install-extension zhuangtongfa.Material-theme
 code --install-extension christian-kohler.path-intellisense
@@ -59,6 +60,9 @@ code --install-extension qinjia.view-in-browser
 
 - [Git History (git log)](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
   - command: `ext install githistory`
+
+- [Markdown Checkbox](https://marketplace.visualstudio.com/items?itemName=PKief.markdown-checkbox)
+  - command: `ext install markdown-checkbox`
 
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
   - command: `ext install material-icon-theme`
