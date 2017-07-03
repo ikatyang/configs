@@ -16,7 +16,6 @@
   "editor.wordWrap": "on",
   "explorer.openEditors.dynamicHeight": false,
   "explorer.openEditors.visible": 5,
-  "typescriptHero.resolver.insertSpaceBeforeAndAfterImportBraces": false,
   "window.nativeTabs": true,
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "material-icon-theme",
