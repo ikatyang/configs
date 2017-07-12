@@ -2,5 +2,10 @@
   {
     "key": "alt+s",
     "command": "tslint.fixAllProblems"
+  },
+  {
+    "key": "alt+space",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly"
   }
 ]

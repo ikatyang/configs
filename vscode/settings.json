@@ -1,6 +1,7 @@
 {
   "debug.inlineValues": true,
   "diffEditor.ignoreTrimWhitespace": false,
+  "editor.autoIndent": true,
   "editor.dragAndDrop": true,
   "editor.fontFamily": "WenQuanYi Mono for Powerline",
   "editor.minimap.enabled": true,
