@@ -20,6 +20,7 @@ code --install-extension sgtsquiggs.vscode-active-file-status
 code --install-extension EditorConfig.EditorConfig
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension donjayamanne.githistory
+code --install-extension eamodio.gitlens
 code --install-extension PKief.markdown-checkbox
 code --install-extension PKief.material-icon-theme
 code --install-extension zhuangtongfa.Material-theme
@@ -60,6 +61,9 @@ code --install-extension qinjia.view-in-browser
 
 - [Git History (git log)](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
   - command: `ext install githistory`
+
+- [Git Lens — git blame annotations, code lens, and more](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+  - command: `ext install gitlens`
 
 - [Markdown Checkbox](https://marketplace.visualstudio.com/items?itemName=PKief.markdown-checkbox)
   - command: `ext install markdown-checkbox`

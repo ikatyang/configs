@@ -17,6 +17,8 @@
   "editor.wordWrap": "on",
   "explorer.openEditors.dynamicHeight": false,
   "explorer.openEditors.visible": 5,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.stashExplorer.enabled": true,
   "window.nativeTabs": true,
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "material-icon-theme",
