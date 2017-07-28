@@ -35,6 +35,7 @@ code --install-extension Tyriar.sort-lines
 code --install-extension eg2.tslint
 code --install-extension rbbit.typescript-hero
 code --install-extension qinjia.view-in-browser
+code --install-extension adamvoss.yaml
 ```
 
 ## Manual Setup
@@ -109,3 +110,6 @@ code --install-extension qinjia.view-in-browser
 
 - [View In Browser](https://marketplace.visualstudio.com/items?itemName=qinjia.view-in-browser)
   - command: `ext install view-in-browser`
+
+- [YAML](https://marketplace.visualstudio.com/items?itemName=adamvoss.yaml)
+  - command: `ext install yaml`
