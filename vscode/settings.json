@@ -26,5 +26,5 @@
   "window.nativeTabs": true,
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.welcome.enabled": false
+  "workbench.startupEditor": "newUntitledFile"
 }
