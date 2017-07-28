@@ -7,6 +7,7 @@
 [SkipTunes]
 [Volume]
 [Bartender]
+[iStat CPU]
 [iStat Sensor]
 [XMenu]
 [Little Snitch]

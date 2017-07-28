@@ -1,6 +1,10 @@
 # iStat Menus
 
 ```sh
+# cpu
+
+[^v^v^v]
+
 # network
 
 ↗ 222.2 KB/s
