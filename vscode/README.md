@@ -23,6 +23,7 @@ code --install-extension EditorConfig.EditorConfig
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension donjayamanne.githistory
 code --install-extension eamodio.gitlens
+code --install-extension yzhang.markdown-all-in-one
 code --install-extension PKief.markdown-checkbox
 code --install-extension PKief.material-icon-theme
 code --install-extension zhuangtongfa.Material-theme
@@ -69,6 +70,9 @@ code --install-extension qinjia.view-in-browser
 
 - [Git Lens — git blame annotations, code lens, and more](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
   - command: `ext install gitlens`
+
+- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+  - command: `ext install markdown-all-in-one`
 
 - [Markdown Checkbox](https://marketplace.visualstudio.com/items?itemName=PKief.markdown-checkbox)
   - command: `ext install markdown-checkbox`
