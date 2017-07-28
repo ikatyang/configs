@@ -25,6 +25,7 @@ code --install-extension donjayamanne.githistory
 code --install-extension eamodio.gitlens
 code --install-extension yzhang.markdown-all-in-one
 code --install-extension PKief.markdown-checkbox
+code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension PKief.material-icon-theme
 code --install-extension zhuangtongfa.Material-theme
 code --install-extension christian-kohler.path-intellisense
@@ -76,6 +77,9 @@ code --install-extension qinjia.view-in-browser
 
 - [Markdown Checkbox](https://marketplace.visualstudio.com/items?itemName=PKief.markdown-checkbox)
   - command: `ext install markdown-checkbox`
+
+- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+  - command: `ext install vscode-markdownlint`
 
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
   - command: `ext install material-icon-theme`
