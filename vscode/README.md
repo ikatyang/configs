@@ -32,6 +32,7 @@ code --install-extension christian-kohler.path-intellisense
 code --install-extension esbenp.prettier-vscode
 code --install-extension richie5um2.vscode-sort-json
 code --install-extension Tyriar.sort-lines
+code --install-extension wayou.vscode-todo-highlight
 code --install-extension eg2.tslint
 code --install-extension rbbit.typescript-hero
 code --install-extension qinjia.view-in-browser
@@ -100,6 +101,9 @@ code --install-extension adamvoss.yaml
 
 - [Sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)
   - command: `ext install sort-lines`
+
+- [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
+  - command: `ext install vscode-todo-highlight`
 
 - [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
   - tslint.json
