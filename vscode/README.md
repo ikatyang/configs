@@ -29,6 +29,7 @@ code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension PKief.material-icon-theme
 code --install-extension zhuangtongfa.Material-theme
 code --install-extension christian-kohler.path-intellisense
+code --install-extension esbenp.prettier-vscode
 code --install-extension richie5um2.vscode-sort-json
 code --install-extension Tyriar.sort-lines
 code --install-extension eg2.tslint
@@ -89,6 +90,9 @@ code --install-extension qinjia.view-in-browser
 
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
   - command: `ext install path-intellisense`
+
+- [Prettier - JavaScript formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+  - command: `ext install prettier-vscode`
 
 - [Sort JSON objects](https://marketplace.visualstudio.com/items?itemName=richie5um2.vscode-sort-json)
   - command: `ext install vscode-sort-json`
