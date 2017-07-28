@@ -1,6 +1,7 @@
 # vscode
 
 require font: `WenQuanYi Mono for Powerline`
+
 - install with [zsh configs](../others/zsh.md)
 - install manually: [WenQuanYi-Mono-for-Powerline.ttf](https://github.com/ikatyang/zsh-theme/raw/master/fonts/WenQuanYi-Mono-for-Powerline.ttf)
 
@@ -17,6 +18,7 @@ ln -sf ~/Documents/Github/configs/vscode/keybindings.json ~/Library/Application\
 
 # install extensions
 code --install-extension sgtsquiggs.vscode-active-file-status
+code --install-extension wmaurer.change-case
 code --install-extension EditorConfig.EditorConfig
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension donjayamanne.githistory
@@ -50,6 +52,9 @@ code --install-extension qinjia.view-in-browser
 
 - [Active File Status](https://marketplace.visualstudio.com/items?itemName=sgtsquiggs.vscode-active-file-status)
   - command: `ext install vscode-active-file-status`
+
+- [change-case](https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)
+  - command: `ext install change-case`
 
 - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
   - .editorconfig
