@@ -7,5 +7,10 @@
     "key": "alt+space",
     "command": "editor.action.triggerSuggest",
     "when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+f",
+    "command": "editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
   }
 ]
