@@ -30,6 +30,7 @@ code --install-extension PKief.material-icon-theme
 code --install-extension zhuangtongfa.Material-theme
 code --install-extension christian-kohler.path-intellisense
 code --install-extension esbenp.prettier-vscode
+code --install-extension chrmarti.regex
 code --install-extension richie5um2.vscode-sort-json
 code --install-extension Tyriar.sort-lines
 code --install-extension wayou.vscode-todo-highlight
@@ -95,6 +96,9 @@ code --install-extension adamvoss.yaml
 
 - [Prettier - JavaScript formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
   - command: `ext install prettier-vscode`
+
+- [Regex Previewer](https://marketplace.visualstudio.com/items?itemName=chrmarti.regex)
+  - command: `ext install regex`
 
 - [Sort JSON objects](https://marketplace.visualstudio.com/items?itemName=richie5um2.vscode-sort-json)
   - command: `ext install vscode-sort-json`
