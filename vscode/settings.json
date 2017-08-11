@@ -1,7 +1,6 @@
 {
   "debug.inlineValues": true,
   "diffEditor.ignoreTrimWhitespace": false,
-  "editor.autoIndent": true,
   "editor.dragAndDrop": true,
   "editor.fontFamily": "WenQuanYi Mono for Powerline",
   "editor.minimap.enabled": true,
@@ -23,17 +22,17 @@
   "prettier.bracketSpacing": true,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all",
+  "todohighlight.keywords": [
+    {
+      "backgroundColor": "rgba(0,0,0,0)",
+      "border": "1px solid red",
+      "borderRadius": "2px",
+      "color": "red",
+      "text": "TODO:"
+    }
+  ],
   "window.nativeTabs": true,
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.startupEditor": "newUntitledFile",
-  "todohighlight.keywords": [
-    {
-      "text": "TODO:",
-      "color": "red",
-      "border": "1px solid red",
-      "borderRadius": "2px",
-      "backgroundColor": "rgba(0,0,0,0)"
-    }
-  ]
+  "workbench.startupEditor": "newUntitledFile"
 }
