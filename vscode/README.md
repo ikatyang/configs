@@ -17,6 +17,7 @@ ln -sf ~/Documents/Github/configs/vscode/settings.json ~/Library/Application\ Su
 ln -sf ~/Documents/Github/configs/vscode/keybindings.json ~/Library/Application\ Support/Code/User
 
 # install extensions
+code --install-extension bierner.emojisense
 code --install-extension sgtsquiggs.vscode-active-file-status
 code --install-extension wmaurer.change-case
 code --install-extension EditorConfig.EditorConfig
@@ -25,6 +26,9 @@ code --install-extension donjayamanne.githistory
 code --install-extension eamodio.gitlens
 code --install-extension yzhang.markdown-all-in-one
 code --install-extension PKief.markdown-checkbox
+code --install-extension bierner.markdown-checkbox
+code --install-extension bierner.markdown-preview-github-styles
+code --install-extension bierner.markdown-emoji
 code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension PKief.material-icon-theme
 code --install-extension zhuangtongfa.Material-theme
@@ -56,6 +60,9 @@ code --install-extension adamvoss.yaml
 
 ## Extensions
 
+- [:emojisense:](https://marketplace.visualstudio.com/items?itemName=bierner.emojisense)
+  - command: `ext install emojisense`
+
 - [Active File Status](https://marketplace.visualstudio.com/items?itemName=sgtsquiggs.vscode-active-file-status)
   - command: `ext install vscode-active-file-status`
 
@@ -81,6 +88,15 @@ code --install-extension adamvoss.yaml
 
 - [Markdown Checkbox](https://marketplace.visualstudio.com/items?itemName=PKief.markdown-checkbox)
   - command: `ext install markdown-checkbox`
+
+- [Markdown Checkboxes](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-checkbox)
+  - command: `ext install markdown-checkbox`
+
+- [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
+  - command: `ext install markdown-preview-github-styles`
+
+- [markdown-emoji](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-emoji)
+  - command: `ext install markdown-emoji`
 
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
   - command: `ext install vscode-markdownlint`
