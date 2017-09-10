@@ -1,9 +1,7 @@
 {
   "debug.inlineValues": true,
   "diffEditor.ignoreTrimWhitespace": false,
-  "editor.dragAndDrop": true,
   "editor.fontFamily": "WenQuanYi Mono for Powerline",
-  "editor.minimap.enabled": true,
   "editor.minimap.renderCharacters": false,
   "editor.quickSuggestions": {
     "comments": true,
@@ -11,17 +9,12 @@
     "strings": true
   },
   "editor.renderControlCharacters": false,
-  "editor.renderIndentGuides": true,
   "editor.renderWhitespace": "all",
   "editor.rulers": [80, 120],
   "editor.wordWrap": "on",
   "explorer.openEditors.dynamicHeight": false,
   "explorer.openEditors.visible": 5,
   "gitlens.codeLens.enabled": false,
-  "gitlens.stashExplorer.enabled": true,
-  "prettier.bracketSpacing": true,
-  "prettier.singleQuote": true,
-  "prettier.trailingComma": "all",
   "todohighlight.keywords": [
     {
       "backgroundColor": "rgba(0,0,0,0)",
