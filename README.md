@@ -48,22 +48,22 @@ sudo spctl --master-disable
 | social  | [Telegram Desktop][telegram]        | [Mac App Store][telegram-app]               |                                 |
 | social  | [Caprine][caprine]                  | `brew cask install caprine`                 |                                 |
 | menubar | [Clipy][clipy]                      | `brew cask install clipy`                   |                                 |
-| menubar | [XMenu][xmenu]                      | [Mac App Store][xmenu-app]                  |                                 |
+| menubar | ~~[XMenu][xmenu]~~                  | [Mac App Store][xmenu-app]                  |                                 |
 | menubar | 💰 [Bartender][bartender]           | `brew cask install bartender`               | [configs][bartender-configs]    |
 | menubar | 💰 [Skip Tunes][skip-tunes]         | [Mac App Store][skip-tunes-app]             |                                 |
 | menubar | 💰 [iStat Menus][istat-menus]       | `brew cask install istat-menus`             | [configs][istat-menus-configs]  |
-|         | [p7zip][p7zip]                      | `brew install p7zip`                        |                                 |
+|         | ~~[p7zip][p7zip]~~                  | `brew install p7zip`                        |                                 |
 |         | [Lightshot Screenshot][screenshot]  | [Mac App Store][screenshot-app]             | shortcut: ⌃⌥⇧A               |
-|         | [Scroll Reverser][scroll-reverser]  | `brew cask install scroll-reverser`         | disable `Reverse Trackpad`      |
+|         | ~~[Scroll Reverser][scroll-reverser]~~ | `brew cask install scroll-reverser`      | disable `Reverse Trackpad`      |
 |         | [VLC media player][vlc]             | `brew cask install vlc`                     |                                 |
 |         | [Yahoo KeyKey][yahoo-keykey]        | [Download][yahoo-keykey-download]           | [configs][yahoo-keykey-configs] |
-|         | [Splash XDisplay][xdisplay]         | [Download][xdisplay-download]               |                                 |
-|         | [Soundflower][soundflower]          | `brew cask install soundflower`             |                                 |
+|         | ~~[Splash XDisplay][xdisplay]~~     | [Download][xdisplay-download]               |                                 |
+|         | ~~[Soundflower][soundflower]~~      | `brew cask install soundflower`             |                                 |
 |         | [Kap][kap]                          | `brew cask install kap`                     |                                 |
 |         | 💰 [Reeder][reeder]                 | [Mac App Store][reeder-app]                 | [configs][reeder-configs]       |
-|         | 💰 [CleanMyMac][cleanmymac]         | `brew cask install cleanmymac`              |                                 |
+|         | ~~💰 [CleanMyMac][cleanmymac]~~     | `brew cask install cleanmymac`              |                                 |
 |         | 💰 [Moom][moom]                     | [Mac App Store][moom-app]                   | grid with `12` x `4` cells      |
-|         | 💰 [Little Snitch][little-snitch]   | `brew cask install little-snitch`           |                                 |
+|         | ~~💰 [Little Snitch][little-snitch]~~ | `brew cask install little-snitch`         |                                 |
 |         | 💰 [jitouch][jitouch]               | `brew cask install jitouch`                 | [configs][jitouch-configs]      |
 
 #### System Preferences
