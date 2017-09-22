@@ -1,9 +1,10 @@
 # jitouch configs
 
-#### trackpad
+#### magic mouse
 
-| Gesture           | Action              |
-| ----------------- | ------------------- |
-| One-Fix Right-Tap | Middle Click        |
-| Pinky-To-Index    | Screenshot ( ⌃⌥A ) |
-| Index-To-Pinky    | Screenshot ( ⌃⌥A ) |
+| Gesture                    | Action            |
+| -------------------------- | ----------------- |
+| Middle-Fix Index-Near-Tap  | Next Tab          |
+| Middle-Fix Index-Far-Tap   | Previous Tab      |
+| Middle-Fix Index-Slide-Out | Close / Close Tab |
+| Middle-Fix Index-Slide-In  | Refresh           |

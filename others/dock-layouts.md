@@ -3,6 +3,8 @@
 ```sh
 [Finder]
 [Mail]
+[Calendar]
+[Reminders]
 [Google Keep]
 [TextEdit]
 [Google Chrome]
