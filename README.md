@@ -4,6 +4,13 @@ configs for ikatyang
 
 ## macOS
 
+- show hidden files
+
+  ```sh
+  defaults write com.apple.finder AppleShowAllFiles true
+  killall Finder
+  ```
+
 Install [Brew](https://brew.sh/) ( package manager for macOS )
 
 ```sh
