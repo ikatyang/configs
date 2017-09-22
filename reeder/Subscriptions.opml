@@ -8,15 +8,5 @@
 		<outline htmlUrl="https://www.oschina.net/?from=rss" title="OSChina News" xmlUrl="https://www.oschina.net/news/rss?show=%E7%BB%BC%E5%90%88%E6%96%B0%E9%97%BB" type="rss" text="OSChina News"/>
 		<outline htmlUrl="http://www.ruanyifeng.com/blog/" title="Ruanyf Blog" xmlUrl="http://feeds.feedburner.com/ruanyifeng" type="rss" text="Ruanyf Blog"/>
 		<outline htmlUrl="http://code.visualstudio.com/" title="VSCode Blog" xmlUrl="https://code.visualstudio.com/feed.xml" type="rss" text="VSCode Blog"/>
-		<outline text="Release" title="Release">
-			<outline htmlUrl="https://github.com/facebook/jest/releases" title="Release from jest" xmlUrl="https://github.com/facebook/jest/releases.atom" type="rss" text="Release from jest"/>
-			<outline htmlUrl="https://github.com/lerna/lerna/releases" title="Release from lerna" xmlUrl="https://github.com/lerna/lerna/releases.atom" type="rss" text="Release from lerna"/>
-			<outline htmlUrl="https://github.com/nodejs/node/releases" title="Release from node" xmlUrl="https://github.com/nodejs/node/releases.atom" type="rss" text="Release from node"/>
-			<outline htmlUrl="https://github.com/palantir/tslint/releases" title="Release from tslint" xmlUrl="https://github.com/palantir/tslint/releases.atom" type="rss" text="Release from tslint"/>
-			<outline htmlUrl="https://github.com/buzinas/tslint-eslint-rules/releases" title="Release from tslint-eslint-rules" xmlUrl="https://github.com/buzinas/tslint-eslint-rules/releases.atom" type="rss" text="Release from tslint-eslint-rules"/>
-			<outline htmlUrl="https://github.com/Microsoft/TypeScript/releases" title="Release from TypeScript" xmlUrl="https://github.com/Microsoft/TypeScript/releases.atom" type="rss" text="Release from TypeScript"/>
-			<outline htmlUrl="https://github.com/Microsoft/vscode/releases" title="Release from vscode" xmlUrl="https://github.com/Microsoft/vscode/releases.atom" type="rss" text="Release from vscode"/>
-			<outline htmlUrl="https://github.com/yarnpkg/yarn/releases" title="Release from yarn" xmlUrl="https://github.com/yarnpkg/yarn/releases.atom" type="rss" text="Release from yarn"/>
-		</outline>
 	</body>
 </opml>
