@@ -43,7 +43,7 @@ sudo spctl --master-disable
 | prog    | [nvm][nvm]                          | `brew install nvm`                          | [configs][nvm-configs]          |
 | prog    | [Node.js][nodejs]                   | `brew install node`                         |                                 |
 | prog    | [Watchman][watchman]                | `brew install watchman`                     |                                 |
-| prog    | [Hyper][hyper]                      | `brew cask install hyper`                   |                                 |
+| prog    | [Hyper][hyper]                      | `brew cask install hyper`                   | [configs][hyper-configs]        |
 | office  | [Pages][pages]                      | [Mac App Store][pages-app]                  |                                 |
 | office  | [Numbers][numbers]                  | [Mac App Store][numbers-app]                |                                 |
 | office  | [Keynote][keynote]                  | [Mac App Store][keynote-app]                |                                 |
@@ -137,6 +137,7 @@ sudo spctl --master-disable
 [git-configs]:          https://github.com/ikatyang/configs/tree/master/others/git.md         "git configs"
 [zsh-configs]:          https://github.com/ikatyang/configs/tree/master/others/zsh.md         "zsh configs"
 [nvm-configs]:          https://github.com/ikatyang/configs/tree/master/others/nvm.md         "nvm configs"
+[hyper-configs]:        https://github.com/ikatyang/configs/tree/master/hyper/                "hyper configs"
 [vscode-configs]:       https://github.com/ikatyang/configs/tree/master/vscode/               "vscode configs"
 [tmux-configs]:         https://github.com/ikatyang/configs/tree/master/others/tmux.md        "tmux configs"
 [bartender-configs]:    https://github.com/ikatyang/configs/tree/master/others/bartender.md   "bartender configs"
