@@ -43,6 +43,7 @@ sudo spctl --master-disable
 | prog    | [nvm][nvm]                          | `brew install nvm`                          | [configs][nvm-configs]          |
 | prog    | [Node.js][nodejs]                   | `brew install node`                         |                                 |
 | prog    | [Watchman][watchman]                | `brew install watchman`                     |                                 |
+| prog    | [Hyper][hyper]                      | `brew cask install hyper`                   |                                 |
 | office  | [Pages][pages]                      | [Mac App Store][pages-app]                  |                                 |
 | office  | [Numbers][numbers]                  | [Mac App Store][numbers-app]                |                                 |
 | office  | [Keynote][keynote]                  | [Mac App Store][keynote-app]                |                                 |
@@ -87,6 +88,7 @@ sudo spctl --master-disable
 [nvm]:              https://github.com/creationix/nvm       "nvm: nodejs version manager"
 [nodejs]:           https://nodejs.org/                     "Node.js: javascript runtime"
 [watchman]:         https://facebook.github.io/watchman/    "Watchman: a file watching service"
+[hyper]:            https://hyper.is/                       "Hyper: A terminal built on web technologies"
 [pages]:            https://www.apple.com/pages/            "Pages"
 [numbers]:          https://www.apple.com/numbers/          "Numbers"
 [keynote]:          https://www.apple.com/keynote/          "Keynote"
