@@ -28,5 +28,9 @@
     "key": "alt+s",
     "command": "eslint.executeAutofix",
     "when": "editorLangId == 'javascriptreact' && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+[Backquote]",
+    "command": "workbench.action.terminal.toggleTerminal"
   }
 ]
