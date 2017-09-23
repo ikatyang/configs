@@ -1,5 +1,13 @@
 # Zsh
 
+- set `zsh` as default login shell
+
+  ```sh
+  chsh -s /bin/zsh
+  ```
+
+  NOTE: need to restart to apply changes
+
 - Install [`oh-my-zsh`](https://github.com/robbyrussell/oh-my-zsh)
 
   ```sh
@@ -24,3 +32,18 @@
     ```
 
     NOTE: `oh-my-zsh` overrides the prompt so Pure must be activated after `source $ZSH/oh-my-zsh.sh`.
+
+- Setup [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/)
+
+  - install zsh-syntax-highlighting
+
+    ```sh
+    brew install zsh-syntax-highlighting
+    ```
+
+  - activate syntax highlighting
+
+    ```sh
+    # add the following at the end of .zshrc
+    source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+    ```
