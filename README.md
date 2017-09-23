@@ -24,6 +24,10 @@ Install [Brew](https://brew.sh/) ( package manager for macOS )
 sudo spctl --master-disable
 ```
 
+#### Fonts
+
+- See [fonts](https://github.com/ikatyang/configs/tree/master/fonts/)
+
 #### Apps
 
 | Type    | Application                         | Install                                     | configs                         |
