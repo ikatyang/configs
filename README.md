@@ -36,7 +36,7 @@ sudo spctl --master-disable
 | prog    | [Visual Studio Code][vscode]        | `brew cask install visual-studio-code`      | [configs][vscode-configs]       |
 | prog    | [Yarn][yarn]                        | `brew install yarn`                         |                                 |
 | prog    | [tmux][tmux]                        | `brew install tmux`                         | [configs][tmux-configs]         |
-| prog    | [nvm][nvm]                          | `brew install nvm`                          |                                 |
+| prog    | [nvm][nvm]                          | `brew install nvm`                          | [configs][nvm-configs]          |
 | prog    | [Node.js][nodejs]                   | `brew install node`                         |                                 |
 | prog    | [Watchman][watchman]                | `brew install watchman`                     |                                 |
 | office  | [Pages][pages]                      | [Mac App Store][pages-app]                  |                                 |
@@ -130,6 +130,7 @@ sudo spctl --master-disable
 
 [git-configs]:          https://github.com/ikatyang/configs/tree/master/others/git.md         "git configs"
 [zsh-configs]:          https://github.com/ikatyang/configs/tree/master/others/zsh.md         "zsh configs"
+[nvm-configs]:          https://github.com/ikatyang/configs/tree/master/others/nvm.md         "nvm configs"
 [vscode-configs]:       https://github.com/ikatyang/configs/tree/master/vscode/               "vscode configs"
 [tmux-configs]:         https://github.com/ikatyang/configs/tree/master/others/tmux.md        "tmux configs"
 [bartender-configs]:    https://github.com/ikatyang/configs/tree/master/others/bartender.md   "bartender configs"
