@@ -38,6 +38,7 @@ sudo spctl --master-disable
 | prog    | [tmux][tmux]                        | `brew install tmux`                         | [configs][tmux-configs]         |
 | prog    | [nvm][nvm]                          | `brew install nvm`                          |                                 |
 | prog    | [Node.js][nodejs]                   | `brew install node`                         |                                 |
+| prog    | [Watchman][watchman]                | `brew install watchman`                     |                                 |
 | office  | [Pages][pages]                      | [Mac App Store][pages-app]                  |                                 |
 | office  | [Numbers][numbers]                  | [Mac App Store][numbers-app]                |                                 |
 | office  | [Keynote][keynote]                  | [Mac App Store][keynote-app]                |                                 |
@@ -81,6 +82,7 @@ sudo spctl --master-disable
 [tmux]:             https://tmux.github.io/                 "tmux: terminal multiplexer"
 [nvm]:              https://github.com/creationix/nvm       "nvm: nodejs version manager"
 [nodejs]:           https://nodejs.org/                     "Node.js: javascript runtime"
+[watchman]:         https://facebook.github.io/watchman/    "Watchman: a file watching service"
 [pages]:            https://www.apple.com/pages/            "Pages"
 [numbers]:          https://www.apple.com/numbers/          "Numbers"
 [keynote]:          https://www.apple.com/keynote/          "Keynote"
