@@ -2,19 +2,16 @@
 
 require font: `WenQuanYi Mono for Powerline`
 
-- install with [zsh configs](../others/zsh.md)
-- install manually: [WenQuanYi-Mono-for-Powerline.ttf](https://github.com/ikatyang/zsh-theme/raw/master/fonts/WenQuanYi-Mono-for-Powerline.ttf)
-
 ## Quick Setup
 
 ```sh
 # retain git repository for version control
-git clone https://github.com/ikatyang/configs.git ~/Documents/Github/configs
+git clone https://github.com/ikatyang/configs.git ~/Documents/Github/ikatyang/configs
 
 # link configs
-ln -sf ~/Documents/Github/configs/vscode/locale.json ~/Library/Application\ Support/Code/User
-ln -sf ~/Documents/Github/configs/vscode/settings.json ~/Library/Application\ Support/Code/User
-ln -sf ~/Documents/Github/configs/vscode/keybindings.json ~/Library/Application\ Support/Code/User
+ln -sf ~/Documents/Github/ikatyang/configs/vscode/locale.json ~/Library/Application\ Support/Code/User
+ln -sf ~/Documents/Github/ikatyang/configs/vscode/settings.json ~/Library/Application\ Support/Code/User
+ln -sf ~/Documents/Github/ikatyang/configs/vscode/keybindings.json ~/Library/Application\ Support/Code/User
 
 # install extensions
 code --install-extension bierner.emojisense
