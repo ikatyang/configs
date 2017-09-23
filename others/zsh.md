@@ -1,20 +1,26 @@
 # Zsh
 
-require Node.js v6 or above
+- Install [`oh-my-zsh`](https://github.com/robbyrussell/oh-my-zsh)
 
-```sh
-# Install oh-my-zsh (https://github.com/robbyrussell/oh-my-zsh)
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  ```sh
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  ```
 
-# Install my zsh theme (https://github.com/ikatyang/zsh-theme), retain git repository for version control
-git clone https://github.com/ikatyang/zsh-theme.git ~/Documents/Github/zsh-theme
-cp ~/Documents/Github/zsh-theme/fonts/WenQuanYi-Mono-for-Powerline.ttf /Library/Fonts/
-ln -sf ~/Documents/Github/zsh-theme/ikatyang.zsh-theme ~/.oh-my-zsh/themes/
-node ~/Documents/Github/zsh-theme/scripts/set-theme.js ikatyang
-```
+- Setup [pure](https://github.com/sindresorhus/pure)
 
-Terminal.app
-- Font
-  - WenQuanYi Mono for Powerline 12 pt
-- Text
-  - [x] Antialias text
+  - Set `ZSH_THEME=""` in your `.zshrc` to disable `oh-my-zsh` themes.
+  - Install pure
+
+    ```sh
+    npm install -g pure-prompt
+    ```
+
+  - Initialize the prompt system (if not so already) and choose `pure`:
+
+    ```sh
+    # .zshrc
+    autoload -U promptinit; promptinit
+    prompt pure
+    ```
+
+    NOTE: `oh-my-zsh` overrides the prompt so Pure must be activated after `source $ZSH/oh-my-zsh.sh`.
