@@ -115,7 +115,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ['hyper-snazzy', 'hypercwd', 'hyperterm-paste'],
+  plugins: ['hyper-snazzy', 'hypercwd', 'hyperterm-paste', 'hyperlinks'],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
@@ -125,5 +125,5 @@ module.exports = {
   keymaps: {
     // Example
     // 'window:devtools': 'cmd+alt+o',
-  }
+  },
 };

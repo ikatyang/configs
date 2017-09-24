@@ -40,7 +40,7 @@ sudo spctl --master-disable
 | prog    | [Xcode][xcode]                      | [Mac App Store][xcode-app]                  |                                 |
 | prog    | [Visual Studio Code][vscode]        | `brew cask install visual-studio-code`      | [configs][vscode-configs]       |
 | prog    | [Yarn][yarn]                        | `brew install yarn`                         |                                 |
-| prog    | [tmux][tmux]                        | `brew install tmux`                         | [configs][tmux-configs]         |
+| prog    | ~~[tmux][tmux]~~                    | `brew install tmux`                         | [configs][tmux-configs]         |
 | prog    | [nvm][nvm]                          | `brew install nvm`                          | [configs][nvm-configs]          |
 | prog    | [Node.js][nodejs]                   | `brew install node`                         |                                 |
 | prog    | [Watchman][watchman]                | `brew install watchman`                     |                                 |
@@ -64,6 +64,7 @@ sudo spctl --master-disable
 | menubar | [Clocker][clocker]                  | [Mac App Store][clocker-app]                |                                 |
 | menubar | 💰 [Battery Indicator][batt-ind]    | [Mac App Store][batt-ind-app]               |                                 |
 | menubar | [MenuMeters][menumeters]            | `brew cask install yujitach-menumeters`     |                                 |
+|         | [CheatSheet][cheatsheet]            | `brew cask install cheatsheet`              |                                 |
 |         | [Battery Monitor][batt-mon]         | [Mac App Store][batt-mon-app]               |                                 |
 |         | [X Lossless Decoder][xld]           | `brew cask install xld`                     |                                 |
 |         | ~~[p7zip][p7zip]~~                  | `brew install p7zip`                        |                                 |
@@ -79,7 +80,7 @@ sudo spctl --master-disable
 |         | ~~💰 [CleanMyMac][cleanmymac]~~     | `brew cask install cleanmymac`              |                                 |
 |         | 💰 [Moom][moom]                     | [Mac App Store][moom-app]                   | grid with `12` x `4` cells      |
 |         | ~~💰 [Little Snitch][little-snitch]~~ | `brew cask install little-snitch`         |                                 |
-|         | 💰 [jitouch][jitouch]               | `brew cask install jitouch`                 | [configs][jitouch-configs]      |
+|         | [jitouch][jitouch]                  | `brew cask install jitouch`                 | [configs][jitouch-configs]      |
 
 #### System Preferences
 
@@ -133,6 +134,7 @@ sudo spctl --master-disable
 [mini-calen]:       https://www.antlogic.com/forum/         "Mini Calendar"
 [clocker]:          https://github.com/abhishekbanthia/Clocker "Clocker: macOS app to plan and organize through timezones."
 [menumeters]:       https://github.com/yujitach/MenuMeters  "MenuMeters"
+[cheatsheet]:       https://www.cheatsheetapp.com/CheatSheet/ "CheatSheet"
 
 [xcode-app]:      https://itunes.apple.com/app/id497799835  "Xcode from Mac App Store"
 [pages-app]:      https://itunes.apple.com/app/id409201541  "Pages from Mac App Store"

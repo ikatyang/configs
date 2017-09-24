@@ -14,7 +14,7 @@
   # Hot Corners
 
     top-left: Mission Control
-    top-right: Application Window
+    top-right: Deskptop
     bottom-left: Launchpad
     bottom-right: Put Display to Sleep
 

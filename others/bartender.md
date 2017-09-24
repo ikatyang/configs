@@ -4,24 +4,23 @@
 # visible (ordered)
 
 [Hangouts]
-[SkipTunes]
 [Volume]
-[Bartender]
-[iStat CPU]
-[iStat Sensor]
-[XMenu]
-[Little Snitch]
-[iStat Network]
+[MenuMeters CPU]
+[Battery Indicator]
+[Bluetooth]
+[MenuMeters Network]
 [Wi-Fi]
-[iStat Battery]
-[iStat Time]
+[Mini Calendar]
+[Clocker]
 [Input Methods]
 [Spotlight]
 [Notification]
 
 # collapsed (non-ordered)
 
-[CleanMyMac]
+[Lungo]
 [Clipy]
-[Bluetooth]
+[Lightshot Screenshot]
+[Google Backup and Sync]
+[jitouch]
 ```
