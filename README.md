@@ -135,6 +135,7 @@ sudo spctl --master-disable
 [clocker]:          https://github.com/abhishekbanthia/Clocker "Clocker: macOS app to plan and organize through timezones."
 [menumeters]:       https://github.com/yujitach/MenuMeters  "MenuMeters"
 [cheatsheet]:       https://www.cheatsheetapp.com/CheatSheet/ "CheatSheet"
+[gsync]:            https://www.google.com/drive/download/  "Google Backup and Sync"
 
 [xcode-app]:      https://itunes.apple.com/app/id497799835  "Xcode from Mac App Store"
 [pages-app]:      https://itunes.apple.com/app/id409201541  "Pages from Mac App Store"
