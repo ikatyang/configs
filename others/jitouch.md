@@ -12,7 +12,7 @@ Right-handed
 | One-Fix Right-Tap         | Next Tab                |
 | Two-Fix Index-Double-Tap  | Refresh                 |
 | Two-Fix Middle-Double-Tap | Close / Close Tab       |
-| Index to Pinky            | shortcut for screenshot |
+| Pinky to Index            | shortcut for screenshot |
 
 #### magic mouse
 
