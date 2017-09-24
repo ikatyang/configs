@@ -64,6 +64,7 @@ sudo spctl --master-disable
 | menubar | [Clocker][clocker]                  | [Mac App Store][clocker-app]                |                                 |
 | menubar | 💰 [Battery Indicator][batt-ind]    | [Mac App Store][batt-ind-app]               |                                 |
 | menubar | [MenuMeters][menumeters]            | `brew cask install yujitach-menumeters`     |                                 |
+|         | [Spectecle][spectacle]              | `brew cask install spectacle`               | [configs][spectacle-configs]    |
 |         | [CheatSheet][cheatsheet]            | `brew cask install cheatsheet`              |                                 |
 |         | [Battery Monitor][batt-mon]         | [Mac App Store][batt-mon-app]               |                                 |
 |         | [X Lossless Decoder][xld]           | `brew cask install xld`                     |                                 |
@@ -136,6 +137,7 @@ sudo spctl --master-disable
 [menumeters]:       https://github.com/yujitach/MenuMeters  "MenuMeters"
 [cheatsheet]:       https://www.cheatsheetapp.com/CheatSheet/ "CheatSheet"
 [gsync]:            https://www.google.com/drive/download/  "Google Backup and Sync"
+[spectacle]:        https://github.com/eczarny/spectacle/   "Spectacle: organize windows"
 
 [xcode-app]:      https://itunes.apple.com/app/id497799835  "Xcode from Mac App Store"
 [pages-app]:      https://itunes.apple.com/app/id409201541  "Pages from Mac App Store"
@@ -170,6 +172,7 @@ sudo spctl --master-disable
 [reeder-configs]:       https://github.com/ikatyang/configs/tree/master/reeder/               "reeder configs"
 [jitouch-configs]:      https://github.com/ikatyang/configs/tree/master/others/jitouch.md     "jitouch configs"
 [yahoo-keykey-configs]: https://github.com/ikatyang/configs/tree/master/yahoo-keykey/         "yahoo-keykey configs"
+[spectacle-configs]:    https://github.com/ikatyang/configs/tree/master/others/spectacle.md   "Spectacle configs"
 
 [dock-layouts]:         https://github.com/ikatyang/configs/tree/master/others/dock-layouts.md "dock layouts"
 [system-preferences]:   https://github.com/ikatyang/configs/tree/master/others/system-preferences.md "system preferences"
