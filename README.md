@@ -34,6 +34,7 @@ sudo spctl --master-disable
 | ------- | ----------------------------------- | ------------------------------------------- | ------------------------------- |
 | browser | [Google Chrome][chrome]             | `brew cask install google-chrome`           |                                 |
 | cloud   | [Google Drive][gdrive]              | `brew cask install google-drive`            |                                 |
+| cloud   | [Google Backup and Sync][gsync]     | `brew cask install google-backup-and-sync`  |                                 |
 | prog    | [Git][git]                          | built-in                                    | [configs][git-configs]          |
 | prog    | [Zsh][zsh]                          | built-in                                    | [configs][zsh-configs]          |
 | prog    | [Xcode][xcode]                      | [Mac App Store][xcode-app]                  |                                 |
@@ -55,18 +56,26 @@ sudo spctl --master-disable
 | social  | [Caprine][caprine]                  | `brew cask install caprine`                 |                                 |
 | menubar | [Clipy][clipy]                      | `brew cask install clipy`                   |                                 |
 | menubar | ~~[XMenu][xmenu]~~                  | [Mac App Store][xmenu-app]                  |                                 |
-| menubar | 💰 [Bartender][bartender]           | `brew cask install bartender`               | [configs][bartender-configs]    |
+| menubar | ~~💰 [Bartender][bartender]~~       | `brew cask install bartender`               | [configs][bartender-configs]    |
 | menubar | 💰 [Skip Tunes][skip-tunes]         | [Mac App Store][skip-tunes-app]             |                                 |
-| menubar | 💰 [iStat Menus][istat-menus]       | `brew cask install istat-menus`             | [configs][istat-menus-configs]  |
+| menubar | ~~💰 [iStat Menus][istat-menus]~~   | `brew cask install istat-menus`             | [configs][istat-menus-configs]  |
+| menubar | [vanilla][vanilla]                  | `brew cask install vanilla`                 |                                 |
+| menubar | [Mini Calendar][mini-calen]         | [Mac App Store][mini-calen-app]             |                                 |
+| menubar | [Clocker][clocker]                  | [Mac App Store][clocker-app]                |                                 |
+| menubar | 💰 [Battery Indicator][batt-ind]    | [Mac App Store][batt-ind-app]               |                                 |
+| menubar | [MenuMeters][menumeters]            | `brew cask install yujitach-menumeters`     |                                 |
+|         | [Battery Monitor][batt-mon]         | [Mac App Store][batt-mon-app]               |                                 |
+|         | [X Lossless Decoder][xld]           | `brew cask install xld`                     |                                 |
 |         | ~~[p7zip][p7zip]~~                  | `brew install p7zip`                        |                                 |
 |         | [Lightshot Screenshot][screenshot]  | [Mac App Store][screenshot-app]             | shortcut: ⌃⌥⇧A               |
 |         | ~~[Scroll Reverser][scroll-reverser]~~ | `brew cask install scroll-reverser`      | disable `Reverse Trackpad`      |
 |         | [VLC media player][vlc]             | `brew cask install vlc`                     |                                 |
-|         | [Yahoo KeyKey][yahoo-keykey]        | [Download][yahoo-keykey-download]           | [configs][yahoo-keykey-configs] |
+|         | ~~[Yahoo KeyKey][yahoo-keykey]~~    | [Download][yahoo-keykey-download]           | [configs][yahoo-keykey-configs] |
 |         | ~~[Splash XDisplay][xdisplay]~~     | [Download][xdisplay-download]               |                                 |
 |         | ~~[Soundflower][soundflower]~~      | `brew cask install soundflower`             |                                 |
 |         | [Kap][kap]                          | `brew cask install kap`                     |                                 |
-|         | 💰 [Reeder][reeder]                 | [Mac App Store][reeder-app]                 | [configs][reeder-configs]       |
+|         | ~~💰 [Reeder][reeder]~~             | [Mac App Store][reeder-app]                 | [configs][reeder-configs]       |
+|         | [feedly][feedly]                    | [Mac App Store][feedly-app]                 |                                 |
 |         | ~~💰 [CleanMyMac][cleanmymac]~~     | `brew cask install cleanmymac`              |                                 |
 |         | 💰 [Moom][moom]                     | [Mac App Store][moom-app]                   | grid with `12` x `4` cells      |
 |         | ~~💰 [Little Snitch][little-snitch]~~ | `brew cask install little-snitch`         |                                 |
@@ -103,11 +112,14 @@ sudo spctl --master-disable
 [bartender]:        https://www.macbartender.com/           "Bartender: menubar icon manager"
 [skip-tunes]:       http://skiptunes.com/                   "Skip Tunes: music control center"
 [istat-menus]:      https://bjango.com/mac/istatmenus/      "iStat Menus: advenced system monitor"
+[xld]:              http://tmkk.undo.jp/xld/index_e.html    "X Lossless Decoder: lossless audio decoder for Mac OS X"
+[vanilla]:          http://matthewpalmer.net/vanilla/       "Vanilla: hide menu bar icons on your Mac"
 [p7zip]:            http://www.7-zip.org/download.html      "p7zip: 7z for unix"
 [screenshot]:       https://app.prntscr.com/en/index.html   "Lightshot Screenshot"
 [scroll-reverser]:  https://pilotmoon.com/scrollreverser/   "Scroll Reverser"
 [vlc]:              http://www.videolan.org/index.html      "VLC media player"
 [reeder]:           http://reederapp.com/mac/               "Reeder: rss reader"
+[feedly]:           https://feedly.com/                     "Feedly: online rss reader"
 [cleanmymac]:       https://cleanmymac.com/                 "CleanMyMac: cleaner"
 [moom]:             https://manytricks.com/moom             "Moom: window zooming"
 [little-snitch]:    https://www.obdev.at/products/littlesnitch/index.html "Little Snitch: firewall"
@@ -116,6 +128,11 @@ sudo spctl --master-disable
 [xdisplay]:         https://www.splashtop.com/wiredxdisplay "Splashtop XDisplay: extra monitor"
 [soundflower]:      https://github.com/mattingalls/Soundflower "Soundflower: audio redirector"
 [kap]:              https://getkap.co/                      "Kap: screen recorder"
+[batt-mon]:         http://www.rockysandstudio.com/index.html#freeapps "Battery Monitor"
+[batt-ind]:         https://sindresorhus.com/battery-indicator "Battery Indicator"
+[mini-calen]:       https://www.antlogic.com/forum/         "Mini Calendar"
+[clocker]:          https://github.com/abhishekbanthia/Clocker "Clocker: macOS app to plan and organize through timezones."
+[menumeters]:       https://github.com/yujitach/MenuMeters  "MenuMeters"
 
 [xcode-app]:      https://itunes.apple.com/app/id497799835  "Xcode from Mac App Store"
 [pages-app]:      https://itunes.apple.com/app/id409201541  "Pages from Mac App Store"
@@ -130,6 +147,11 @@ sudo spctl --master-disable
 [screenshot-app]: https://itunes.apple.com/app/id526298438  "Lightshot Screenshot from Mac App Store"
 [reeder-app]:     https://itunes.apple.com/app/id880001334  "Reeder from Mac App Store"
 [moom-app]:       https://itunes.apple.com/app/id419330170  "Moom from Mac App Store"
+[batt-mon-app]:   https://itunes.apple.com/app/id836505650  "Battery Monitor from Mac App Store"
+[batt-ind-app]:   https://itunes.apple.com/app/id1206020918 "Battery Indicator from Mac App Store"
+[mini-calen-app]: https://itunes.apple.com/app/id1088779979 "Mini Calendar from Mac App Store"
+[feedly-app]:     https://itunes.apple.com/app/id865500966  "feedly from Mac App Store"
+[clocker-app]:    https://itunes.apple.com/app/id1056643111 "Clocker from Mac App Store"
 
 [yahoo-keykey-download]: https://www.newmobilelife.com/2016/09/21/macos-sierra-install-yahoo-input-method-download/ "Yahoo KeyKey from NewMobileLife"
 [xdisplay-download]: https://www.splashtop.com/wiredxdisplay "Splashtop XDisplay from Official Site"
