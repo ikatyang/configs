@@ -69,6 +69,7 @@ sudo spctl --master-disable
 |         | [Battery Monitor][batt-mon]         | [Mac App Store][batt-mon-app]               |                                 |
 |         | [X Lossless Decoder][xld]           | `brew cask install xld`                     |                                 |
 |         | ~~[p7zip][p7zip]~~                  | `brew install p7zip`                        |                                 |
+|         | [Decompressor][decompressor]        | [Mac App Store][decompressor-app]           |                                 |
 |         | [Lightshot Screenshot][screenshot]  | [Mac App Store][screenshot-app]             | shortcut: ⌃⌥⇧A               |
 |         | ~~[Scroll Reverser][scroll-reverser]~~ | `brew cask install scroll-reverser`      | disable `Reverse Trackpad`      |
 |         | [VLC media player][vlc]             | `brew cask install vlc`                     |                                 |
@@ -140,6 +141,7 @@ sudo spctl --master-disable
 [gsync]:            https://www.google.com/drive/download/  "Google Backup and Sync"
 [spectacle]:        https://github.com/eczarny/spectacle/   "Spectacle: organize windows"
 [5kplayer]:         https://www.5kplayer.com/               "5KPlayer: player with airplay support"
+[decompressor]:     http://www.rockysandstudio.com/index.html#freeapps "Decompressor"
 
 [xcode-app]:      https://itunes.apple.com/app/id497799835  "Xcode from Mac App Store"
 [pages-app]:      https://itunes.apple.com/app/id409201541  "Pages from Mac App Store"
@@ -159,6 +161,7 @@ sudo spctl --master-disable
 [mini-calen-app]: https://itunes.apple.com/app/id1088779979 "Mini Calendar from Mac App Store"
 [feedly-app]:     https://itunes.apple.com/app/id865500966  "feedly from Mac App Store"
 [clocker-app]:    https://itunes.apple.com/app/id1056643111 "Clocker from Mac App Store"
+[decompressor-app]: https://itunes.apple.com/app/id1033480833 "Decompressor from Mac App Store"
 
 [yahoo-keykey-download]: https://www.newmobilelife.com/2016/09/21/macos-sierra-install-yahoo-input-method-download/ "Yahoo KeyKey from NewMobileLife"
 [xdisplay-download]: https://www.splashtop.com/wiredxdisplay "Splashtop XDisplay from Official Site"
