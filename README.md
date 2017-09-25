@@ -72,6 +72,7 @@ sudo spctl --master-disable
 |         | [Lightshot Screenshot][screenshot]  | [Mac App Store][screenshot-app]             | shortcut: ⌃⌥⇧A               |
 |         | ~~[Scroll Reverser][scroll-reverser]~~ | `brew cask install scroll-reverser`      | disable `Reverse Trackpad`      |
 |         | [VLC media player][vlc]             | `brew cask install vlc`                     |                                 |
+|         | [5KPlayer][5kplayer]                | `brew cask install 5kplayer`                |                                 |
 |         | ~~[Yahoo KeyKey][yahoo-keykey]~~    | [Download][yahoo-keykey-download]           | [configs][yahoo-keykey-configs] |
 |         | ~~[Splash XDisplay][xdisplay]~~     | [Download][xdisplay-download]               |                                 |
 |         | ~~[Soundflower][soundflower]~~      | `brew cask install soundflower`             |                                 |
@@ -138,6 +139,7 @@ sudo spctl --master-disable
 [cheatsheet]:       https://www.cheatsheetapp.com/CheatSheet/ "CheatSheet"
 [gsync]:            https://www.google.com/drive/download/  "Google Backup and Sync"
 [spectacle]:        https://github.com/eczarny/spectacle/   "Spectacle: organize windows"
+[5kplayer]:         https://www.5kplayer.com/               "5KPlayer: player with airplay support"
 
 [xcode-app]:      https://itunes.apple.com/app/id497799835  "Xcode from Mac App Store"
 [pages-app]:      https://itunes.apple.com/app/id409201541  "Pages from Mac App Store"
