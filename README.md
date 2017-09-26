@@ -64,6 +64,7 @@ sudo spctl --master-disable
 | menubar | [Clocker][clocker]                  | [Mac App Store][clocker-app]                |                                 |
 | menubar | 💰 [Battery Indicator][batt-ind]    | [Mac App Store][batt-ind-app]               |                                 |
 | menubar | [MenuMeters][menumeters]            | `brew cask install yujitach-menumeters`     |                                 |
+|         | [Fanny][fanny]                      | `brew cask install fanny`                   |                                 |
 |         | [Spectecle][spectacle]              | `brew cask install spectacle`               | [configs][spectacle-configs]    |
 |         | [CheatSheet][cheatsheet]            | `brew cask install cheatsheet`              |                                 |
 |         | [Battery Monitor][batt-mon]         | [Mac App Store][batt-mon-app]               |                                 |
@@ -142,6 +143,7 @@ sudo spctl --master-disable
 [spectacle]:        https://github.com/eczarny/spectacle/   "Spectacle: organize windows"
 [5kplayer]:         https://www.5kplayer.com/               "5KPlayer: player with airplay support"
 [decompressor]:     http://www.rockysandstudio.com/index.html#freeapps "Decompressor"
+[fanny]:            http://fannywidget.com/                 "Fanny: Monitor fan speed and CPU temperature"
 
 [xcode-app]:      https://itunes.apple.com/app/id497799835  "Xcode from Mac App Store"
 [pages-app]:      https://itunes.apple.com/app/id409201541  "Pages from Mac App Store"
