@@ -47,3 +47,18 @@
     # add the following at the end of .zshrc
     source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
     ```
+
+- Setup [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+
+  - install zsh-autosuggestions
+
+    ```sh
+    brew install zsh-autosuggestions
+    ```
+
+  - activate syntax highlighting
+
+    ```sh
+    # add the following at the end of .zshrc
+    source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+    ```
