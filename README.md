@@ -33,7 +33,7 @@ sudo spctl --master-disable
 | Type    | Application                         | Install                                     | configs                         |
 | ------- | ----------------------------------- | ------------------------------------------- | ------------------------------- |
 | browser | [Google Chrome][chrome]             | `brew cask install google-chrome`           |                                 |
-| cloud   | [Google Drive][gdrive]              | `brew cask install google-drive`            |                                 |
+| cloud   | ~~[Google Drive][gdrive]~~          | `brew cask install google-drive`            |                                 |
 | cloud   | [Google Backup and Sync][gsync]     | `brew cask install google-backup-and-sync`  |                                 |
 | prog    | [Git][git]                          | built-in                                    | [configs][git-configs]          |
 | prog    | [Zsh][zsh]                          | built-in                                    | [configs][zsh-configs]          |
@@ -57,18 +57,19 @@ sudo spctl --master-disable
 | menubar | [Clipy][clipy]                      | `brew cask install clipy`                   |                                 |
 | menubar | ~~[XMenu][xmenu]~~                  | [Mac App Store][xmenu-app]                  |                                 |
 | menubar | ~~💰 [Bartender][bartender]~~       | `brew cask install bartender`               | [configs][bartender-configs]    |
-| menubar | 💰 [Skip Tunes][skip-tunes]         | [Mac App Store][skip-tunes-app]             |                                 |
+| menubar | ~~💰 [Skip Tunes][skip-tunes]~~     | [Mac App Store][skip-tunes-app]             |                                 |
 | menubar | ~~💰 [iStat Menus][istat-menus]~~   | `brew cask install istat-menus`             | [configs][istat-menus-configs]  |
 | menubar | [vanilla][vanilla]                  | `brew cask install vanilla`                 |                                 |
 | menubar | [Mini Calendar][mini-calen]         | [Mac App Store][mini-calen-app]             |                                 |
 | menubar | [Clocker][clocker]                  | [Mac App Store][clocker-app]                |                                 |
 | menubar | 💰 [Battery Indicator][batt-ind]    | [Mac App Store][batt-ind-app]               |                                 |
+| menubar | 💰 [Lungo][lungo]                   | [Mac App Store][lungo-app]                  |                                 |
 | menubar | [MenuMeters][menumeters]            | `brew cask install yujitach-menumeters`     |                                 |
 |         | [Fanny][fanny]                      | `brew cask install fanny`                   |                                 |
 |         | [Spectecle][spectacle]              | `brew cask install spectacle`               | [configs][spectacle-configs]    |
 |         | [CheatSheet][cheatsheet]            | `brew cask install cheatsheet`              |                                 |
 |         | [Battery Monitor][batt-mon]         | [Mac App Store][batt-mon-app]               |                                 |
-|         | [X Lossless Decoder][xld]           | `brew cask install xld`                     |                                 |
+|         | ~~[X Lossless Decoder][xld]~~       | `brew cask install xld`                     |                                 |
 |         | ~~[p7zip][p7zip]~~                  | `brew install p7zip`                        |                                 |
 |         | [Decompressor][decompressor]        | [Mac App Store][decompressor-app]           |                                 |
 |         | [Lightshot Screenshot][screenshot]  | [Mac App Store][screenshot-app]             | shortcut: ⌃⌥⇧A               |
@@ -82,14 +83,15 @@ sudo spctl --master-disable
 |         | ~~💰 [Reeder][reeder]~~             | [Mac App Store][reeder-app]                 | [configs][reeder-configs]       |
 |         | [feedly][feedly]                    | [Mac App Store][feedly-app]                 |                                 |
 |         | ~~💰 [CleanMyMac][cleanmymac]~~     | `brew cask install cleanmymac`              |                                 |
-|         | 💰 [Moom][moom]                     | [Mac App Store][moom-app]                   | grid with `12` x `4` cells      |
+|         | ~~💰 [Moom][moom]~~                 | [Mac App Store][moom-app]                   | grid with `12` x `4` cells      |
 |         | ~~💰 [Little Snitch][little-snitch]~~ | `brew cask install little-snitch`         |                                 |
-|         | [jitouch][jitouch]                  | `brew cask install jitouch`                 | [configs][jitouch-configs]      |
+|         | ~~[jitouch][jitouch]~~              | `brew cask install jitouch`                 | [configs][jitouch-configs]      |
 
 #### System Preferences
 
 - [Dock Layouts][dock-layouts]
 - [System Preferences][system-preferences]
+- [Notification Center Layouts][sidebar-layouts]
 
 [chrome]:           https://www.google.com/chrome/          "Google Chrome"
 [gdrive]:           https://www.google.com/drive/           "Google Drive"
@@ -135,6 +137,7 @@ sudo spctl --master-disable
 [kap]:              https://getkap.co/                      "Kap: screen recorder"
 [batt-mon]:         http://www.rockysandstudio.com/index.html#freeapps "Battery Monitor"
 [batt-ind]:         https://sindresorhus.com/battery-indicator "Battery Indicator"
+[lungo]:            https://sindresorhus.com/lungo          "Lungo"
 [mini-calen]:       https://www.antlogic.com/forum/         "Mini Calendar"
 [clocker]:          https://github.com/abhishekbanthia/Clocker "Clocker: macOS app to plan and organize through timezones."
 [menumeters]:       https://github.com/yujitach/MenuMeters  "MenuMeters"
@@ -164,6 +167,7 @@ sudo spctl --master-disable
 [feedly-app]:     https://itunes.apple.com/app/id865500966  "feedly from Mac App Store"
 [clocker-app]:    https://itunes.apple.com/app/id1056643111 "Clocker from Mac App Store"
 [decompressor-app]: https://itunes.apple.com/app/id1033480833 "Decompressor from Mac App Store"
+[lungo-app]:      https://itunes.apple.com/app/id1263070803 "Lungo from Mac App Store"
 
 [yahoo-keykey-download]: https://www.newmobilelife.com/2016/09/21/macos-sierra-install-yahoo-input-method-download/ "Yahoo KeyKey from NewMobileLife"
 [xdisplay-download]: https://www.splashtop.com/wiredxdisplay "Splashtop XDisplay from Official Site"
@@ -183,3 +187,4 @@ sudo spctl --master-disable
 
 [dock-layouts]:         https://github.com/ikatyang/configs/tree/master/others/dock-layouts.md "dock layouts"
 [system-preferences]:   https://github.com/ikatyang/configs/tree/master/others/system-preferences.md "system preferences"
+[sidebar-layouts]:      https://github.com/ikatyang/configs/tree/master/others/sidebar-layouts.md "notification center layouts"

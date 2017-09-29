@@ -4,6 +4,7 @@
 # visible (ordered)
 
 [Hangouts]
+[Spectacle]
 [Volume]
 [MenuMeters CPU]
 [Battery Indicator]
@@ -22,5 +23,4 @@
 [Clipy]
 [Lightshot Screenshot]
 [Google Backup and Sync]
-[jitouch]
 ```
