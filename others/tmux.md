@@ -7,11 +7,11 @@
 brew install reattach-to-user-namespace
 
 # retain git repository for version control
-git clone https://github.com/ikatyang/tmux-configs ~/Documents/Github/tmux-configs
+git clone https://github.com/ikatyang/tmux-configs ~/Documents/Github/ikatyang/tmux-configs
 
 # link configs
-ln -sf ~/Documents/Github/tmux-configs/.tmux.conf ~
-ln -sf ~/Documents/Github/tmux-configs/.tmux.conf.local ~
+ln -sf ~/Documents/Github/ikatyang/tmux-configs/.tmux.conf ~
+ln -sf ~/Documents/Github/ikatyang/tmux-configs/.tmux.conf.local ~
 ```
 
 ## Manual Setup

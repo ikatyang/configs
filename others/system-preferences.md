@@ -126,6 +126,6 @@
 
 # Terminal
 
-  Profiles -> Set “Pro” as default
+  Install snazzy theme https://github.com/sindresorhus/terminal-snazzy#install
 
 ```

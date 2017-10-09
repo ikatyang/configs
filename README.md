@@ -40,11 +40,11 @@ sudo spctl --master-disable
 | prog    | [Xcode][xcode]                      | [Mac App Store][xcode-app]                  |                                 |
 | prog    | [Visual Studio Code][vscode]        | `brew cask install visual-studio-code`      | [configs][vscode-configs]       |
 | prog    | [Yarn][yarn]                        | `brew install yarn`                         |                                 |
-| prog    | ~~[tmux][tmux]~~                    | `brew install tmux`                         | [configs][tmux-configs]         |
+| prog    | [tmux][tmux]                        | `brew install tmux`                         | [configs][tmux-configs]         |
 | prog    | [nvm][nvm]                          | `brew install nvm`                          | [configs][nvm-configs]          |
 | prog    | [Node.js][nodejs]                   | `brew install node`                         |                                 |
 | prog    | [Watchman][watchman]                | `brew install watchman`                     |                                 |
-| prog    | [Hyper][hyper]                      | `brew cask install hyper`                   | [configs][hyper-configs]        |
+| prog    | ~~[Hyper][hyper]~~                  | `brew cask install hyper`                   | [configs][hyper-configs]        |
 | office  | [Pages][pages]                      | [Mac App Store][pages-app]                  |                                 |
 | office  | [Numbers][numbers]                  | [Mac App Store][numbers-app]                |                                 |
 | office  | [Keynote][keynote]                  | [Mac App Store][keynote-app]                |                                 |
@@ -59,16 +59,17 @@ sudo spctl --master-disable
 | menubar | ~~💰 [Bartender][bartender]~~       | `brew cask install bartender`               | [configs][bartender-configs]    |
 | menubar | ~~💰 [Skip Tunes][skip-tunes]~~     | [Mac App Store][skip-tunes-app]             |                                 |
 | menubar | ~~💰 [iStat Menus][istat-menus]~~   | `brew cask install istat-menus`             | [configs][istat-menus-configs]  |
-| menubar | [vanilla][vanilla]                  | `brew cask install vanilla`                 |                                 |
+| menubar | ~~[vanilla][vanilla]~~              | `brew cask install vanilla`                 |                                 |
 | menubar | [Mini Calendar][mini-calen]         | [Mac App Store][mini-calen-app]             |                                 |
 | menubar | [Clocker][clocker]                  | [Mac App Store][clocker-app]                |                                 |
 | menubar | 💰 [Battery Indicator][batt-ind]    | [Mac App Store][batt-ind-app]               |                                 |
 | menubar | 💰 [Lungo][lungo]                   | [Mac App Store][lungo-app]                  |                                 |
 | menubar | [MenuMeters][menumeters]            | `brew cask install yujitach-menumeters`     |                                 |
+|         | [Neofetch][neofetch]                | `brew install neofetch`                     |                                 |
 |         | [Fanny][fanny]                      | `brew cask install fanny`                   |                                 |
 |         | [Spectecle][spectacle]              | `brew cask install spectacle`               | [configs][spectacle-configs]    |
 |         | [CheatSheet][cheatsheet]            | `brew cask install cheatsheet`              |                                 |
-|         | [Battery Monitor][batt-mon]         | [Mac App Store][batt-mon-app]               |                                 |
+|         | ~~[Battery Monitor][batt-mon]~~     | [Mac App Store][batt-mon-app]               |                                 |
 |         | ~~[X Lossless Decoder][xld]~~       | `brew cask install xld`                     |                                 |
 |         | ~~[p7zip][p7zip]~~                  | `brew install p7zip`                        |                                 |
 |         | [Decompressor][decompressor]        | [Mac App Store][decompressor-app]           |                                 |
@@ -147,6 +148,7 @@ sudo spctl --master-disable
 [5kplayer]:         https://www.5kplayer.com/               "5KPlayer: player with airplay support"
 [decompressor]:     http://www.rockysandstudio.com/index.html#freeapps "Decompressor"
 [fanny]:            http://fannywidget.com/                 "Fanny: Monitor fan speed and CPU temperature"
+[neofetch]:         https://github.com/dylanaraps/neofetch  "Neofetch: CLI system information tool"
 
 [xcode-app]:      https://itunes.apple.com/app/id497799835  "Xcode from Mac App Store"
 [pages-app]:      https://itunes.apple.com/app/id409201541  "Pages from Mac App Store"
