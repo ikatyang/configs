@@ -16,6 +16,6 @@
 [feedly]
 [Visual Studio Code]
 [Activity Monitor]
-[Terminal]
+[iTerm2]
 [System Preference]
 ```

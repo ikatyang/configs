@@ -45,6 +45,7 @@ sudo spctl --master-disable
 | prog    | [Node.js][nodejs]                   | `brew install node`                         |                                 |
 | prog    | [Watchman][watchman]                | `brew install watchman`                     |                                 |
 | prog    | ~~[Hyper][hyper]~~                  | `brew cask install hyper`                   | [configs][hyper-configs]        |
+| prog    | [iTerm2][iterm2]                    | `brew cask install iterm2`                  | [configs][iterm2-configs]       |
 | office  | [Pages][pages]                      | [Mac App Store][pages-app]                  |                                 |
 | office  | [Numbers][numbers]                  | [Mac App Store][numbers-app]                |                                 |
 | office  | [Keynote][keynote]                  | [Mac App Store][keynote-app]                |                                 |
@@ -149,6 +150,7 @@ sudo spctl --master-disable
 [decompressor]:     http://www.rockysandstudio.com/index.html#freeapps "Decompressor"
 [fanny]:            http://fannywidget.com/                 "Fanny: Monitor fan speed and CPU temperature"
 [neofetch]:         https://github.com/dylanaraps/neofetch  "Neofetch: CLI system information tool"
+[iterm2]:           https://www.iterm2.com/                 "iTerm2: Mac OS Terminal Replacement"
 
 [xcode-app]:      https://itunes.apple.com/app/id497799835  "Xcode from Mac App Store"
 [pages-app]:      https://itunes.apple.com/app/id409201541  "Pages from Mac App Store"
@@ -186,6 +188,7 @@ sudo spctl --master-disable
 [jitouch-configs]:      https://github.com/ikatyang/configs/tree/master/others/jitouch.md     "jitouch configs"
 [yahoo-keykey-configs]: https://github.com/ikatyang/configs/tree/master/yahoo-keykey/         "yahoo-keykey configs"
 [spectacle-configs]:    https://github.com/ikatyang/configs/tree/master/others/spectacle.md   "Spectacle configs"
+[iterm2-configs]:       https://github.com/ikatyang/configs/tree/master/others/iterm2.md      "iTerm2 configs"
 
 [dock-layouts]:         https://github.com/ikatyang/configs/tree/master/others/dock-layouts.md "dock layouts"
 [system-preferences]:   https://github.com/ikatyang/configs/tree/master/others/system-preferences.md "system preferences"
