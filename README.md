@@ -76,7 +76,8 @@ sudo spctl --master-disable
 |         | [Decompressor][decompressor]        | [Mac App Store][decompressor-app]           |                                 |
 |         | [Lightshot Screenshot][screenshot]  | [Mac App Store][screenshot-app]             | shortcut: ⌃⌥⇧A               |
 |         | ~~[Scroll Reverser][scroll-reverser]~~ | `brew cask install scroll-reverser`      | disable `Reverse Trackpad`      |
-|         | [VLC media player][vlc]             | `brew cask install vlc`                     |                                 |
+|         | ~~[VLC media player][vlc]~~         | `brew cask install vlc`                     |                                 |
+|         | [IINA][iina]                        | `brew cask install iina`                    |                                 |
 |         | [5KPlayer][5kplayer]                | `brew cask install 5kplayer`                |                                 |
 |         | ~~[Yahoo KeyKey][yahoo-keykey]~~    | [Download][yahoo-keykey-download]           | [configs][yahoo-keykey-configs] |
 |         | ~~[Splash XDisplay][xdisplay]~~     | [Download][xdisplay-download]               |                                 |
@@ -151,6 +152,7 @@ sudo spctl --master-disable
 [fanny]:            http://fannywidget.com/                 "Fanny: Monitor fan speed and CPU temperature"
 [neofetch]:         https://github.com/dylanaraps/neofetch  "Neofetch: CLI system information tool"
 [iterm2]:           https://www.iterm2.com/                 "iTerm2: Mac OS Terminal Replacement"
+[iina]:             https://lhc70000.github.io/iina/        "IINA: The modern video player for macOS"
 
 [xcode-app]:      https://itunes.apple.com/app/id497799835  "Xcode from Mac App Store"
 [pages-app]:      https://itunes.apple.com/app/id409201541  "Pages from Mac App Store"
