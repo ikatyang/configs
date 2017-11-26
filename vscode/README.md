@@ -17,6 +17,7 @@ ln -sf ~/Documents/Github/ikatyang/configs/vscode/keybindings.json ~/Library/App
 code --install-extension bierner.emojisense
 code --install-extension sgtsquiggs.vscode-active-file-status
 code --install-extension wmaurer.change-case
+code --install-extension PeterJausovec.vscode-docker
 code --install-extension EditorConfig.EditorConfig
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension mkxml.vscode-filesize
@@ -63,6 +64,7 @@ code --install-extension adamvoss.yaml
 - [:emojisense:](https://marketplace.visualstudio.com/items?itemName=bierner.emojisense)
 - [Active File Status](https://marketplace.visualstudio.com/items?itemName=sgtsquiggs.vscode-active-file-status)
 - [change-case](https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)
+- [Docker](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker)
 - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [filesize](https://marketplace.visualstudio.com/items?itemName=mkxml.vscode-filesize)
