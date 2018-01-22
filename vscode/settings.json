@@ -1,7 +1,12 @@
 {
+  "[markdown]": {
+    "editor.quickSuggestions": false,
+    "editor.wordWrap": "off"
+  },
   "debug.inlineValues": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.fontFamily": "WenQuanYi Mono for Powerline",
+  "editor.minimap.enabled": false,
   "editor.minimap.renderCharacters": false,
   "editor.quickSuggestions": {
     "comments": true,
@@ -10,22 +15,27 @@
   },
   "editor.renderControlCharacters": false,
   "editor.renderWhitespace": "all",
-  "editor.rulers": [80, 120],
+  "editor.rulers": [
+    80,
+    120
+  ],
   "editor.wordWrap": "on",
   "explorer.openEditors.dynamicHeight": false,
   "explorer.openEditors.visible": 5,
+  "git.autofetch": true,
   "gitlens.codeLens.enabled": false,
-  "todohighlight.keywords": [
-    {
-      "backgroundColor": "rgba(0,0,0,0)",
-      "border": "1px solid red",
-      "borderRadius": "2px",
-      "color": "red",
-      "text": "TODO:"
-    }
-  ],
+  "prettier.proseWrap": "never",
+  "todohighlight.defaultStyle": {
+    "backgroundColor": "rgba(0,0,0,0)",
+    "border": "1px solid red",
+    "borderRadius": "2px",
+    "color": "red"
+  },
+  "todohighlight.keywordsPattern": "(TODO|FIXME)(\\(.*\\))?:?",
   "window.nativeTabs": true,
   "workbench.colorCustomizations": {
+    "editorWhitespace.foreground": "#666666",
+    "gitDecoration.ignoredResourceForeground": "#888888",
     "terminal.ansiBlack": "#282a36",
     "terminal.ansiBlue": "#57c7ff",
     "terminal.ansiBrightBlack": "#686868",
