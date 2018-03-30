@@ -27,8 +27,8 @@ code --install-extension SirTori.indenticator
 code --install-extension yzhang.markdown-all-in-one
 code --install-extension PKief.markdown-checkbox
 code --install-extension bierner.markdown-checkbox
-code --install-extension bierner.markdown-preview-github-styles
 code --install-extension bierner.markdown-emoji
+code --install-extension bierner.markdown-preview-github-styles
 code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension PKief.material-icon-theme
 code --install-extension zhuangtongfa.Material-theme
@@ -74,8 +74,8 @@ code --install-extension adamvoss.yaml
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 - [Markdown Checkbox](https://marketplace.visualstudio.com/items?itemName=PKief.markdown-checkbox)
 - [Markdown Checkboxes](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-checkbox)
-- [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
 - [markdown-emoji](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-emoji)
+- [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 - [OneDark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
