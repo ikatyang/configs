@@ -1,28 +1,4 @@
-# tmux
-
-## Quick Setup
-
-```sh
-# install reattch-to-user-namespace for tmux copying
-brew install reattach-to-user-namespace
-
-# retain git repository for version control
-git clone https://github.com/ikatyang/tmux-configs ~/Documents/Github/ikatyang/tmux-configs
-
-# link configs
-ln -sf ~/Documents/Github/ikatyang/tmux-configs/.tmux.conf ~
-ln -sf ~/Documents/Github/ikatyang/tmux-configs/.tmux.conf.local ~
-```
-
-## Manual Setup
-
-See also [tmux-configs](https://github.com/ikatyang/tmux-configs/)
-
-## Cheatsheet for .tmux
-
-**NOTE**: `prefix` is set as <code>`</code>
-
-**NOTE**: cannot copy mouse-selected in mouse mode
+## Cheatsheet for tmux
 
 | Type    | Command        | Description                      |
 | ------- | -------------- | -------------------------------- |
