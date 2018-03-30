@@ -1,33 +1,3 @@
-# configs
-
-configs for ikatyang
-
-## macOS
-
-- show hidden files
-
-  ```sh
-  defaults write com.apple.finder AppleShowAllFiles true
-  killall Finder
-  ```
-
-Install [Brew](https://brew.sh/) ( package manager for macOS )
-
-```sh
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-
-**NOTE**: Resolve `“App” is damaged and can’t be opened. You should move it to the Trash.`
-
-```sh
-# allow apps from any source
-sudo spctl --master-disable
-```
-
-#### Fonts
-
-- See [fonts](https://github.com/ikatyang/configs/tree/master/fonts/)
-
 #### Apps
 
 | Type    | Application                         | Install                                     | configs                         |
