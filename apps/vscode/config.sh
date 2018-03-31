@@ -1,6 +1,6 @@
-ln -sf "$APP_DIRNAME/locale.json" "~/Library/Application Support/Code/User"
-ln -sf "$APP_DIRNAME/settings.json" "~/Library/Application Support/Code/User"
-ln -sf "$APP_DIRNAME/keybindings.json" "~/Library/Application Support/Code/User"
+ln -sf "$APP_DIRNAME/locale.json" "$HOME/Library/Application Support/Code/User"
+ln -sf "$APP_DIRNAME/settings.json" "$HOME/Library/Application Support/Code/User"
+ln -sf "$APP_DIRNAME/keybindings.json" "$HOME/Library/Application Support/Code/User"
 
 code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension EditorConfig.EditorConfig

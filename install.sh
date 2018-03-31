@@ -10,7 +10,7 @@ fi
 # ==============================================================================
 
 MESSAGES=()
-SHELL_RC="~/.zshrc"
+SHELL_RC="$HOME/.zshrc"
 
 function add_message {
   MESSAGES+=("[$APP_NAME] $1")
@@ -83,7 +83,7 @@ brew cask install teamviewer # TeamViewer https://www.teamviewer.com
 brew cask install visual-studio-code && apply_config vscode # VSCode https://code.visualstudio.com/
 brew cask install yujitach-menumeters # MenuMeters https://member.ipmu.jp/yuji.tachikawa/MenuMetersElCapitan/
 # ================================================================ Mac App Store
-mas install 361304891 # Numbers https://itunes.apple.com/app/id361304891
+mas install 409203825 # Numbers https://itunes.apple.com/app/id409203825
 mas install 409183694 # Keynote https://itunes.apple.com/app/id409183694
 mas install 409201541 # Pages https://itunes.apple.com/app/id409201541
 mas install 497799835 # Xcode https://itunes.apple.com/app/id497799835

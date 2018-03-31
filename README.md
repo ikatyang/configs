@@ -3,6 +3,14 @@
 configs for ikatyang
 
 ```sh
+xcode-select --install
+```
+
+```sh
+sudo xcodebuild -license accept
+```
+
+```sh
 curl https://raw.githubusercontent.com/ikatyang/configs/master/install.sh | bash
 ```
 
