@@ -1,3 +1,3 @@
 mkdir ~/.nvm
 
-cat "$APP_DIRNAME/.zshrc" >> ~/.zshrc
+echo "source $APP_DIRNAME/.shellrc" >> $SHELL_RC
