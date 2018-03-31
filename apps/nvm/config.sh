@@ -1,3 +1,3 @@
 mkdir ~/.nvm
 
-cat "$(dirname $0)/.zshrc" >> ~/.zshrc
+cat "$APP_DIRNAME/.zshrc" >> ~/.zshrc

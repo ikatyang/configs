@@ -7,6 +7,30 @@ if [[ ! $REPLY =~ ^[Yy]$ ]]; then
   exit 1
 fi
 
+# ==============================================================================
+
+MESSAGES=()
+
+function add_message {
+  MESSAGES+=("[$APP_NAME] $1")
+}
+
+function show_messages {
+  for (( i=0; i<${#MESSAGES[@]}; i++ )); do
+    echo ${MESSAGES[$i]}
+  done
+}
+
+function apply_config {
+  local APP_NAME
+  local APP_DIRNAME
+  APP_NAME="$1"
+  APP_DIRNAME="$PWD/apps/$APP_NAME"
+  source "./apps/$1/config.sh"
+}
+
+# ==============================================================================
+
 set -x # show commands
 cd "$(dirname "$0")" # set cwd to dirname of this script
 
@@ -28,14 +52,14 @@ cp ./fonts/* ~/Library/Fonts
 brew install mas
 
 # ===================================================================== built-in
-bash ./apps/git/config.sh
-bash ./apps/zsh/config.sh
+apply_config git
+apply_config zsh
 # ========================================================================= brew
-brew install nvm && bash ./apps/nvm/config.sh # nvm https://github.com/creationix/nvm
-brew install tmux && bash ./apps/tmux/config.sh # tmux https://tmux.github.io/
+brew install nvm && apply_config nvm # nvm https://github.com/creationix/nvm
+brew install tmux && apply_config tmux # tmux https://tmux.github.io/
 brew install yarn # Yarn https://yarnpkg.com/en/
 # ==================================================================== brew cask
-brew cask install iterm2 && bash ./apps/iterm2/config.sh # iTerm2 https://www.iterm2.com/
+brew cask install iterm2 && apply_config iterm2 # iTerm2 https://www.iterm2.com/
 brew cask install 5kplayer # 5KPlayer https://www.5kplayer.com/
 brew cask install caprine # Caprine https://sindresorhus.com/caprine/
 brew cask install cheatsheet # CheatSheet https://www.cheatsheetapp.com/CheatSheet/
@@ -45,9 +69,11 @@ brew cask install google-backup-and-sync # Google Backup and Sync https://www.go
 brew cask install google-chrome # Google Chrome https://www.google.com/chrome/
 brew cask install kap # Kap https://getkap.co/
 brew cask install iina # IINA https://lhc70000.github.io/iina/
-brew cask install spectacle && bash ./apps/spectacle/config.sh # Spectacle https://www.spectacleapp.com/
+brew cask install spectacle && apply_config spectacle # Spectacle https://www.spectacleapp.com/
 brew cask install teamviewer # TeamViewer https://www.teamviewer.com
-brew cask install visual-studio-code && bash ./apps/vscode/config.sh # VSCode https://code.visualstudio.com/
+brew cask install visual-studio-code && apply_config vscode # VSCode https://code.visualstudio.com/
 brew cask install yujitach-menumeters # MenuMeters https://member.ipmu.jp/yuji.tachikawa/MenuMetersElCapitan/
 # ================================================================ Mac App Store
 mas install 497799835 # Xcode https://itunes.apple.com/app/id497799835
+# ==============================================================================
+show_messages
