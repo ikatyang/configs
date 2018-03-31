@@ -12,7 +12,6 @@
 [LINE]
 [Caprine]
 [Telegram Desktop]
-[Twitter]
 [feedly]
 [Visual Studio Code]
 [Activity Monitor]
