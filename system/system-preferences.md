@@ -123,9 +123,4 @@
       enable: Show all filename extensions
       enable: Keep folders on top when sorting by name
       When performing a search: Search the Current Folder
-
-# Terminal
-
-  Install snazzy theme https://github.com/sindresorhus/terminal-snazzy#install
-
 ```

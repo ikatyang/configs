@@ -1,1 +1,2 @@
-* test eof=lf
+* test eol=lf
+*.ttf binary
