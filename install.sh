@@ -35,9 +35,9 @@ function apply_config {
 # ==============================================================================
 
 set -x # show commands
-cd "$(dirname "$0")" # set cwd to dirname of this script
 
-git clone https://github.com/ikatyang/configs ~/Documents/Github/ikatyang/configs
+git clone https://github.com/ikatyang/configs ~/Documents/GitHub/ikatyang/configs
+cd ~/Documents/GitHub/ikatyang/configs
 
 # ==============================================================================
 
@@ -48,27 +48,36 @@ killall Finder
 # install fonts
 cp ./fonts/* ~/Library/Fonts
 
-# install [Brew](https://brew.sh/) The missing package manager for macOS
+# install Brew https://brew.sh/ The missing package manager for macOS
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# install [mas-cli](https://github.com/mas-cli/mas) A simple command line interface for the Mac App Store
+# install mas-cli https://github.com/mas-cli/mas A simple command line interface for the Mac App Store
 brew install mas
 
+# install Yarn https://yarnpkg.com/en/
+brew install yarn
+
+# ===================================================================== built-in
+apply_config git
+apply_config zsh
 # ========================================================================= brew
 brew install nvm && apply_config nvm # nvm https://github.com/creationix/nvm
 brew install tmux && apply_config tmux # tmux https://tmux.github.io/
-brew install yarn # Yarn https://yarnpkg.com/en/
 # ==================================================================== brew cask
 brew cask install 5kplayer # 5KPlayer https://www.5kplayer.com/
+brew cask install appcleaner # AppCleaner https://freemacsoft.net/appcleaner/
 brew cask install caprine # Caprine https://sindresorhus.com/caprine/
 brew cask install cheatsheet # CheatSheet https://www.cheatsheetapp.com/CheatSheet/
 brew cask install clipy # Clipy https://clipy-app.com/
+brew cask install docker # Docker https://www.docker.com/
 brew cask install fanny # Fanny http://fannywidget.com/
+brew cask install filezilla # FileZilla https://filezilla-project.org/
 brew cask install google-backup-and-sync # Google Backup and Sync https://www.google.com/drive/download/
 brew cask install google-chrome # Google Chrome https://www.google.com/chrome/
 brew cask install iina # IINA https://lhc70000.github.io/iina/
 brew cask install iterm2 && apply_config iterm2 # iTerm2 https://www.iterm2.com/
 brew cask install kap # Kap https://getkap.co/
+brew cask install keycastr # KeyCastr https://github.com/keycastr/keycastr
 brew cask install spectacle && apply_config spectacle # Spectacle https://www.spectacleapp.com/
 brew cask install teamviewer # TeamViewer https://www.teamviewer.com
 brew cask install visual-studio-code && apply_config vscode # VSCode https://code.visualstudio.com/
@@ -84,11 +93,12 @@ mas install 715768417 # Microsoft Remote Desktop https://itunes.apple.com/app/id
 mas install 865500966 # feedly https://itunes.apple.com/app/id865500966
 mas install 946399090 # Telegram Desktop https://itunes.apple.com/app/id946399090
 mas install 1056643111 # Clocker https://itunes.apple.com/app/id1056643111
+mas install 1085114709 # Parallels Desktop Lite https://itunes.apple.com/app/id1085114709
 mas install 1088779979 # Mini Calendar https://itunes.apple.com/app/id1088779979
+mas install 1127253508 # Dr.Unarchiver https://itunes.apple.com/app/id1127253508
 mas install 1206020918 # Battery Indicator https://itunes.apple.com/app/id1206020918
 mas install 1263070803 # Lungo https://itunes.apple.com/app/id1263070803
-# ===================================================================== built-in
-apply_config git
-apply_config zsh # depend on yarn
+# ========================================================================= yarn
+yarn global add fkill-cli # FKILL https://github.com/sindresorhus/fkill-cli
 # ==============================================================================
 show_messages
