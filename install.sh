@@ -69,7 +69,7 @@ brew cask install appcleaner # AppCleaner https://freemacsoft.net/appcleaner/
 brew cask install caprine # Caprine https://sindresorhus.com/caprine/
 brew cask install cheatsheet # CheatSheet https://www.cheatsheetapp.com/CheatSheet/
 brew cask install clipy # Clipy https://clipy-app.com/
-brew cask install docker # Docker https://www.docker.com/
+brew cask install docker && apply_config docker # Docker https://www.docker.com/
 brew cask install fanny # Fanny http://fannywidget.com/
 brew cask install filezilla # FileZilla https://filezilla-project.org/
 brew cask install google-backup-and-sync # Google Backup and Sync https://www.google.com/drive/download/
