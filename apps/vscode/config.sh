@@ -26,6 +26,7 @@ code --install-extension pnp.polacode
 code --install-extension qinjia.view-in-browser
 code --install-extension richie5um2.vscode-sort-json
 code --install-extension sgtsquiggs.vscode-active-file-status
+code --install-extension tokoph.ghosttext
 code --install-extension wayou.vscode-todo-highlight
 code --install-extension wmaurer.change-case
 code --install-extension yzhang.markdown-all-in-one

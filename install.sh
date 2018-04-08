@@ -61,6 +61,8 @@ brew install yarn
 apply_config git
 apply_config zsh
 # ========================================================================= brew
+brew install catimg # Catimg https://github.com/posva/catimg
+brew install gron # gron https://github.com/tomnomnom/gron
 brew install nvm && apply_config nvm # nvm https://github.com/creationix/nvm
 brew install tmux && apply_config tmux # tmux https://tmux.github.io/
 # ==================================================================== brew cask
@@ -99,6 +101,8 @@ mas install 1127253508 # Dr.Unarchiver https://itunes.apple.com/app/id1127253508
 mas install 1206020918 # Battery Indicator https://itunes.apple.com/app/id1206020918
 mas install 1263070803 # Lungo https://itunes.apple.com/app/id1263070803
 # ========================================================================= yarn
+yarn global add emma-cli # Emma https://github.com/maticzav/emma-cli
 yarn global add fkill-cli # FKILL https://github.com/sindresorhus/fkill-cli
+yarn global add ipt # iPipeTo https://github.com/ruyadorno/ipt
 # ==============================================================================
 show_messages
