@@ -9,7 +9,6 @@ code --install-extension PKief.material-icon-theme
 code --install-extension PeterJausovec.vscode-docker
 code --install-extension SirTori.indenticator
 code --install-extension Tyriar.sort-lines
-code --install-extension adamvoss.yaml
 code --install-extension bierner.emojisense
 code --install-extension bierner.markdown-emoji
 code --install-extension bierner.markdown-preview-github-styles
