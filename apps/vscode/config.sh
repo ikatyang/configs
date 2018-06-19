@@ -2,6 +2,7 @@ ln -sf "$APP_DIRNAME/locale.json" "$HOME/Library/Application Support/Code/User"
 ln -sf "$APP_DIRNAME/settings.json" "$HOME/Library/Application Support/Code/User"
 ln -sf "$APP_DIRNAME/keybindings.json" "$HOME/Library/Application Support/Code/User"
 
+code --install-extension CoenraadS.bracket-pair-colorizer
 code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension EditorConfig.EditorConfig
 code --install-extension PKief.markdown-checkbox
@@ -19,11 +20,14 @@ code --install-extension donjayamanne.githistory
 code --install-extension eamodio.gitlens
 code --install-extension eg2.tslint
 code --install-extension esbenp.prettier-vscode
+code --install-extension geddski.macros
 code --install-extension mkxml.vscode-filesize
 code --install-extension ms-python.python
+code --install-extension nhoizey.gremlins
 code --install-extension pnp.polacode
 code --install-extension qinjia.view-in-browser
 code --install-extension richie5um2.vscode-sort-json
+code --install-extension seeker-dk.node-modules-viewer
 code --install-extension sgtsquiggs.vscode-active-file-status
 code --install-extension tokoph.ghosttext
 code --install-extension wayou.vscode-todo-highlight
