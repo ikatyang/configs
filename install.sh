@@ -62,6 +62,7 @@ apply_config git
 apply_config zsh
 # ========================================================================= brew
 brew install catimg # Catimg https://github.com/posva/catimg
+brew install bat # bat https://github.com/sharkdp/bat
 brew install gron # gron https://github.com/tomnomnom/gron
 brew install nvm && apply_config nvm # nvm https://github.com/creationix/nvm
 brew install tmux && apply_config tmux # tmux https://tmux.github.io/
