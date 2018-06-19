@@ -21,6 +21,9 @@
   "explorer.openEditors.visible": 5,
   "git.autofetch": true,
   "gitlens.codeLens.enabled": false,
+  "macros": {
+    "autoFix": ["eslint.executeAutofix", "tslint.fixAllProblems"]
+  },
   "prettier.proseWrap": "never",
   "todohighlight.defaultStyle": {
     "backgroundColor": "rgba(0,0,0,0)",
@@ -28,7 +31,8 @@
     "borderRadius": "2px",
     "color": "red"
   },
-  "todohighlight.keywordsPattern": "(TODO|FIXME)(\\(.*\\))?:?",
+  "todohighlight.keywordsPattern": "(TODO|FIXME|NOTE)(\\(.*\\))?:?",
+  "tslint.jsEnable": true,
   "window.nativeTabs": true,
   "workbench.colorCustomizations": {
     "[One Dark Pro]": {

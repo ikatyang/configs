@@ -11,23 +11,8 @@
   },
   {
     "key": "alt+s",
-    "command": "tslint.fixAllProblems",
-    "when": "editorLangId == 'typescript' && editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "alt+s",
-    "command": "tslint.fixAllProblems",
-    "when": "editorLangId == 'typescriptreact' && editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "alt+s",
-    "command": "eslint.executeAutofix",
-    "when": "editorLangId == 'javascript' && editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "alt+s",
-    "command": "eslint.executeAutofix",
-    "when": "editorLangId == 'javascriptreact' && editorTextFocus && !editorReadonly"
+    "command": "macros.autoFix",
+    "when": "editorTextFocus && !editorReadonly"
   },
   {
     "key": "ctrl+[Backquote]",
