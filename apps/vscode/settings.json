@@ -3,6 +3,7 @@
     "editor.quickSuggestions": false,
     "editor.wordWrap": "off"
   },
+  "breadcrumbs.enabled": true,
   "debug.inlineValues": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.fontFamily": "WenQuanYi Mono for Powerline",
@@ -24,7 +25,10 @@
   "macros": {
     "autoFix": ["eslint.executeAutofix", "tslint.fixAllProblems"]
   },
-  "prettier.proseWrap": "never",
+  "markdown.extension.orderedList.autoRenumber": false,
+  "markdown.extension.toc.updateOnSave": false,
+  /* https://github.com/Microsoft/vscode/issues/36987#issuecomment-340147201 */
+  "terminal.integrated.shellArgs.osx": [],
   "todohighlight.defaultStyle": {
     "backgroundColor": "rgba(0,0,0,0)",
     "border": "1px solid red",
@@ -33,9 +37,12 @@
   },
   "todohighlight.keywordsPattern": "(TODO|FIXME|NOTE)(\\(.*\\))?:?",
   "tslint.jsEnable": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
   "window.nativeTabs": true,
   "workbench.colorCustomizations": {
     "[One Dark Pro]": {
+      /* https://github.com/Binaryify/OneDark-Pro/issues/231 */
+      "activityBar.background": "#2F333D",
       "editorWhitespace.foreground": "#666666",
       "gitDecoration.ignoredResourceForeground": "#888888",
       /* https://github.com/Tyriar/vscode-snazzy/blob/master/snazzy.json */
