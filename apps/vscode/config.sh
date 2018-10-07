@@ -5,6 +5,7 @@ ln -sf "$APP_DIRNAME/keybindings.json" "$HOME/Library/Application Support/Code/U
 code --install-extension CoenraadS.bracket-pair-colorizer
 code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension EditorConfig.EditorConfig
+code --install-extension GitHub.vscode-pull-request-github
 code --install-extension Gruntfuggly.todo-tree
 code --install-extension PKief.markdown-checkbox
 code --install-extension PKief.material-icon-theme
