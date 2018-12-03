@@ -14,10 +14,10 @@
     "other": true,
     "strings": true
   },
-  "editor.renderControlCharacters": false,
+  "editor.renderControlCharacters": true,
   "editor.renderWhitespace": "all",
-  "editor.rulers": [80, 120],
-  "editor.wordWrap": "on",
+  "editor.rulers": [80, 100, 120],
+  "editor.wordWrap": "off",
   "explorer.openEditors.dynamicHeight": false,
   "explorer.openEditors.visible": 5,
   "git.autofetch": true,
@@ -26,6 +26,7 @@
     "autoFix": ["eslint.executeAutofix", "tslint.fixAllProblems"]
   },
   "markdown.extension.orderedList.autoRenumber": false,
+  "markdown.extension.tableFormatter.enabled": false,
   "markdown.extension.toc.updateOnSave": false,
   /* https://github.com/Microsoft/vscode/issues/36987#issuecomment-340147201 */
   "terminal.integrated.shellArgs.osx": [],
@@ -35,7 +36,7 @@
     "borderRadius": "2px",
     "color": "red"
   },
-  "todohighlight.keywordsPattern": "(TODO|FIXME|NOTE)(\\(.*\\))?:?",
+  "todohighlight.keywordsPattern": "(TODO|FIXME|NOTE)(\\(.*?\\))?:?",
   "tslint.jsEnable": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "window.nativeTabs": true,
@@ -68,5 +69,6 @@
   },
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.settings.editor": "json",
   "workbench.startupEditor": "newUntitledFile"
 }
