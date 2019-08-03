@@ -1,7 +1,12 @@
 #!/bin/bash
 
+open -a XQuartz
+xhost +$(hostname)
+
 docker run -it --rm \
   -v $HOME:$HOME \
   --workdir=$PWD \
+  -e DISPLAY=$(hostname):0 \
+  -v /tmp/.X11-unix:/tmp/.X11-unix \
   jjanzic/docker-python3-opencv \
   bash

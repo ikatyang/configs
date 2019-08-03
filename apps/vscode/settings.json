@@ -21,6 +21,9 @@
   "explorer.openEditors.dynamicHeight": false,
   "explorer.openEditors.visible": 5,
   "git.autofetch": true,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
   "gitlens.codeLens.enabled": false,
   "macros": {
     "autoFix": ["eslint.executeAutofix", "tslint.fixAllProblems"]
@@ -36,6 +39,15 @@
     "borderRadius": "2px",
     "color": "red"
   },
+  "todo-tree.customHighlight": {
+    "TODO": {},
+    "FIXME": {}
+  },
+  "todo-tree.defaultHighlight": {
+    "foreground": "green",
+    "type": "none"
+  },
+  "todo-tree.flat": true,
   "todohighlight.keywordsPattern": "(TODO|FIXME|NOTE)(\\(.*?\\))?:?",
   "tslint.jsEnable": true,
   "typescript.updateImportsOnFileMove.enabled": "always",

@@ -17,5 +17,32 @@
   {
     "key": "ctrl+[Backquote]",
     "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "cmd+'",
+    "command": "editor.action.showHover",
+    "when": "editorTextFocus"
+  },
+  { "key": "cmd+]", "command": "workbench.action.nextEditor" },
+  { "key": "cmd+[", "command": "workbench.action.previousEditor" },
+  {
+    "key": "cmd+]",
+    "command": "workbench.action.nextSideBarView",
+    "when": "sideBarFocus"
+  },
+  {
+    "key": "cmd+[",
+    "command": "workbench.action.previousSideBarView",
+    "when": "sideBarFocus"
+  },
+  {
+    "key": "cmd+]",
+    "command": "workbench.action.nextPanelView",
+    "when": "panelFocus"
+  },
+  {
+    "key": "cmd+[",
+    "command": "workbench.action.previousPanelView",
+    "when": "panelFocus"
   }
 ]
