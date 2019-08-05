@@ -6,7 +6,7 @@
   "breadcrumbs.enabled": true,
   "debug.inlineValues": true,
   "diffEditor.ignoreTrimWhitespace": false,
-  "editor.fontFamily": "WenQuanYi Mono for Powerline",
+  "editor.fontFamily": "WenQuanYiZenHeiMono Nerd Font",
   "editor.minimap.enabled": false,
   "editor.minimap.renderCharacters": false,
   "editor.quickSuggestions": {

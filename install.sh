@@ -66,7 +66,7 @@ brew install bat # bat https://github.com/sharkdp/bat
 brew install gron # gron https://github.com/tomnomnom/gron
 brew install nvm && apply_config nvm # nvm https://github.com/creationix/nvm
 brew install tmux && apply_config tmux # tmux https://tmux.github.io/
-brew install lsd # lsd https://github.com/Peltoche/lsd
+brew install lsd && apply_config lsd # lsd https://github.com/Peltoche/lsd
 # ==================================================================== brew cask
 # brew cask install 5kplayer # 5KPlayer https://www.5kplayer.com/
 brew cask install alacritty # Alacritty https://github.com/jwilm/alacritty
