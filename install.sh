@@ -70,12 +70,10 @@ brew install tmux && setup_app tmux # tmux https://tmux.github.io/
 # ==================================================================== brew cask
 brew cask install alacritty # Alacritty https://github.com/jwilm/alacritty
 brew cask install appcleaner # AppCleaner https://freemacsoft.net/appcleaner/
-brew cask install caprine # Caprine https://sindresorhus.com/caprine/
 brew cask install clipy # Clipy https://clipy-app.com/
 brew cask install docker # Docker https://www.docker.com/
 brew cask install dozer # Dozer https://github.com/Mortennn/Dozer
 brew cask install filezilla # FileZilla https://filezilla-project.org/
-brew cask install google-backup-and-sync # Google Backup and Sync https://www.google.com/drive/download/
 brew cask install google-chrome # Google Chrome https://www.google.com/chrome/
 brew cask install iina # IINA https://lhc70000.github.io/iina/
 brew cask install kap # Kap https://getkap.co/
@@ -93,7 +91,6 @@ mas install 526298438 # Lightshot Screenshot https://itunes.apple.com/app/id5262
 mas install 539883307 # LINE https://itunes.apple.com/app/id539883307
 mas install 865500966 # feedly https://itunes.apple.com/app/id865500966
 mas install 946399090 # Telegram Lite https://itunes.apple.com/app/id946399090
-mas install 1127253508 # Dr.Unarchiver https://itunes.apple.com/app/id1127253508
 mas install 1206020918 # Battery Indicator https://itunes.apple.com/app/id1206020918
 mas install 1263070803 # Lungo https://itunes.apple.com/app/id1263070803
 mas install 1295203466 # Microsoft Remote Desktop https://itunes.apple.com/app/id1295203466
