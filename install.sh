@@ -82,7 +82,6 @@ brew cask install google-backup-and-sync # Google Backup and Sync https://www.go
 brew cask install google-chrome # Google Chrome https://www.google.com/chrome/
 # brew cask install hyper && apply_config hyper # Hyper https://hyper.is/
 brew cask install iina # IINA https://lhc70000.github.io/iina/
-# brew cask install iterm2 && apply_config iterm2 # iTerm2 https://www.iterm2.com/
 brew cask install kap # Kap https://getkap.co/
 brew cask install keka # Keka https://www.keka.io/
 brew cask install keycastr # KeyCastr https://github.com/keycastr/keycastr
