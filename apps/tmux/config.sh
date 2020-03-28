@@ -1,6 +1,2 @@
-brew install reattach-to-user-namespace
-
-git clone https://github.com/ikatyang/tmux-configs ~/Documents/Github/ikatyang/tmux-configs
-
-ln -sf ~/Documents/Github/ikatyang/tmux-configs/.tmux.conf ~
-ln -sf ~/Documents/Github/ikatyang/tmux-configs/.tmux.conf.local ~
+export LANG=en_US.UTF-8
+export LC_CTYPE=en_US.UTF-8

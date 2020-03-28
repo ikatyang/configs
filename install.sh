@@ -22,14 +22,14 @@ function show_messages {
   done
 }
 
-function apply_config {
+function setup_app {
   local APP_NAME
   APP_NAME="$1"
 
   local APP_DIRNAME
   APP_DIRNAME="$PWD/apps/$APP_NAME"
 
-  source "$APP_DIRNAME/config.sh"
+  source "$APP_DIRNAME/setup.sh"
 }
 
 # ==============================================================================
@@ -58,15 +58,15 @@ brew install mas
 brew install yarn
 
 # ===================================================================== built-in
-apply_config git
-apply_config zsh
+setup_app git
+setup_app zsh
 # ========================================================================= brew
 brew install catimg # Catimg https://github.com/posva/catimg
 brew install bat # bat https://github.com/sharkdp/bat
 brew install gron # gron https://github.com/tomnomnom/gron
-brew install nvm && apply_config nvm # nvm https://github.com/creationix/nvm
-brew install tmux && apply_config tmux # tmux https://tmux.github.io/
-brew install lsd && apply_config lsd # lsd https://github.com/Peltoche/lsd
+brew install nvm && setup_app nvm # nvm https://github.com/creationix/nvm
+brew install tmux && setup_app tmux # tmux https://tmux.github.io/
+brew install lsd && setup_app lsd # lsd https://github.com/Peltoche/lsd
 # ==================================================================== brew cask
 # brew cask install 5kplayer # 5KPlayer https://www.5kplayer.com/
 brew cask install alacritty # Alacritty https://github.com/jwilm/alacritty
