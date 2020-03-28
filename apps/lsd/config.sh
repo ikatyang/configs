@@ -1,1 +1,1 @@
-echo "source $APP_DIRNAME/.shellrc" >> $SHELL_RC
+alias ls=lsd
