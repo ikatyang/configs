@@ -67,6 +67,7 @@ brew install gron # gron https://github.com/tomnomnom/gron
 brew install lsd && setup_app lsd # lsd https://github.com/Peltoche/lsd
 brew install nvm && setup_app nvm # nvm https://github.com/creationix/nvm
 brew install tmux && setup_app tmux # tmux https://tmux.github.io/
+brew install youtube-dl # youtube-dl http://ytdl-org.github.io/youtube-dl/
 # ==================================================================== brew cask
 brew cask install alacritty # Alacritty https://github.com/jwilm/alacritty
 brew cask install appcleaner # AppCleaner https://freemacsoft.net/appcleaner/
