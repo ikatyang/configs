@@ -16,7 +16,11 @@
   },
   "editor.renderControlCharacters": true,
   "editor.renderWhitespace": "all",
-  "editor.rulers": [80, 100, 120],
+  "editor.rulers": [
+    80,
+    100,
+    120
+  ],
   "editor.wordWrap": "off",
   "explorer.openEditors.dynamicHeight": false,
   "explorer.openEditors.visible": 5,
@@ -26,13 +30,18 @@
   },
   "gitlens.codeLens.enabled": false,
   "macros": {
-    "autoFix": ["eslint.executeAutofix", "tslint.fixAllProblems"]
+    "autoFix": [
+      "eslint.executeAutofix",
+      "tslint.fixAllProblems"
+    ]
   },
   "markdown.extension.orderedList.autoRenumber": false,
   "markdown.extension.tableFormatter.enabled": false,
   "markdown.extension.toc.updateOnSave": false,
   /* https://github.com/Microsoft/vscode/issues/36987#issuecomment-340147201 */
-  "terminal.integrated.shellArgs.osx": [],
+  "terminal.integrated.shellArgs.osx": [
+    "-l"
+  ],
   "todohighlight.defaultStyle": {
     "backgroundColor": "rgba(0,0,0,0)",
     "border": "1px solid red",
@@ -82,5 +91,57 @@
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.settings.editor": "json",
-  "workbench.startupEditor": "newUntitledFile"
+  "workbench.startupEditor": "newUntitledFile",
+
+
+
+  "rust-client.rustupPath": "/Users/ikatyang/.cargo/bin/rustup",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "update.mode": "manual",
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "workbench.enableExperiments": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 0,
+  "editor.fontSize": 16,
+  "terminal.integrated.fontSize": 14,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.userWords": [
+    "Concat",
+    "ast",
+    "codepoins",
+    "dedup",
+    "prec",
+    "preprocess",
+    "regex"
+  ],
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {},
+    "FIXME": {}
+  },
+  "todo-tree.highlights.defaultHighlight": {
+    "foreground": "green",
+    "type": "none"
+  },
+  "todo-tree.tree.flat": true,
+  "C_Cpp.updateChannel": "Insiders",
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.activityBar.visible": true,
+  "todo-tree.tree.showScanModeButton": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // "editor.cursorSurroundingLines": 10
 }
