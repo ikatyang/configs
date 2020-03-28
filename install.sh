@@ -86,7 +86,7 @@ brew cask install keka # Keka https://www.keka.io/
 brew cask install keycastr # KeyCastr https://github.com/keycastr/keycastr
 brew cask install teamviewer # TeamViewer https://www.teamviewer.com
 brew cask install visual-studio-code # VSCode https://code.visualstudio.com/
-brew cask install yujitach-menumeters # MenuMeters https://member.ipmu.jp/yuji.tachikawa/MenuMetersElCapitan/
+brew cask install menumeters # MenuMeters https://member.ipmu.jp/yuji.tachikawa/MenuMetersElCapitan/
 # ================================================================ Mac App Store
 mas install 409203825 # Numbers https://itunes.apple.com/app/id409203825
 mas install 409183694 # Keynote https://itunes.apple.com/app/id409183694
