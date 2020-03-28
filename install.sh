@@ -87,6 +87,7 @@ brew cask install menumeters # MenuMeters https://member.ipmu.jp/yuji.tachikawa/
 mas install 409203825 # Numbers https://itunes.apple.com/app/id409203825
 mas install 409183694 # Keynote https://itunes.apple.com/app/id409183694
 mas install 409201541 # Pages https://itunes.apple.com/app/id409201541
+mas install 456362093 # MuteMyMic https://itunes.apple.com/app/id456362093
 mas install 497799835 # Xcode https://itunes.apple.com/app/id497799835
 mas install 526298438 # Lightshot Screenshot https://itunes.apple.com/app/id526298438
 mas install 539883307 # LINE https://itunes.apple.com/app/id539883307
