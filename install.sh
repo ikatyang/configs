@@ -84,7 +84,6 @@ brew cask install iina # IINA https://lhc70000.github.io/iina/
 brew cask install kap # Kap https://getkap.co/
 brew cask install keka # Keka https://www.keka.io/
 brew cask install keycastr # KeyCastr https://github.com/keycastr/keycastr
-brew cask install spectacle && apply_config spectacle # Spectacle https://www.spectacleapp.com/
 brew cask install teamviewer # TeamViewer https://www.teamviewer.com
 brew cask install visual-studio-code # VSCode https://code.visualstudio.com/
 brew cask install yujitach-menumeters # MenuMeters https://member.ipmu.jp/yuji.tachikawa/MenuMetersElCapitan/
