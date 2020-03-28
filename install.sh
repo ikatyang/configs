@@ -89,7 +89,6 @@ mas install 409183694 # Keynote https://itunes.apple.com/app/id409183694
 mas install 409201541 # Pages https://itunes.apple.com/app/id409201541
 mas install 456362093 # MuteMyMic https://itunes.apple.com/app/id456362093
 mas install 497799835 # Xcode https://itunes.apple.com/app/id497799835
-mas install 526298438 # Lightshot Screenshot https://itunes.apple.com/app/id526298438
 mas install 539883307 # LINE https://itunes.apple.com/app/id539883307
 mas install 865500966 # feedly https://itunes.apple.com/app/id865500966
 mas install 946399090 # Telegram Lite https://itunes.apple.com/app/id946399090
