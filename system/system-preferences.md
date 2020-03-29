@@ -136,6 +136,9 @@ macOS Catalina
 
 # Safari
 
+  View -> Show Favorites Bar
+          Show Status Bar
+
   # General
 
     Remove history items: Manually
