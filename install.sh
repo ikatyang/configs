@@ -57,6 +57,9 @@ brew install mas
 # install Yarn https://yarnpkg.com/en/
 brew install yarn
 
+# setup custom scripts
+echo "PATH=\$PATH:$PWD/scripts" >> $SHELL_RC
+
 # ===================================================================== built-in
 setup_app git
 setup_app zsh
@@ -97,6 +100,7 @@ mas install 1206020918 # Battery Indicator https://itunes.apple.com/app/id120602
 mas install 1263070803 # Lungo https://itunes.apple.com/app/id1263070803
 mas install 1295203466 # Microsoft Remote Desktop https://itunes.apple.com/app/id1295203466
 mas install 1470584107 # Dato https://itunes.apple.com/app/id1470584107
+mas install 1480068668 # Messenger https://itunes.apple.com/app/id1480068668
 # ========================================================================= yarn
 yarn global add emma-cli # Emma https://github.com/maticzav/emma-cli
 yarn global add fkill-cli # FKILL https://github.com/sindresorhus/fkill-cli
