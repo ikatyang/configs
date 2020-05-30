@@ -68,7 +68,7 @@ brew install bat # bat https://github.com/sharkdp/bat
 brew install catimg # Catimg https://github.com/posva/catimg
 brew install gron # gron https://github.com/tomnomnom/gron
 brew install lsd && setup_app lsd # lsd https://github.com/Peltoche/lsd
-brew install nvm && setup_app nvm # nvm https://github.com/creationix/nvm
+# brew install nvm && setup_app nvm # nvm https://github.com/creationix/nvm
 brew install tmux && setup_app tmux # tmux https://tmux.github.io/
 brew install youtube-dl # youtube-dl http://ytdl-org.github.io/youtube-dl/
 # ==================================================================== brew cask
@@ -105,5 +105,7 @@ mas install 1480068668 # Messenger https://itunes.apple.com/app/id1480068668
 yarn global add emma-cli # Emma https://github.com/maticzav/emma-cli
 yarn global add fkill-cli # FKILL https://github.com/sindresorhus/fkill-cli
 yarn global add ipt # iPipeTo https://github.com/ruyadorno/ipt
+# ======================================================================= custom
+setup_app nvs # NVS https://github.com/jasongin/nvs
 # ==============================================================================
 show_messages
