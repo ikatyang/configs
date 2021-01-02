@@ -75,21 +75,21 @@ brew install tig # tig https://github.com/jonas/tig
 brew install tmux && setup_app tmux # tmux https://tmux.github.io/
 brew install youtube-dl # youtube-dl http://ytdl-org.github.io/youtube-dl/
 # ==================================================================== brew cask
-brew cask install alacritty && setup_app alacritty # Alacritty https://github.com/jwilm/alacritty
-brew cask install appcleaner # AppCleaner https://freemacsoft.net/appcleaner/
-brew cask install docker # Docker https://www.docker.com/
-brew cask install dozer # Dozer https://github.com/Mortennn/Dozer
-brew cask install eul # eul https://github.com/gao-sun/eul
-brew cask install firefox # Firefox https://www.mozilla.org/firefox/
-brew cask install google-chrome # Google Chrome https://www.google.com/chrome/
-brew cask install iina # IINA https://lhc70000.github.io/iina/
-brew cask install kap # Kap https://getkap.co/
-brew cask install keka # Keka https://www.keka.io/
-brew cask install keycastr # KeyCastr https://github.com/keycastr/keycastr
-brew cask install maccy # Maccy https://maccy.app
-brew cask install rectangle # Rectangle https://rectangleapp.com/
-brew cask install teamviewer # TeamViewer https://www.teamviewer.com
-brew cask install visual-studio-code # VSCode https://code.visualstudio.com/
+brew install --cask alacritty && setup_app alacritty # Alacritty https://github.com/jwilm/alacritty
+brew install --cask appcleaner # AppCleaner https://freemacsoft.net/appcleaner/
+brew install --cask docker # Docker https://www.docker.com/
+brew install --cask dozer # Dozer https://github.com/Mortennn/Dozer
+brew install --cask eul # eul https://github.com/gao-sun/eul
+brew install --cask firefox # Firefox https://www.mozilla.org/firefox/
+brew install --cask google-chrome # Google Chrome https://www.google.com/chrome/
+brew install --cask iina # IINA https://lhc70000.github.io/iina/
+brew install --cask kap # Kap https://getkap.co/
+brew install --cask keka # Keka https://www.keka.io/
+brew install --cask keycastr # KeyCastr https://github.com/keycastr/keycastr
+brew install --cask maccy # Maccy https://maccy.app
+brew install --cask rectangle # Rectangle https://rectangleapp.com/
+brew install --cask teamviewer # TeamViewer https://www.teamviewer.com
+brew install --cask visual-studio-code # VSCode https://code.visualstudio.com/
 # ================================================================ Mac App Store
 mas install 409203825 # Numbers https://itunes.apple.com/app/id409203825
 mas install 409183694 # Keynote https://itunes.apple.com/app/id409183694
