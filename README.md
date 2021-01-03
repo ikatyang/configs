@@ -2,21 +2,29 @@
 
 configs for ikatyang
 
-```sh
-xcode-select --install
-```
+## Usage
 
-```sh
-sudo xcodebuild -license accept
-```
+1. Install Command Line Tools
 
-```sh
-curl https://raw.githubusercontent.com/ikatyang/configs/master/install.sh | bash
-```
+   ```sh
+   xcode-select --install
+   ```
 
-Resolve “App” is damaged and can’t be opened. You should move it to the Trash.
+1. Install [Xcode](https://apps.apple.com/app/id497799835)
+1. Accept the Xcode license
 
-```sh
-# allow apps from any source
-sudo spctl --master-disable
-```
+   ```sh
+   sudo xcodebuild -license accept
+   ```
+
+1. Install Rosetta
+
+   ```sh
+   softwareupdate --install-rosetta
+   ```
+
+1. Install the configs
+
+   ```sh
+   curl https://raw.githubusercontent.com/ikatyang/configs/master/install.sh | bash
+   ```
