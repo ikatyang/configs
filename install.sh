@@ -94,20 +94,20 @@ brew install --cask teamviewer # TeamViewer https://www.teamviewer.com
 brew install --cask ueli # ueli https://github.com/oliverschwendener/ueli
 brew install --cask visual-studio-code # VSCode https://code.visualstudio.com/
 # ================================================================ Mac App Store
-mas install 409203825 # Numbers https://itunes.apple.com/app/id409203825
-mas install 409183694 # Keynote https://itunes.apple.com/app/id409183694
-mas install 409201541 # Pages https://itunes.apple.com/app/id409201541
-mas install 456362093 # MuteMyMic https://itunes.apple.com/app/id456362093
-mas install 497799835 # Xcode https://itunes.apple.com/app/id497799835
-mas install 539883307 # LINE https://itunes.apple.com/app/id539883307
-mas install 946399090 # Telegram Lite https://itunes.apple.com/app/id946399090
-mas install 1018301773 # AdBlock Pro https://itunes.apple.com/app/id1018301773
-mas install 1206020918 # Battery Indicator https://itunes.apple.com/app/id1206020918
-mas install 1263070803 # Lungo https://itunes.apple.com/app/id1263070803
-mas install 1295203466 # Microsoft Remote Desktop https://itunes.apple.com/app/id1295203466
-mas install 1470584107 # Dato https://itunes.apple.com/app/id1470584107
-mas install 1480068668 # Messenger https://itunes.apple.com/app/id1480068668
-mas install 1529448980 # Reeder 5 https://itunes.apple.com/app/id1529448980
+mas install 409203825 # Numbers https://apps.apple.com/app/id409203825
+mas install 409183694 # Keynote https://apps.apple.com/app/id409183694
+mas install 409201541 # Pages https://apps.apple.com/app/id409201541
+mas install 456362093 # MuteMyMic https://apps.apple.com/app/id456362093
+mas install 497799835 # Xcode https://apps.apple.com/app/id497799835
+mas install 539883307 # LINE https://apps.apple.com/app/id539883307
+mas install 946399090 # Telegram Lite https://apps.apple.com/app/id946399090
+mas install 1018301773 # AdBlock Pro https://apps.apple.com/app/id1018301773
+mas install 1206020918 # Battery Indicator https://apps.apple.com/app/id1206020918
+mas install 1263070803 # Lungo https://apps.apple.com/app/id1263070803
+mas install 1295203466 # Microsoft Remote Desktop https://apps.apple.com/app/id1295203466
+mas install 1470584107 # Dato https://apps.apple.com/app/id1470584107
+mas install 1480068668 # Messenger https://apps.apple.com/app/id1480068668
+mas install 1529448980 # Reeder 5 https://apps.apple.com/app/id1529448980
 # ========================================================================= yarn
 yarn global add emma-cli # Emma https://github.com/maticzav/emma-cli
 yarn global add fkill-cli # FKILL https://github.com/sindresorhus/fkill-cli
