@@ -1,9 +1,5 @@
-[credential]
-	helper = osxkeychain
-
-[user]
-	name = Ika
-	email = ikatyang@gmail.com
+[includeIf "gitdir:~/Documents/GitHub/"]
+	path = ~/.gitconfig-gh
 
 [core]
 	editor = code --wait

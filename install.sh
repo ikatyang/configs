@@ -47,12 +47,10 @@ killall Finder
 # install fonts
 cp ./fonts/* ~/Library/Fonts
 
-# install Homebrew https://brew.sh/ The missing package manager for macOS
+# install Homebrew https://brew.sh/
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-echo 'export PATH=/opt/homebrew/bin:$PATH' >> $SHELL_RC # path for Homebrew (ARM)
-PATH=/opt/homebrew/bin:$PATH
 
-# install mas-cli https://github.com/mas-cli/mas A simple command line interface for the Mac App Store
+# install mas-cli https://github.com/mas-cli/mas
 brew install mas
 
 # install Yarn https://yarnpkg.com/en/
@@ -77,21 +75,16 @@ brew install tmux && setup_app tmux # tmux https://tmux.github.io/
 brew install youtube-dl # youtube-dl http://ytdl-org.github.io/youtube-dl/
 # ==================================================================== brew cask
 brew install --cask alacritty && setup_app alacritty # Alacritty https://github.com/jwilm/alacritty
-brew install --cask alt-tab # AltTab https://github.com/lwouis/alt-tab-macos
 brew install --cask appcleaner # AppCleaner https://freemacsoft.net/appcleaner/
 brew install --cask docker # Docker https://www.docker.com/
-brew install --cask dozer # Dozer https://github.com/Mortennn/Dozer
 brew install --cask eul # eul https://github.com/gao-sun/eul
 brew install --cask firefox # Firefox https://www.mozilla.org/firefox/
-brew install --cask google-chrome # Google Chrome https://www.google.com/chrome/
 brew install --cask iina # IINA https://lhc70000.github.io/iina/
 brew install --cask kap # Kap https://getkap.co/
 brew install --cask keka # Keka https://www.keka.io/
-brew install --cask keycastr # KeyCastr https://github.com/keycastr/keycastr
 brew install --cask maccy # Maccy https://maccy.app
+brew install --cask microsoft-edge # Edge https://www.microsoft.com/edge
 brew install --cask rectangle # Rectangle https://rectangleapp.com/
-brew install --cask teamviewer # TeamViewer https://www.teamviewer.com
-brew install --cask ueli # ueli https://github.com/oliverschwendener/ueli
 brew install --cask visual-studio-code # VSCode https://code.visualstudio.com/
 # ================================================================ Mac App Store
 mas install 409203825 # Numbers https://apps.apple.com/app/id409203825
@@ -99,18 +92,16 @@ mas install 409183694 # Keynote https://apps.apple.com/app/id409183694
 mas install 409201541 # Pages https://apps.apple.com/app/id409201541
 mas install 456362093 # MuteMyMic https://apps.apple.com/app/id456362093
 mas install 497799835 # Xcode https://apps.apple.com/app/id497799835
-mas install 539883307 # LINE https://apps.apple.com/app/id539883307
-mas install 946399090 # Telegram Lite https://apps.apple.com/app/id946399090
 mas install 1018301773 # AdBlock Pro https://apps.apple.com/app/id1018301773
+mas install 1102004240 # iHosts https://apps.apple.com/app/id1102004240
 mas install 1206020918 # Battery Indicator https://apps.apple.com/app/id1206020918
 mas install 1263070803 # Lungo https://apps.apple.com/app/id1263070803
-mas install 1295203466 # Microsoft Remote Desktop https://apps.apple.com/app/id1295203466
 mas install 1470584107 # Dato https://apps.apple.com/app/id1470584107
-mas install 1480068668 # Messenger https://apps.apple.com/app/id1480068668
 mas install 1529448980 # Reeder 5 https://apps.apple.com/app/id1529448980
 # ========================================================================= yarn
 yarn global add emma-cli # Emma https://github.com/maticzav/emma-cli
 yarn global add fkill-cli # FKILL https://github.com/sindresorhus/fkill-cli
+yarn global add fx # fx https://github.com/antonmedv/fx
 yarn global add ipt # iPipeTo https://github.com/ruyadorno/ipt
 yarn global add terminal-image-cli # terminal-image https://github.com/sindresorhus/terminal-image-cli
 # ======================================================================= custom

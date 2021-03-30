@@ -1,5 +1,5 @@
 font:
-  size: 12.0
+  size: 14.0
   normal:
     family: WenQuanYiZenHeiMono Nerd Font
 colors:
@@ -21,4 +21,4 @@ colors:
     magenta: '0xff6ac1'
     cyan:    '0x9aedfe'
     white:   '0xeff0eb'
-background_opacity: 0.5
+background_opacity: 0.8

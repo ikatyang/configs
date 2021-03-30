@@ -1,122 +1,117 @@
 # System Preferences
 
-macOS Catalina
+macOS Big Sur
 
 ```sh
 # Apple ID
 
-  Media & Purchases -> enable: Use Touch ID for Purchases
+  # Media & Purchases
+
+    [x] Use Touch ID for Purchases
+    Free Downloads: [x] Never require
 
 # Dock
 
-  Minimize windows using: Scale effect
-  enable: Automatically hide and show the Dock
+  Minimize windows using: [Scale effect]
+  [x] Automatically hide and show the Dock
+  [ ] Show recent application in Dock
 
 # Mission Control
 
-  disable: Automatically rearrange Spaces based on most recent use
+  [ ] Automatically rearrange Spaces based on most recent use
 
   # Hot Corners
 
-    top-left: Mission Control
-    top-right: Deskptop
-    bottom-left: Launchpad
-    bottom-right: Lock Screen
+    [Mission Control]    [Desktop]
+    [Launchpad]          [Lock Screen]
 
 # Language & Region
 
-  Preferred languages: en, zh-tw, zh-cn, jp
-
-  Region: Taiwan
-  First day of week: Sunday
+  Preferred languages: en, zh-tw
 
 # Accessibility
 
-  Pointer Control -> Trackpad Options -> enable dragging with `three finger drag`
+  Pointer Control -> Trackpad Options -> [x] Enable dragging [three finger drag]
 
 # Security & Privacy
 
-  Require password [immediately] after sleep or screen saver begins
+  # General
+
+    [x] Require password [immediately] after sleep or screen saver begins
+    [x] Use your Apple Watch to unlock apps and your Mac
 
 #  Software Update
 
-  disable: Install macOS updates
+  [x] Automatically keep my Mac up to date
+
+  # Advanced
+
+    [x] Install app updates from the App Store
 
 # Bluetooth
 
-  enable: Show Bluetooth in menu bar
+  [x] Show Bluetooth in menu bar
 
 # Sound
 
-  Input -> Input volume: 0
-  Sound Effects -> enable: Show volume in menu bar
+  [x] Show volume in menu bar
+
+  # Input
+
+    Input volume: [0]
 
 # Keyboard
 
-  enable: Show keyboard and emoji viewers in menu bar
+  # Text
 
-  Text -> disable: Correct spelling automatically
-          disable: Capitalize words automatically
-          disable: Add period with double-space
-          disable: Use smart quotes and dashes
+    [ ] Correct spelling automatically
+    [ ] Capitalize words automatically
+    [ ] Add period with double-space
+    [ ] Use smart quotes and dashes
 
-  Shortcuts -> Screen Shots -> Copy Picture of selected area to the clipboard: ⌃⌥A
+  # Shortcuts
+
+    Screen Shots -> [x] Copy Picture of selected area to the clipboard: [⌃⌥A]
 
 # Trackpad
 
   # Point & Click
 
-    enable: Look up & data detectors with "Tap with three fingers"
-    enable: Secondary click with "Click or tap with two fingers"
-    enable: Tap to click with "Tap with one finger"
-
-  # Scroll & Zoom
-
-    enable: Scroll direction: Natural with "Content tracks finger movement"
-    enable: Zoom in or out with "Pinch with two fingers"
-    enable: Smart zoom with "Double-tap with two fingers"
-    enable: Rotate with "Rotate with two fingers"
+    [x] Look up & data detectors [Tap with three fingers]
 
   # More Gestures
 
-    enable: Swipe between pages with "Scroll left or right with two fingers"
-    enable: Swipe between full-screen apps with "Swipe left or right with four fingers"
-    enable: Notification Center with "Swipe left from the right edge with two fingers"
-    enable: Mission Control with "Swipe up with four fingers"
-    enable: App Exposé with "Swipe down with four fingers"
-    enable: Launchpad with "Pinch with thumb and three fingers"
-    enable: Show Desktop with "Spread with thumb and three fingers"
+    [x] App Exposé [Swipe down with four fingers]
 
 # Mouse
 
   # Point & Click
 
-    enable: Scroll direction: Natural with "Content tracks finger movement"
-    enable: Secondary click with "Click on right side"
-    enable: Smart zoom with "Double-tap with one finger"
+    [x] Scroll direction: Natural [Content tracks finger movement]
+    [x] Secondary click [Click on right side]
+    [x] Smart zoom [Double-tap with one finger]
 
   # More Gestures
 
-    enable: Swipe between pages with "Scroll left or right with one finger"
-    enable: Swipe between full-screen apps with "Swipe left or right with two fingers"
-    enable: Mission Control with "Double-tap with two fingers"
+    [x] Swipe between pages [Scroll left or right with one finger]
+    [x] Swipe between full-screen apps [Swipe left or right with two fingers]
+    [x] Mission Control [Double-tap with two fingers]
 
 # Sharing
 
-  Computer Name: Ika’s Mac
+  Computer Name: [$COMPUTER_NAME]
 ```
 
 ```sh
 # Dictionary
 
-  use Wikipedia, AppleDictionary, Simplified Chinese-English, Japanese-English
+  [x] Wikipedia
+  [x] Apple Dictionary
+  [x] English-Chinese, Simplified
+  [x] English-Chinese, Traditional
+  [x] English-Japanese
 
 # Finder
-
-  # Show hidden file:
-
-    $ defaults write com.apple.Finder AppleShowAllFiles true
-    $ killall Finder
 
   # View
 
@@ -125,35 +120,47 @@ macOS Catalina
 
   # Preferences
 
-    New Finder windows show: Documents
-    Sidebar: Airdrop, Applications, Desktop, Documents, Downloads, ikatyang
+    # General
+
+      New Finder windows show: [Documents]
+
+    # Sidebar
+
+      [ ] Recents
+      [x] $USER
 
     # Advanced
 
-      enable: Show all filename extensions
-      enable: Keep folders on top when sorting by name
-      When performing a search: Search the Current Folder
+      [x] Show all filename extensions
+      Keep folders on top: [x] In windows when sorting by name
+      When performing a search: [Search the Current Folder]
 
 # Safari
 
-  View -> Show Favorites Bar
-          Show Status Bar
+  # View
 
-  # General
+    Show Favorites Bar
+    Show Status Bar
 
-    Remove history items: Manually
-    Remove download list items: Manually
+  # Preferences
 
-  # Tabs
+    # General
 
-    enable: Show website icons in tabs
+      Remove history items: [Manually]
+      Remove download list items: [Manually]
 
-  # AutoFill
-  # Search
+    # Extensions
+    # Advanced
 
-  # Advanced
+      Smart Search Field: [x] Show full website address
+      Default encoding: [Unicode (UTF-8)]
+      [x] Show Develop menu in menu bar
 
-    enable: Show full website address
-    Default encoding: "Unicode (UTF-8)"
-    enable: Show Develop menu in menu bar
+# Mail
+
+  # Preferences
+
+    # Viewing
+
+      [ ] Load remote content in messages
 ```

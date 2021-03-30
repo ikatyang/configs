@@ -10,5 +10,5 @@ if [ -d "$REPO_PATH" ]; then
     echo "Repository $1 exists."
 else
     echo "Repository $1 does not exists."
-    git clone https://github.com/$1 "$REPO_PATH"
+    git clone git@github.com:$1 "$REPO_PATH"
 fi
