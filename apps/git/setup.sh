@@ -1,2 +1,6 @@
-ln -sf $APP_DIRNAME/.gitconfig ~
-ln -sf $APP_DIRNAME/.gitconfig-gh ~
+#!/usr/bin/env bash
+
+cd $(dirname $0)
+
+ln -sf $PWD/.gitconfig ~
+ln -sf $PWD/.gitconfig-gh ~

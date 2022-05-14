@@ -1,35 +1,12 @@
 #!/bin/bash
 
-read -e -p "Are you logged in to the Mac App Store [y/n]? "
+set -euo pipefail
+
+read -p "Are you logged in to the Mac App Store [y/n]? " REPLY
 if [[ ! $REPLY =~ ^[Yy]$ ]]; then
   echo "Please login to the Mac App Store since we need to install apps from there."
   exit 1
 fi
-
-# ==============================================================================
-
-MESSAGES=()
-SHELL_RC="$HOME/.zshrc"
-
-function add_message {
-  MESSAGES+=("[$APP_NAME] $1")
-}
-
-function show_messages {
-  for (( i=0; i<${#MESSAGES[@]}; i++ )); do
-    echo ${MESSAGES[$i]}
-  done
-}
-
-function setup_app {
-  local APP_NAME
-  APP_NAME="$1"
-
-  local APP_DIRNAME
-  APP_DIRNAME="$PWD/apps/$APP_NAME"
-
-  source "$APP_DIRNAME/setup.sh"
-}
 
 # ==============================================================================
 
@@ -49,48 +26,43 @@ cp ./fonts/* ~/Library/Fonts
 
 # install Homebrew https://brew.sh/
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+brew analytics off
 
 # install mas-cli https://github.com/mas-cli/mas
 brew install mas
 
-# install Yarn https://yarnpkg.com/en/
-brew install yarn
-
 # setup custom scripts
-echo "PATH=\$PATH:$PWD/scripts" >> $SHELL_RC
+echo "PATH=\$PATH:$PWD/scripts" >> ~/.zshrc
 
 # ===================================================================== built-in
-setup_app git
-setup_app zsh
+./apps/git/setup.sh
+./apps/zsh/setup.sh
+# ======================================================================= custom
+./apps/nvs/setup.sh # NVS https://github.com/jasongin/nvs
+./apps/lsd/setup.sh # lsd https://github.com/Peltoche/lsd
+./apps/podman/setup.sh # podman https://podman.io/
+./apps/tmux/setup.sh # tmux https://tmux.github.io/
 # ========================================================================= brew
-brew install bat # bat https://github.com/sharkdp/bat
 brew install fd # fd https://github.com/sharkdp/fd
 brew install git-delta # delta https://github.com/dandavison/delta
-brew install gron # gron https://github.com/tomnomnom/gron
-brew install hexyl # hexyl https://github.com/sharkdp/hexyl
-brew install lsd && setup_app lsd # lsd https://github.com/Peltoche/lsd
 brew install tldr # tldr https://github.com/tldr-pages/tldr
 brew install tig # tig https://github.com/jonas/tig
-brew install tmux && setup_app tmux # tmux https://tmux.github.io/
-brew install youtube-dl # youtube-dl http://ytdl-org.github.io/youtube-dl/
+brew install yarn # yarn https://yarnpkg.com
 # ==================================================================== brew cask
-brew install --cask alacritty && setup_app alacritty # Alacritty https://github.com/jwilm/alacritty
-brew install --cask appcleaner # AppCleaner https://freemacsoft.net/appcleaner/
-brew install --cask docker # Docker https://www.docker.com/
 brew install --cask eul # eul https://github.com/gao-sun/eul
-brew install --cask firefox # Firefox https://www.mozilla.org/firefox/
 brew install --cask iina # IINA https://lhc70000.github.io/iina/
 brew install --cask kap # Kap https://getkap.co/
 brew install --cask keka # Keka https://www.keka.io/
 brew install --cask maccy # Maccy https://maccy.app
-brew install --cask microsoft-edge # Edge https://www.microsoft.com/edge
+brew install --cask raycast # Raycast https://raycast.app/
 brew install --cask rectangle # Rectangle https://rectangleapp.com/
 brew install --cask visual-studio-code # VSCode https://code.visualstudio.com/
 # ================================================================ Mac App Store
 mas install 409203825 # Numbers https://apps.apple.com/app/id409203825
 mas install 409183694 # Keynote https://apps.apple.com/app/id409183694
 mas install 409201541 # Pages https://apps.apple.com/app/id409201541
-mas install 456362093 # MuteMyMic https://apps.apple.com/app/id456362093
 mas install 497799835 # Xcode https://apps.apple.com/app/id497799835
 mas install 1018301773 # AdBlock Pro https://apps.apple.com/app/id1018301773
 mas install 1102004240 # iHosts https://apps.apple.com/app/id1102004240
@@ -98,13 +70,5 @@ mas install 1206020918 # Battery Indicator https://apps.apple.com/app/id12060209
 mas install 1263070803 # Lungo https://apps.apple.com/app/id1263070803
 mas install 1470584107 # Dato https://apps.apple.com/app/id1470584107
 mas install 1529448980 # Reeder 5 https://apps.apple.com/app/id1529448980
-# ========================================================================= yarn
-yarn global add emma-cli # Emma https://github.com/maticzav/emma-cli
-yarn global add fkill-cli # FKILL https://github.com/sindresorhus/fkill-cli
-yarn global add fx # fx https://github.com/antonmedv/fx
-yarn global add ipt # iPipeTo https://github.com/ruyadorno/ipt
-yarn global add terminal-image-cli # terminal-image https://github.com/sindresorhus/terminal-image-cli
-# ======================================================================= custom
-setup_app nvs # NVS https://github.com/jasongin/nvs
+mas install 1544743900 # Hush Nag Blocker https://apps.apple.com/app/id1544743900
 # ==============================================================================
-show_messages

@@ -7,7 +7,6 @@
 [Reminders]
 [Notes]
 [Safari]
-[Microsoft Edge]
 [App Store]
 [IMs]
 [Visual Studio Code]
