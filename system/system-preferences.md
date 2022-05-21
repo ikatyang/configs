@@ -1,6 +1,6 @@
 # System Preferences
 
-macOS Big Sur
+macOS Monterey
 
 ```sh
 # Apple ID
@@ -10,20 +10,16 @@ macOS Big Sur
     [x] Use Touch ID for Purchases
     Free Downloads: [x] Never require
 
-# Dock
+# Dock & Menu Bar
 
   Minimize windows using: [Scale effect]
   [x] Automatically hide and show the Dock
   [ ] Show recent application in Dock
+  [ ] Automatically hide and show the menu bar in full screen
 
 # Mission Control
 
   [ ] Automatically rearrange Spaces based on most recent use
-
-  # Hot Corners
-
-    [Mission Control]    [Desktop]
-    [Launchpad]          [Lock Screen]
 
 # Language & Region
 
@@ -38,7 +34,6 @@ macOS Big Sur
   # General
 
     [x] Require password [immediately] after sleep or screen saver begins
-    [x] Use your Apple Watch to unlock apps and your Mac
 
 #  Software Update
 
@@ -53,8 +48,6 @@ macOS Big Sur
   [x] Show Bluetooth in menu bar
 
 # Sound
-
-  [x] Show volume in menu bar
 
   # Input
 
@@ -160,7 +153,7 @@ macOS Big Sur
 
   # Preferences
 
-    # Viewing
+    # Privacy
 
-      [ ] Load remote content in messages
+      [x] Block All Remote Content
 ```
