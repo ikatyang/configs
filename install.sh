@@ -10,7 +10,7 @@ fi
 
 # ==============================================================================
 
-set -x # show commands
+set -x
 
 git clone https://github.com/ikatyang/configs ~/Documents/GitHub/ikatyang/configs
 cd ~/Documents/GitHub/ikatyang/configs
@@ -45,7 +45,6 @@ echo "PATH=\$PATH:$PWD/scripts" >> ~/.zshrc
 ./apps/podman/setup.sh # podman https://podman.io/
 ./apps/tmux/setup.sh # tmux https://tmux.github.io/
 # ========================================================================= brew
-brew install fd # fd https://github.com/sharkdp/fd
 brew install git-delta # delta https://github.com/dandavison/delta
 brew install tldr # tldr https://github.com/tldr-pages/tldr
 brew install tig # tig https://github.com/jonas/tig
@@ -54,9 +53,7 @@ brew install yarn # yarn https://yarnpkg.com
 brew install --cask eul # eul https://github.com/gao-sun/eul
 brew install --cask iina # IINA https://lhc70000.github.io/iina/
 brew install --cask kap # Kap https://getkap.co/
-brew install --cask keka # Keka https://www.keka.io/
 brew install --cask maccy # Maccy https://maccy.app
-brew install --cask raycast # Raycast https://raycast.app/
 brew install --cask rectangle # Rectangle https://rectangleapp.com/
 brew install --cask visual-studio-code # VSCode https://code.visualstudio.com/
 # ================================================================ Mac App Store
@@ -66,9 +63,7 @@ mas install 409201541 # Pages https://apps.apple.com/app/id409201541
 mas install 497799835 # Xcode https://apps.apple.com/app/id497799835
 mas install 1018301773 # AdBlock Pro https://apps.apple.com/app/id1018301773
 mas install 1102004240 # iHosts https://apps.apple.com/app/id1102004240
-mas install 1206020918 # Battery Indicator https://apps.apple.com/app/id1206020918
 mas install 1263070803 # Lungo https://apps.apple.com/app/id1263070803
-mas install 1470584107 # Dato https://apps.apple.com/app/id1470584107
 mas install 1529448980 # Reeder 5 https://apps.apple.com/app/id1529448980
 mas install 1544743900 # Hush Nag Blocker https://apps.apple.com/app/id1544743900
 # ==============================================================================

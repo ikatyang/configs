@@ -1,6 +1,6 @@
 # System Preferences
 
-macOS Monterey
+macOS Ventura
 
 ```sh
 # Apple ID
@@ -10,89 +10,86 @@ macOS Monterey
     [x] Use Touch ID for Purchases
     Free Downloads: [x] Never require
 
-# Dock & Menu Bar
+# Desktop & Dock
 
-  Minimize windows using: [Scale effect]
-  [x] Automatically hide and show the Dock
-  [ ] Show recent application in Dock
-  [ ] Automatically hide and show the menu bar in full screen
+  # Dock
 
-# Mission Control
+    Minimize windows using [Scale effect]
+    [x] Automatically hide and show the Dock
+    [ ] Show recent application in Dock
 
-  [ ] Automatically rearrange Spaces based on most recent use
+  # Menu Bar
 
-# Language & Region
+    Automatically hide and show the menu bar [Never]
 
-  Preferred languages: en, zh-tw
+  # Windows & Apps
+
+    [x] Stage Manager
+
+  # Mission Control
+
+    [ ] Automatically rearrange Spaces based on most recent use
 
 # Accessibility
 
-  Pointer Control -> Trackpad Options -> [x] Enable dragging [three finger drag]
+  # Pointer Control
 
-# Security & Privacy
+    # Trackpad Options
 
-  # General
+      [x] Use trackpad for dragging
+      Dragging style [Three Finger Drag]
 
-    [x] Require password [immediately] after sleep or screen saver begins
+# Lock Screen
 
-#  Software Update
+  Require password after screen saver begins or display is turned off [Immediately]
 
-  [x] Automatically keep my Mac up to date
+# General
 
-  # Advanced
+  # Software Update
 
-    [x] Install app updates from the App Store
+    # Automatic updates
 
-# Bluetooth
+      [x] Install application updates from the App Store
 
-  [x] Show Bluetooth in menu bar
+# Control Center
 
-# Sound
+  Bluetooth [Show in Menu Bar]
 
-  # Input
+  # Clock options
 
-    Input volume: [0]
+    [x] Display the time with seconds
 
 # Keyboard
 
-  # Text
+  # Text Input
 
-    [ ] Correct spelling automatically
-    [ ] Capitalize words automatically
-    [ ] Add period with double-space
-    [ ] Use smart quotes and dashes
+    # Input Sources
 
-  # Shortcuts
+      [ ] Correct spelling automatically
+      [ ] Capitalize words automatically
+      [ ] Add period with double-space
+      [ ] Use smart quotes and dashes
 
-    Screen Shots -> [x] Copy Picture of selected area to the clipboard: [⌃⌥A]
+  # Keyboard Shortcuts
+
+    Screenshots -> [x] Copy Picture of selected area to the clipboard: [⌃⌥A]
 
 # Trackpad
 
   # Point & Click
 
-    [x] Look up & data detectors [Tap with three fingers]
+    Look up & data detectors [Tap with Three Fingers]
+    [x] Tap to click
 
   # More Gestures
 
-    [x] App Exposé [Swipe down with four fingers]
+    [x] App Exposé [Swipe Down with Four Fingers]
 
-# Mouse
+# General
 
-  # Point & Click
+  # About
 
-    [x] Scroll direction: Natural [Content tracks finger movement]
-    [x] Secondary click [Click on right side]
-    [x] Smart zoom [Double-tap with one finger]
-
-  # More Gestures
-
-    [x] Swipe between pages [Scroll left or right with one finger]
-    [x] Swipe between full-screen apps [Swipe left or right with two fingers]
-    [x] Mission Control [Double-tap with two fingers]
-
-# Sharing
-
-  Computer Name: [$COMPUTER_NAME]
+    Name: [$COMPUTER_NAME]
 ```
 
 ```sh
@@ -100,9 +97,9 @@ macOS Monterey
 
   [x] Wikipedia
   [x] Apple Dictionary
-  [x] English-Chinese, Simplified
-  [x] English-Chinese, Traditional
-  [x] English-Japanese
+  [x] Chinese, Simplified-English
+  [x] Chinese, Traditional-English
+  [x] Japanese-English
 
 # Finder
 
@@ -111,7 +108,7 @@ macOS Monterey
     Show Path Bar
     Show Status Bar
 
-  # Preferences
+  # Settings
 
     # General
 
@@ -135,12 +132,13 @@ macOS Monterey
     Show Favorites Bar
     Show Status Bar
 
-  # Preferences
+  # Settings
 
     # General
 
       Remove history items: [Manually]
       Remove download list items: [Manually]
+      [ ] Open "safe" files after downloading
 
     # Extensions
     # Advanced
@@ -148,12 +146,4 @@ macOS Monterey
       Smart Search Field: [x] Show full website address
       Default encoding: [Unicode (UTF-8)]
       [x] Show Develop menu in menu bar
-
-# Mail
-
-  # Preferences
-
-    # Privacy
-
-      [x] Block All Remote Content
 ```
