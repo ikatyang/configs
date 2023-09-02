@@ -10,21 +10,18 @@ configs for ikatyang
    xcode-select --install
    ```
 
-1. Install [Xcode](https://apps.apple.com/app/id497799835)
-1. Accept the Xcode license
-
-   ```sh
-   sudo xcodebuild -license accept
-   ```
-
 1. Install Rosetta
 
    ```sh
-   softwareupdate --install-rosetta
+   softwareupdate --install-rosetta --agree-to-license
    ```
 
+1. Enable Full Disk Access for Terminal
 1. Install the configs
 
    ```sh
-   curl https://raw.githubusercontent.com/ikatyang/configs/master/install.sh | bash
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/ikatyang/configs/master/install.sh)"
    ```
+
+1. Disable Full Disk Access for Terminal
+1. Reboot to fully take effect
