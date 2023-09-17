@@ -20,7 +20,7 @@ configs for ikatyang
 1. Install the configs
 
    ```sh
-   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/ikatyang/configs/master/install.sh)"
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/ikatyang/configs/feat/homebrew/install.sh)"
    ```
 
 1. Disable Full Disk Access for Terminal

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -euo pipefail
+set -euox pipefail
 
 # ======================================================================= system
 
@@ -87,7 +87,7 @@ defaults write com.apple.finder NewWindowTargetPath "file://$HOME/Documents/"
 
 # Finder -> Settings -> Sidebar
 open ~ # ensure favorites are initalized
-curl -fsSL https://raw.githubusercontent.com/ikatyang/configs/master/scripts/setup-finder-favorite-items.swift | swift -
+curl -fsSL https://raw.githubusercontent.com/ikatyang/configs/feat/homebrew/scripts/setup-finder-favorite-items.swift | swift -
 
 # Finder -> Settings -> Advanced -> [x] Show all filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions 1
@@ -138,6 +138,8 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # ========================================================================== tap
 
 brew tap ikatyang/configs https://github.com/ikatyang/configs
+
+bash -c "cd /opt/homebrew/Library/Taps/ikatyang/homebrew-configs && git checkout feat/homebrew"
 
 # ========================================================================= font
 
@@ -193,12 +195,12 @@ brew install --cask visual-studio-code
 
 # ================================================================ Mac App Store
 
-brew install mas
+# brew install mas
 
-mas install 409203825 # Numbers https://apps.apple.com/app/id409203825
-mas install 409183694 # Keynote https://apps.apple.com/app/id409183694
-mas install 409201541 # Pages https://apps.apple.com/app/id409201541
-mas install 497799835 # Xcode https://apps.apple.com/app/id497799835
-mas install 1018301773 # AdBlock Pro https://apps.apple.com/app/id1018301773
-mas install 1102004240 # iHosts https://apps.apple.com/app/id1102004240
-mas install 1544743900 # Hush Nag Blocker https://apps.apple.com/app/id1544743900
+# mas install 409203825 # Numbers https://apps.apple.com/app/id409203825
+# mas install 409183694 # Keynote https://apps.apple.com/app/id409183694
+# mas install 409201541 # Pages https://apps.apple.com/app/id409201541
+# mas install 497799835 # Xcode https://apps.apple.com/app/id497799835
+# mas install 1018301773 # AdBlock Pro https://apps.apple.com/app/id1018301773
+# mas install 1102004240 # iHosts https://apps.apple.com/app/id1102004240
+# mas install 1544743900 # Hush Nag Blocker https://apps.apple.com/app/id1544743900
