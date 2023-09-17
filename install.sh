@@ -4,6 +4,11 @@ set -euox pipefail
 
 # ======================================================================= system
 
+# Ref: https://github.com/mathiasbynens/dotfiles/blob/66ba9b3/.macos#L7
+osascript -e 'tell application "Finder" to quit'
+osascript -e 'tell application "Safari" to quit'
+osascript -e 'tell application "System Preferences" to quit'
+
 # TODO: Apple ID -> Media & Purchases -> Use Touch ID for Purchases
 
 # TODO: Apple ID -> Media & Purchases -> Free Downloads: [x] Never require
@@ -163,13 +168,6 @@ brew install ikatyang-zsh-syntax-highlighting
 
 echo 'source "$HOME/Library/Developer/Homebrew-ikatyang-configs/.zshrc"' >> ~/.zshrc
 
-# ===================================================================== terminal
-
-brew install ikatyang-terminal-one-dark-pro
-open "/opt/homebrew/opt/ikatyang-terminal-one-dark-pro/one-dark-pro.terminal"
-defaults write com.apple.Terminal "Default Window Settings" -string "one-dark-pro"
-defaults write com.apple.Terminal "Startup Window Settings" -string "one-dark-pro"
-
 # ====================================================================== utility
 
 brew install ikatyang-bat-cat
@@ -204,3 +202,11 @@ brew install --cask visual-studio-code
 # mas install 1018301773 # AdBlock Pro https://apps.apple.com/app/id1018301773
 # mas install 1102004240 # iHosts https://apps.apple.com/app/id1102004240
 # mas install 1544743900 # Hush Nag Blocker https://apps.apple.com/app/id1544743900
+
+# ===================================================================== terminal
+
+brew install ikatyang-terminal-one-dark-pro
+open "/opt/homebrew/opt/ikatyang-terminal-one-dark-pro/one-dark-pro.terminal"
+defaults write com.apple.Terminal "Default Window Settings" -string "one-dark-pro"
+defaults write com.apple.Terminal "Startup Window Settings" -string "one-dark-pro"
+osascript -e 'tell application "Terminal" to quit'
