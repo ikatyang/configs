@@ -171,12 +171,13 @@ defaults write com.apple.Terminal "Startup Window Settings" -string "one-dark-pr
 # ====================================================================== utility
 
 brew install ikatyang-bat-cat
+brew install ikatyang-colima-init
 brew install ikatyang-gh-code
 brew install ikatyang-lsd-ls
 brew install ikatyang-nodenv
-brew install ikatyang-podman-docker
-brew install ikatyang-podman-machine-allow-privileged-port
 
+brew install docker
+brew install docker-credential-helper
 brew install pnpm
 brew install tig
 brew install tldr
