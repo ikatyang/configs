@@ -16,12 +16,10 @@ configs for ikatyang
    softwareupdate --install-rosetta --agree-to-license
    ```
 
-1. Enable Full Disk Access for Terminal
-1. Install the configs
+1. Install configs
 
    ```sh
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/ikatyang/configs/master/install.sh)"
    ```
 
-1. Disable Full Disk Access for Terminal
-1. Reboot to fully take effect
+1. Configure [Preferences](./docs/preferences.md)
